@@ -2,7 +2,7 @@
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-07-31 00:09:32
  * @LastEditors: wuyifan wuyifan@max-optics.com
- * @LastEditTime: 2024-08-01 17:09:25
+ * @LastEditTime: 2024-08-02 17:54:59
  * @FilePath: /Auto-delivery-helper/src/index.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -45,6 +45,9 @@ async function main() {
         mask.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
         mask.style.zIndex = '9999';
         mask.id = 'full-screen-mask';
+        mask.innerText = '脚本执行时,请勿关闭浏览器窗口！';
+        mask.style.color = 'white';
+        mask.style.fontSize = '20px';
         document.body.appendChild(mask);
     })
 
