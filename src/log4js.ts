@@ -1,8 +1,8 @@
 /*
  * @Author: wuyifan wuyifan@max-optics.com
  * @Date: 2024-08-06 09:46:32
- * @LastEditors: wuyifan wuyifan@max-optics.com
- * @LastEditTime: 2024-08-06 18:00:29
+ * @LastEditors: wuyifan 1208097313@qq.com
+ * @LastEditTime: 2024-08-07 01:33:13
  * @FilePath: /Auto-delivery-helper/src/log4js.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
@@ -10,6 +10,8 @@
 import * as log4js from "log4js";
 import path from 'path';
 import fs from 'fs';
+import util from 'util';
+import { AppenderFunction } from "log4js";
 
 // 获取当前日期并格式化为YYYY-MM-DD格式
 const getFormattedDate = (): string => {

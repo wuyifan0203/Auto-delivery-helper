@@ -1,0 +1,3742 @@
+[2024-08-06T21:17:00.477] [INFO] response - Response url:  https://mbd.baidu.com/ztbox?action=zpblog&appname=pcsearch&v=2.0&data=%7B%22cateid%22%3A%2299%22%2C%22actiondata%22%3A%7B%22id%22%3A18463%2C%22type%22%3A%220%22%2C%22timestamp%22%3A1722950220272%2C%22content%22%3A%7B%22page%22%3A%22home%22%2C%22source%22%3A%22%22%2C%22from%22%3A%22search%22%2C%22type%22%3A%22display%22%2C%22ext%22%3A%7B%7D%7D%7D%7D
+[2024-08-06T21:17:00.586] [INFO] response - Response url:  https://www.baidu.com/sugrec?&prod=pc_his&from=pc_web&json=1&sid=&hisdata=&_t=1722950220423&req=2&csor=0
+[2024-08-06T21:17:01.089] [INFO] response - Response url:  https://mbd.baidu.com/ztbox?action=zpblog&appname=pcsearch&v=2.0&data=%7B%22cateid%22%3A%2299%22%2C%22actiondata%22%3A%7B%22id%22%3A18463%2C%22type%22%3A%220%22%2C%22timestamp%22%3A1722950220925%2C%22content%22%3A%7B%22page%22%3A%22home%22%2C%22source%22%3A%22%22%2C%22from%22%3A%22search%22%2C%22type%22%3A%22show%22%2C%22value%22%3A%22csaitab%22%7D%7D%7D
+[2024-08-06T21:17:54.817] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-06T21:17:54.957] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-06T21:17:55.036] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-06T21:17:55.135] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-06T21:17:55.161] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-06T21:17:58.220] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-06T21:17:58.245] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-06T21:19:54.773] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-06T21:19:54.774] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    result: {
+      appKey: 'ObsSRskiryhn60pf',
+      bucketSize: 10,
+      timeSlice: 10,
+      reportPeriod: 10,
+      metricsSwitch: false,
+      pathBlacklist: [],
+      hostBlacklist: []
+    }
+  }
+}
+[2024-08-06T21:19:54.776] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-06T21:19:54.777] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-06T21:19:54.872] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-06T21:19:54.872] [INFO] response - Response:  { c: 0, d: 724 }
+[2024-08-06T21:19:55.157] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-06T21:19:55.157] [INFO] response - Response:  { code: 7, message: '当前登录状态已失效', zpData: {} }
+[2024-08-06T21:19:55.195] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-06T21:19:55.195] [INFO] response - Response:  { c: 0, d: 724 }
+[2024-08-06T21:19:58.774] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-06T21:19:58.774] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-06T21:19:58.774] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-06T21:19:58.774] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-06T21:24:00.683] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-06T21:24:00.683] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    result: {
+      appKey: 'ObsSRskiryhn60pf',
+      bucketSize: 10,
+      timeSlice: 10,
+      reportPeriod: 10,
+      metricsSwitch: false,
+      pathBlacklist: [],
+      hostBlacklist: []
+    }
+  }
+}
+[2024-08-06T21:24:00.684] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-06T21:24:00.684] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-06T21:24:01.200] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-06T21:24:01.200] [INFO] response - Response:  { c: 0, d: 724 }
+[2024-08-06T21:24:01.770] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-06T21:24:01.770] [INFO] response - Response:  { code: 7, message: '当前登录状态已失效', zpData: {} }
+[2024-08-06T21:24:01.820] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-06T21:24:01.820] [INFO] response - Response:  { c: 0, d: 724 }
+[2024-08-06T21:24:04.397] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-06T21:24:04.397] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-06T21:24:04.398] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-06T21:24:04.398] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-06T21:24:39.712] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/captcha/randkey
+[2024-08-06T21:24:39.713] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    qrId: 'bosszp-ff0ed244-f950-420b-9593-51a8dfc12384',
+    randKey: 'qvmVYrvr6hnSeLbANCGzxUmZX5XUvfjj',
+    secretKey: 'BJu2Iw9g',
+    shortRandKey: 'bosszp-1QcTlNKl9kwOANzi'
+  }
+}
+[2024-08-06T21:25:04.219] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/qrcode/scan?uuid=bosszp-ff0ed244-f950-420b-9593-51a8dfc12384
+[2024-08-06T21:25:04.220] [INFO] response - Response:  { msg: 'timeout', scaned: false }
+[2024-08-06T21:25:04.485] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/qrcode/scan?uuid=bosszp-ff0ed244-f950-420b-9593-51a8dfc12384
+[2024-08-06T21:25:04.485] [INFO] response - Response:  { scaned: true, allweb: true, newScaned: true, scanedV2: true }
+[2024-08-06T21:25:04.534] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/captcha/getSecondKey?uuid=bosszp-ff0ed244-f950-420b-9593-51a8dfc12384
+[2024-08-06T21:25:04.534] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { qrId: 'bosszp-83836067-cb4b-47ae-8cdd-eca2f4b4d5e6' }
+}
+[2024-08-06T21:25:05.921] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/qrcode/scanLogin?qrId=bosszp-ff0ed244-f950-420b-9593-51a8dfc12384
+[2024-08-06T21:25:05.921] [INFO] response - Response:  { scaned: true, newScaned: true, login: true }
+[2024-08-06T21:25:05.921] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/qrcode/getHeadImg?qrId=bosszp-ff0ed244-f950-420b-9593-51a8dfc12384
+[2024-08-06T21:25:05.921] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    wxMp: false,
+    headImg: 16,
+    large: 'https://img.bosszhipin.com/boss/avatar/avatar_16.png',
+    tiny: 'https://img.bosszhipin.com/boss/avatar/avatar_16.png'
+  }
+}
+[2024-08-06T21:25:05.922] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/qrcode/scanSecond?uuid=bosszp-83836067-cb4b-47ae-8cdd-eca2f4b4d5e6
+[2024-08-06T21:25:05.922] [INFO] response - Response:  { msg: 'timeout', scaned: false }
+[2024-08-06T21:25:07.059] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-06T21:25:07.059] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    result: {
+      appKey: 'ObsSRskiryhn60pf',
+      bucketSize: 10,
+      timeSlice: 10,
+      reportPeriod: 10,
+      metricsSwitch: false,
+      pathBlacklist: [],
+      hostBlacklist: []
+    }
+  }
+}
+[2024-08-06T21:25:07.401] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-06T21:25:07.401] [INFO] response - Response:  { c: 0, d: 767 }
+[2024-08-06T21:25:07.650] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-06T21:25:07.650] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-06T21:25:07.651] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/config/get
+[2024-08-06T21:25:07.651] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { unreadBubble: true } }
+[2024-08-06T21:25:07.651] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/group/gravityGroupInfoList?page=1&scene=0
+[2024-08-06T21:25:07.651] [INFO] response - Response:  { code: 0, message: 'Success', zpData: [] }
+[2024-08-06T21:25:07.652] [INFO] response - Response url:  https://www.zhipin.com/wapi/zprelation/friend/geekFilterByLabel?labelId=0
+[2024-08-06T21:25:07.652] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    foldText: '以上是30天内联系人',
+    filterEncryptIdList: [],
+    friendList: [],
+    filterBossIdList: []
+  }
+}
+[2024-08-06T21:25:07.652] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpitem/web/item/config/get
+[2024-08-06T21:25:07.652] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    recruit: 0,
+    hunter: false,
+    hunterAdvanceGray: false,
+    searchChatHunter: 0,
+    onlineRemind: 2,
+    resumeRefresh: 2,
+    resumeRefreshImprove: 1,
+    resumeTemplateGary: 1,
+    resumeTemplatePurchaseGary: 0,
+    pcAdvanceSearchStyleGray: 1,
+    anonymousGeekInfoGray: 1,
+    pcAdvanceCitySearchGray: 1,
+    advanceSearchStyleGray: 0,
+    advanceSearchStyleGrayV2: 0,
+    advanceSearchStyleGrayV3: 0,
+    offlineUseGray: 0,
+    refinedSelected: 0,
+    detailPageStyleGray: 0,
+    resumeRefreshResultNewStyle: 1,
+    hunterSearchAvailable: 0,
+    hunterSearchTrail: 0,
+    geekTreeAvailable: 0,
+    itemOffLineIntroduceH5Style: 0,
+    pcSearchSubscribeStyleGray: 0,
+    pcSearchSubscribeDefaultGray: 0,
+    pcDirectCallGray: 0,
+    searchViewedStyleGray: 0,
+    sameCompanyGeekGray: 0,
+    itemInviteResultStyle: 0,
+    itemInviteResultStyleV2: 0,
+    hunterServiceGray: 0,
+    hunterServiceGrayV2: 0,
+    searchChatCardJobListDefaultGray: 0,
+    exposureCardShowName: null,
+    relatedGeekOptimizeGray: 0,
+    guideViewRelatedGeekGray: 0,
+    jobExposureDetailStyleGray: 0,
+    availableCallOptimizeGray: 0,
+    searchCardDefaultJob: null,
+    searchEasyChatGray: 0
+  }
+}
+[2024-08-06T21:25:07.752] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/notify/setting/get
+[2024-08-06T21:25:07.752] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    userNotifySettingList: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ]
+  }
+}
+[2024-08-06T21:25:07.774] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-06T21:25:07.774] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    userId: 670504962,
+    identity: 0,
+    encryptUserId: '06cbd975ad1277930XN63t25GVRS',
+    name: 'null',
+    showName: 'null',
+    tinyAvatar: 'https://img.bosszhipin.com/boss/avatar/avatar_16.png',
+    largeAvatar: 'https://img.bosszhipin.com/boss/avatar/avatar_16.png',
+    token: 'kP3iMtcLuhpbqmE8',
+    isHunter: false,
+    clientIP: '112.64.60.240',
+    email: null,
+    phone: null,
+    brandName: null,
+    doubleIdentity: false,
+    recruit: false,
+    agentRecruit: false,
+    industryCostTag: 0,
+    gender: 0,
+    trueMan: false,
+    studentFlag: true,
+    completeDayStatus: false,
+    complete: true,
+    multiExpect: false,
+    encryptComId: null
+  }
+}
+[2024-08-06T21:25:07.781] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/group/groupInfoList
+[2024-08-06T21:25:07.781] [INFO] response - Response:  { code: 0, message: 'Success', zpData: [] }
+[2024-08-06T21:25:07.782] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/group/gravityGroupInfoList?page=1&scene=0
+[2024-08-06T21:25:07.782] [INFO] response - Response:  { code: 0, message: 'Success', zpData: [] }
+[2024-08-06T21:25:07.782] [INFO] response - Response url:  https://www.zhipin.com/wapi/zprelation/friend/geekFilterByLabel?labelId=-1
+[2024-08-06T21:25:07.782] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { foldText: '以上是30天内联系人', friendList: [] }
+}
+[2024-08-06T21:25:07.917] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/common/data/header.json
+[2024-08-06T21:25:07.917] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: '<script>\n' +
+    "    var staticPath = 'https://static.zhipin.com/v2';\n" +
+    '    _PAGE = {\n' +
+    '        checkMobileUrl: "/registe/sendSms.json",\n' +
+    '        regMobileUrl: "/registe/save.json",\n' +
+    '        loginMobileUrl: "/login/phone.json",\n' +
+    '        loginAccountUrl: "/login/account.json",\n' +
+    '        getRandomKeyUrl: "/captcha/randkey.json",\n' +
+    '        verifyImgUrl: "/captcha/?randomKey={randomKey}",\n' +
+    '        getPositionUrl: "/user/position.json",\n' +
+    '        homeRedirectUrl: "",\n' +
+    '        citySiteName:"上海站",\n' +
+    '        citySiteCode:"101020100",\n' +
+    '        skillsUrl: "/common/data/positionSkill"\n' +
+    '            ,\n' +
+    '            uid:670504962,\n' +
+    '            name: "null",\n' +
+    '            face: "https://img.bosszhipin.com/boss/avatar/avatar_16.png",\n' +
+    '            token: "kP3iMtcLuhpbqmE8|0",\n' +
+    '            clientIP: "112.64.60.240",\n' +
+    '                ws: {\n' +
+    '                    useSSL: true,\n' +
+    '                    server: "ws.zhipin.com",\n' +
+    '                    port: 443\n' +
+    '                }\n' +
+    '    }\n' +
+    '</script>\n' +
+    '<div id="header">\n' +
+    '    <style>\n' +
+    '        #header .header-login-btn{ position: relative; }\n' +
+    '        #header .header-login-btn:hover .header-login-desc{ display: block; }\n' +
+    '        #header .header-login-btn:hover:after{\n' +
+    "            content: ' ';\n" +
+    '            position: absolute;\n' +
+    '            left: 0;\n' +
+    '            right: 0;\n' +
+    '            bottom: -12px;\n' +
+    '            height: 12px;\n' +
+    '            z-index: 1;\n' +
+    '            background: transparent;\n' +
+    '        }\n' +
+    '        #header .header-login-desc{\n' +
+    '            display: none;\n' +
+    '            position: absolute;\n' +
+    '            left: 50%;\n' +
+    '            top: 34px;\n' +
+    '            margin-left: -114px;\n' +
+    '            background: #FFFFFF;\n' +
+    '            box-shadow: 0px 16px 40px 0px rgba(153,153,153,0.3), 0px 2px 10px 0px rgba(0,0,0,0.08);\n' +
+    '            z-index: 2;\n' +
+    '            font-size: 14px;\n' +
+    '            text-align: left;\n' +
+    '            padding: 16px 18px;\n' +
+    '            border-radius: 8px;\n' +
+    '            box-sizing: border-box;\n' +
+    '            font-weight: normal;\n' +
+    '        }\n' +
+    '        #header .header-login-desc:before{\n' +
+    "            content: ' ';\n" +
+    '            position: absolute;\n' +
+    '            left: 50%;\n' +
+    '            margin-left: -4px;\n' +
+    '            top: -8px;\n' +
+    '            width: 0;\n' +
+    '            height: 0;\n' +
+    '            border-top: 4px solid transparent;\n' +
+    '            border-left: 4px solid transparent;\n' +
+    '            border-right: 4px solid transparent;\n' +
+    '            border-bottom: 4px solid #fff;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-title{\n' +
+    '            font-weight: 500;\n' +
+    '            color: #333333;\n' +
+    '            line-height: 20px;\n' +
+    '            display: block;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list{\n' +
+    '            margin-top: 4px;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list li{\n' +
+    '            margin: 8px 0 0 0;\n' +
+    '            display: block;\n' +
+    '            font-size: 13px;\n' +
+    '            color: #333333;\n' +
+    '            text-align: left;\n' +
+    '            height: 26px;\n' +
+    '            line-height: 26px;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list .login-desc-icon{\n' +
+    '            display: inline-block;\n' +
+    '            height: 26px;\n' +
+    '            width: 26px;\n' +
+    '            margin-right: 8px;\n' +
+    '            vertical-align: middle;\n' +
+    '            background: url(https://img.bosszhipin.com/static/file/2022/7rf2cut4bc1669274264900.png) 0 0 / 26px auto no-repeat;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list .login-desc-icon.desc-icon-chat{\n' +
+    '            background-position: 0 0;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list .login-desc-icon.desc-icon-match{\n' +
+    '            background-position: 0 -26px;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list .login-desc-icon.desc-icon-info{\n' +
+    '            background-position: 0 -52px;\n' +
+    '        }\n' +
+    '        #header .header-resume-new .header-resume-tip{\n' +
+    '            z-index: 2;\n' +
+    '            display: none;\n' +
+    '        }\n' +
+    '        #header .header-resume-new a:hover .header-resume-tip{\n' +
+    '            display: none;\n' +
+    '        }\n' +
+    '        #header .header-nav-group{\n' +
+    '            margin: 0 5px;\n' +
+    '            float: none;\n' +
+    '        }\n' +
+    '        #header .header-nav-group li{\n' +
+    '            margin: 0;\n' +
+    '            position: relative;\n' +
+    '        }\n' +
+    '        #header .header-nav-group .header-nav-dot{\n' +
+    '            display: inline-block;\n' +
+    '            width: 2px;\n' +
+    '            height: 2px;\n' +
+    '            border-radius: 100%;\n' +
+    '            background: #fff;\n' +
+    '            vertical-align: middle;\n' +
+    '        }\n' +
+    '        #header .user-nav .header-login-btn{\n' +
+    '            vertical-align: middle;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-tools{\n' +
+    '            display: inline-block;\n' +
+    '            vertical-align: middle;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-tools > a{\n' +
+    '            display: inline-block;\n' +
+    '            font-weight: 500;\n' +
+    '            color: #FFFFFF;\n' +
+    '            line-height: 20px;\n' +
+    '            height: auto;\n' +
+    '            padding: 3px 7px;\n' +
+    '            vertical-align: middle;\n' +
+    '            border-radius: 4px;\n' +
+    '            margin-right: 8px;\n' +
+    '            border: 1px solid transparent;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-tools > a:hover{\n' +
+    '            color: #fff;\n' +
+    '            background: rgba(255, 255, 255, 0.2);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-tools:hover .nav-resume-box{\n' +
+    '            display: block;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box{\n' +
+    '            display: none;\n' +
+    '            position: absolute;\n' +
+    '            top: 49px;\n' +
+    '            right: 0;\n' +
+    '            z-index: 1;\n' +
+    '            padding: 4px;\n' +
+    '            background: #FFFFFF;\n' +
+    '            box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.08);\n' +
+    '            border-radius: 8px;\n' +
+    '            border: 1px solid #EDEDED;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box ul{\n' +
+    '            overflow: hidden;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li{\n' +
+    '            display: block;\n' +
+    '            float: left;\n' +
+    '            text-align: center;\n' +
+    '            width: 120px;\n' +
+    '            margin: 4px;\n' +
+    '            border-radius: 8px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li a{\n' +
+    '            border: 1px solid transparent;\n' +
+    '            transition: all 0.2s linear;\n' +
+    '            border-radius: 8px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li:hover a{\n' +
+    '            border: 1px solid transparent;\n' +
+    '            border: 1px solid rgba(0,190,189,0.5);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li:hover span{\n' +
+    '            color: #00A6A7;\n' +
+    '        }\n' +
+    '        #header .user-nav .header-resume-new + .nav-resume-box .resume-box-update{\n' +
+    '            display: block;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box .resume-box-update{\n' +
+    '            display: none;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-boss{\n' +
+    '            background: linear-gradient(180deg, #CCDDFF 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-geek{\n' +
+    '            background: linear-gradient(180deg, #FFE4C2 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-geek a:before{\n' +
+    '            background-position: 0 -60px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-upload a:before{\n' +
+    '            background-position: 0 -120px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-update{\n' +
+    '            position: relative;\n' +
+    '            background: linear-gradient(180deg, #CCDDFF 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-update:after{\n' +
+    "            content: '解析成功';\n" +
+    '            position: absolute;\n' +
+    '            z-index: 1;\n' +
+    '            top: 0;\n' +
+    '            right: 0;\n' +
+    '            font-size: 12px;\n' +
+    '            background: rgba(0, 166, 167, 0.1);\n' +
+    '            display: inline-block;\n' +
+    '            padding: 2px 4px;\n' +
+    '            line-height: 16px;\n' +
+    '            background: #00BEBD;\n' +
+    '            border-radius: 0px 8px 0px 8px;\n' +
+    '            color: #fff;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-update a:before{\n' +
+    '            background-position: 0 -180px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-resume{\n' +
+    '            background: linear-gradient(180deg, #A6FFE7 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-resume a:before{\n' +
+    '            background-position: 0 -240px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-upload{\n' +
+    '            background: linear-gradient(180deg, #A4E5FF 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li a{\n' +
+    '            display: block;\n' +
+    '            padding: 20px 0 10px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li a:before{\n' +
+    "            content: ' ';\n" +
+    '            display: block;\n' +
+    '            margin: 0 auto;\n' +
+    '            width: 60px;\n' +
+    '            height: 60px;\n' +
+    '            background: url(https://img.bosszhipin.com/static/file/2023/d1mkjebr121695198610640.png) 0 0 / 60px auto no-repeat;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li span{\n' +
+    '            display: block;\n' +
+    '            font-size: 14px;\n' +
+    '            font-weight: 500;\n' +
+    '            color: #222222;\n' +
+    '            line-height: 20px;\n' +
+    '            margin-top: 12px;\n' +
+    '            transition: all 0.2s linear;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li p{\n' +
+    '            font-size: 12px;\n' +
+    '            color: #999999;\n' +
+    '            line-height: 17px;\n' +
+    '            margin-top: 4px;\n' +
+    '        }\n' +
+    '    </style>\n' +
+    '    <div class="inner home-inner">\n' +
+    '        <div class="logo">\n' +
+    '            <a href="https://www.zhipin.com/" ka="header-home-logo" title="BOSS直聘"><span>BOSS直聘</span></a>\n' +
+    '        </div>\n' +
+    '        <div class="nav">\n' +
+    '            <ul>\n' +
+    '                <li class=""><a ka="header-home" href="https://www.zhipin.com/shanghai/">首页</a></li>\n' +
+    '                <li class=""><a ka="header-job-recommend" href="https://www.zhipin.com/web/geek/job-recommend">推荐</a></li>\n' +
+    '                <ul class="header-nav-group">\n' +
+    '                    <li class=""><a ka="header-job" href="https://www.zhipin.com/job_detail/">搜索</a></li>\n' +
+    '                    <span class="header-nav-dot"></span>\n' +
+    '                    <li class=""><a ka="header_brand" href="https://www.zhipin.com/gongsi/">公司</a></li>\n' +
+    '                </ul>\n' +
+    '              '... 4092 more characters
+}
+[2024-08-06T21:25:08.053] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-06T21:25:08.053] [INFO] response - Response:  { c: 0, d: 788 }
+[2024-08-06T21:25:08.055] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/get/wt
+[2024-08-06T21:25:08.055] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    wt2: 'DpAbvQkaUWFJHSmZCNh77mGnIINpY-0eEh8RHsW6j4b-1x2kfAQAuch-qEN4J3i0_MopGE1xO6Co4HB8szVTmVQ~~'
+  }
+}
+[2024-08-06T21:25:08.056] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/resume/complete/step.json?version=2
+[2024-08-06T21:25:08.056] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    freshGraduate: 3,
+    grayStyleType: 0,
+    completeTime: 1722655419000,
+    step: 0,
+    completeType: 0,
+    stepText: ''
+  }
+}
+[2024-08-06T21:25:08.059] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/data/cityGroup.json
+[2024-08-06T21:25:08.059] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    cityGroup: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    hotCityList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    locationCity: {
+      code: 101020100,
+      name: '上海',
+      tip: null,
+      subLevelModelList: null,
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: '021',
+      regionCode: 0,
+      value: null
+    }
+  }
+}
+[2024-08-06T21:25:08.060] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/pc/recommend/expect/list.json
+[2024-08-06T21:25:08.060] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { mixExpect: null, expectList: [ [Object] ], partTimeExpectList: [] }
+}
+[2024-08-06T21:25:08.217] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/common/data/footer.json
+[2024-08-06T21:25:08.217] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: '<div id="footer">\n' +
+    '    <div class="inner home-inner">\n' +
+    '        <div class="footer-social">\n' +
+    '            <img src="https://static.zhipin.com/v2/web/geek/images/footer-logo.png" alt="">\n' +
+    '            <p>企业服务热线和算法/未成年人等举报渠道 <span>400 065 5799</span></p>\n' +
+    '            <p>老年人直连热线<span>400 661 6030</span></p >\n' +
+    '            <p>工作日 <span>8:00 - 22:00</span></p>\n' +
+    '            <p>休息日 <span>8:00 - 22:00</span></p>\n' +
+    '            <p class="footer-icon">\n' +
+    '                <a href="https://www.weibo.com/bosszhipin" rel="nofollow" ka="link-weibo" target="_blank" class="icon-weibo"><span>官方微博</span></a>\n' +
+    '                <a href="javascript:;" class="icon-weixin" ka="link-weixin"><span>微信公众号</span><img src="https://static.zhipin.com/v2/web/geek/images/we_chat_qr.jpg" class="qrcode-weixin" /></a>\n' +
+    '                <a href="https://app.zhipin.com" class="icon-app" ka="link-downloadapp"><span>下载</span></a>\n' +
+    '                <a href="https://www.zhipin.com/desktop/" class="icon-client-app" title="boss直聘电脑端下载" data-source="3" ka="bosszp_desktop_bottom_click" target="_blank">\n' +
+    '                    <img class="icon-image" src="https://img.bosszhipin.com/static/file/2021/dppx09luaq1637052502211.png" alt="">\n' +
+    '                    <span class="download-app-tip">PC桌面版下载</span>\n' +
+    '                </a>\n' +
+    '            </p>\n' +
+    '        </div>\n' +
+    '        <div class="footer-about clear-fix">\n' +
+    '            <dl>\n' +
+    '                <dt>企业服务</dt>\n' +
+    '                <dd>\n' +
+    '                    <a href="https://www.zhipin.com/job_detail/" ka="link-search">职位搜索</a>\n' +
+    '                    <a href="https://news.zhipin.com/" ka="link-news">新闻资讯</a>\n' +
+    '                    <a href="https://app.zhipin.com/" ka="link-app">BOSS直聘APP</a>\n' +
+    '                    <a href="https://ir.zhipin.com/" target="_blank" ka="link-ir">投资者关系 Investor Relations</a>\n' +
+    '                    <a href="https://gongyi.zhipin.com/home" target="_blank" ka="link-gongyi">直品公益基金会</a>\n' +
+    '                </dd>\n' +
+    '            </dl>\n' +
+    '            <dl>\n' +
+    '                <dt>使用与帮助</dt>\n' +
+    '                <dd>\n' +
+    '                    <a href="https://about.zhipin.com/agreement" rel="nofollow" ka="link-privacy" target="_blank">协议与规则</a>\n' +
+    '                    <a href="https://about.zhipin.com/agreement?id=personalinfopro" rel="nofollow" ka="link-privacy" target="_blank">隐私政策</a>\n' +
+    '                    <a href="https://www.zhipin.com/web/common/protocol/cheat-guide.html" rel="nofollow" ka="link-anticheatguide" target="_blank">防骗指南</a>\n' +
+    '                    <a href="https://www.zhipin.com/web/common/protocol/use-help.html" rel="nofollow" ka="link-usehelp" target="_blank">使用帮助</a>\n' +
+    '                </dd>\n' +
+    '            </dl>\n' +
+    '            <dl>\n' +
+    '                <dt>联系BOSS直聘</dt>\n' +
+    '                <dd>\n' +
+    '                    <p>北京华品博睿网络技术有限公司</p>\n' +
+    '                    <p>公司地址 北京市朝阳区太阳宫中路16号院1号楼18层1801内09</p>\n' +
+    '                    <p>违法和不良信息举报邮箱/未成年人举报渠道 <a class="report-mail" href="mailto:jubao@kanzhun.com" rel="nofollow">jubao@kanzhun.com</a></p>\n' +
+    '                </dd>\n' +
+    '            </dl>\n' +
+    '        </div>\n' +
+    '        <div class="copyright">\n' +
+    '            <p>\n' +
+    '                <span>Copyright © 2024 BOSS直聘</span><span><a href="https://beian.miit.gov.cn/" rel="nofollow" ka="link-icp" target="_blank">京ICP备14013441号-5</a></span><span>京ICP证150923号</span>\n' +
+    '                <span>\n' +
+    '                     <a href="https://www.zhipin.com/web/common/protocol/business-license.html" rel="nofollow" ka="link-businesslicense" target="_blank">\n' +
+    '                         <img src="https://static.zhipin.com/v2/web/geek/images/icon-badge-1.png" alt=""/>\n' +
+    '                         电子营业执照\n' +
+    '                     </a>\n' +
+    '                </span>\n' +
+    '                <span><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502032801" rel="nofollow" ka="link-beian" target="_blank"><img src="https://static.zhipin.com/v2/web/geek/images/icon-beian.png" alt=""/> 京公网安备11010502032801</a></span>\n' +
+    '                <span><a href="http://sdwj.zhipin.com/web/index.html" rel="nofollow" ka="link-sdwj" target="_blank">朝阳网警</a></span>\n' +
+    '                <span><a href="https://www.zhipin.com/web/common/protocol/hr-service.html" rel="nofollow" ka="link-hr-service" target="_blank">人力资源服务许可证</a></span>\n' +
+    '                <span><a href="https://www.12377.cn" rel="nofollow" ka="link-12377" target="_blank">网上有害信息举报专区</a></span>\n' +
+    '                <span class="renshe-phone">朝阳区人社局监督电话：(010)57596212，(010)65099938</span>\n' +
+    '                <span><a href="https://about.zhipin.com/agreement?id=b9f73536711c4928bde84337cb53aa91" rel="nofollow" ka="link-algo-beian" target="_blank">算法备案信息</a></span>\n' +
+    '            </p>\n' +
+    '        </div>\n' +
+    '    </div>\n' +
+    '</div>\n' +
+    '\n'
+}
+[2024-08-06T21:25:08.218] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/resume/restrict/list.json
+[2024-08-06T21:25:08.218] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { restrictStatus: 0 } }
+[2024-08-06T21:25:08.219] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/data/industryFilterExemption
+[2024-08-06T21:25:08.219] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: [
+    {
+      code: 100000,
+      name: '互联网/AI',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101400,
+      name: '电子/通信/半导体',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101100,
+      name: '服务业',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101000,
+      name: '消费品/批发/零售',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100700,
+      name: '房地产/建筑',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100300,
+      name: '教育培训',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100100,
+      name: '广告/传媒/文化/体育',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100900,
+      name: '制造业',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100600,
+      name: '专业服务',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100400,
+      name: '制药/医疗',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100800,
+      name: '汽车',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100500,
+      name: '交通运输/物流',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101200,
+      name: '能源/化工/环保',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100200,
+      name: '金融',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101300,
+      name: '政府/非盈利机构/其他',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    }
+  ]
+}
+[2024-08-06T21:25:08.225] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/common/data/defaultcity.json
+[2024-08-06T21:25:08.225] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    city: {
+      id: 2483,
+      code: 101020100,
+      name: '上海',
+      level: 2,
+      rank: 1,
+      parentCode: 101020000,
+      cityPinyin: 'sh',
+      cityFullPinyin: 'shanghai',
+      firstChar: 's',
+      cityCode: '021',
+      parentName: '上海',
+      grandParentCode: 0,
+      grandParentName: null,
+      deleted: 0,
+      cityType: 0,
+      capital: 1,
+      cityDegree: 1,
+      regionCode: 310000,
+      refreshCookie: false,
+      subLocation: 0,
+      subLocationName: null,
+      citySiteUrl: '/shanghai/',
+      source: 4
+    }
+  }
+}
+[2024-08-06T21:25:08.227] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/pc/recommend/conditions.json
+[2024-08-06T21:25:08.227] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    payTypeList: [ [Object], [Object], [Object], [Object], [Object] ],
+    experienceList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    salaryList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    scaleList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    partTimeList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    degreeList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    jobTypeList: [ [Object], [Object], [Object], [Object] ]
+  }
+}
+[2024-08-06T21:25:08.227] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-06T21:25:08.227] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { showTip: false } }
+[2024-08-06T21:25:08.232] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-06T21:25:08.232] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { showType: 0, parserId: null, resumeName: null, target: 0 }
+}
+[2024-08-06T21:25:08.233] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-06T21:25:08.233] [INFO] response - Response:  { code: 0, message: 'Success', zpData: {} }
+[2024-08-06T21:25:08.236] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-06T21:25:08.236] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    otherCitySites: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    siteGroup: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    hotCitySites: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    siteList: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  }
+}
+[2024-08-06T21:25:08.240] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-06T21:25:08.240] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    whetherPopUp: true,
+    title: '尚未设置安全问题验证',
+    subTitle: '你还未设置安全问题，设置安全问题后可以应用到一些触发场景中，比如更换手机号申诉的流程中来保护你的账号安全',
+    imgUrl: 'https://img.bosszhipin.com/static/file/2023/74qem8lrsb1673419225709.png',
+    url: '/web/geek/account?type=identityCheck&verifyType=bindSecurityProblem',
+    type: 3
+  }
+}
+[2024-08-06T21:25:08.403] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/pc/recommend/job/list.json?city=101020100&experience=&payType=&partTime=&degree=&industry=&scale=&salary=&jobType=&encryptExpectId=&mixExpectType=&page=1&pageSize=15
+[2024-08-06T21:25:08.403] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    jobList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    hasMore: true
+  }
+}
+[2024-08-06T21:25:08.417] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-06T21:25:08.417] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { show: false, url: '' } }
+[2024-08-06T21:25:08.418] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpwukong/web/employer/task/showGeekEntry?
+[2024-08-06T21:25:08.418] [INFO] response - Response:  { code: 0, message: 'Success', zpData: false }
+[2024-08-06T21:25:08.418] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpitem/geek/vip/info?
+[2024-08-06T21:25:08.418] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    geekVipInfo: {
+      vipStatus: 0,
+      endDate: null,
+      encryptPriceId: '78dfe43804a47d8a1nc~',
+      vipTitle: null,
+      jumpUrl: null,
+      buttonText: null,
+      vipDesc: null,
+      buttonUrl: null,
+      bzbTime: null,
+      appStoreUrl: null,
+      showVipType: 0,
+      tag: null,
+      privilegeCount: 8,
+      renewVipType: 0,
+      encryptBagId: null,
+      popWindowInfo: null,
+      newPurchaseGray: 1
+    }
+  }
+}
+[2024-08-06T21:25:08.418] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/h5/account/getStatus?
+[2024-08-06T21:25:08.418] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    bindWeiXin: false,
+    deviceSecurity: true,
+    securityProblem: false,
+    bindEmail: false,
+    changeWeixin: true
+  }
+}
+[2024-08-06T21:25:08.687] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/job/detail.json?securityId=1Ni6fM0HZPlCy-r1cd0T9y_6uOkVt8aOAqbAnpjZ5tO63YrjDusdT5d_VJf1AfXLWvC9XdIYh1d8V2umXHgyw5w7eX_vI7BMqmuOPEjDHbJJMg5VSoPCxncxaw~~&lid=5YzSJJ7paRe.search.1
+[2024-08-06T21:25:08.687] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    pageType: 0,
+    selfAccess: false,
+    securityId: 'bIhMe1wPTwdXR-E1ZAVEBZ9mlkWByyg89fD8A_oY_1UezGB3sJh4fLKr7wYi9W9kAfKZNduhzsLlU1D_HuC8q37x5WQo21pdHo4nNcrn5KRcN2o1KpFpwFKvWQ~~',
+    sessionId: null,
+    lid: '5YzSJJ7paRe.search.1',
+    jobInfo: {
+      encryptId: '4ae8261b86a1068d1HJ93tm-EFRX',
+      encryptUserId: '4a8673b08488f68e0XZ4292_E1dT',
+      invalidStatus: false,
+      jobName: '中高级前端工程师',
+      position: 100901,
+      positionName: '前端开发工程师',
+      location: 101020100,
+      locationName: '上海',
+      experienceName: '5-10年',
+      degreeName: '大专',
+      jobType: 0,
+      proxyJob: 0,
+      proxyType: 0,
+      salaryDesc: '24-45K·14薪',
+      payTypeDesc: null,
+      postDescription: '1. 5年以上web/h5开发经验，并且能够使用至少一种后端语言, 具备脱离vue-cli等脚手架,自己搭建脚手架等能力. 具备从0-1搭建前端项目以及流水线的能力.\n' +
+        '2. 精通各种前端技术，包括HTML/CSS/JavaScript等，精通react、vue框架了解原理，并对源码有一定研究，能够基于框架编写高性能逻辑代码\n' +
+        '3. 有过服务端渲染和服务端预渲染的实践项目, 有脱离市面主流框架,自研的服务端渲染经验. 在nodejs服务端领域有一定好的积累, 并且具备高性能的服务端设计.\n' +
+        '4. 有前端渲染容器的实现和沙箱隔离的相关实践. 微前端经验.\n' +
+        '5. 熟悉各种浏览器适配问题、包括移动端各种机型浏览器的适配问题\n' +
+        '6. 能够发觉业务和开发痛点, 并且抽象成平台或者工具.具备架构设计和性能调优的经验.\n' +
+        '7. 有面向用户端的架构设计能力, 有过大流量,秒杀业务的实践经验.\n' +
+        '8. 具备跨端开发的能力,有过多平台应用多端应用统一的架构设计经验.参与过多种平台应用的开发, 包括web端, mobile端, 混合app端, pwa, webclip, 桌面端应用.',
+      encryptAddressId: '147e3c289b2e0f333nxz39W9EVZSxoy6VvM~',
+      address: '上海静安区海防路198号5层',
+      longitude: 121.448919,
+      latitude: 31.239484,
+      staticMapUrl: 'https://img.bosszhipin.com/beijin/upload/amap_proxy/20230825/48ba41acc9cef1bff9ccbf6eb7077e441162e9f14e89a94a6bb61e3b7bce0931da574d19d1d82c88.png.webp',
+      pcStaticMapUrl: 'https://img.bosszhipin.com/beijin/upload/amap_proxy/20230825/48ba41acc9cef1bf7e7c480fa44512aae625c12a5df13cd76bb61e3b7bce0931da574d19d1d82c88.png.webp',
+      overseasAddressList: [],
+      overseasInfo: null,
+      showSkills: [Array],
+      anonymous: 0,
+      jobStatusDesc: '招聘中'
+    },
+    bossInfo: {
+      name: '杨坤',
+      title: '招聘经理',
+      tiny: 'https://img.bosszhipin.com/beijin/upload/avatar/20240308/607f1f3d68754fd051616e8cbb5497eeb424117c525db88b9678efad60705bd8635e56633b90cd20_s.jpg.webp',
+      large: 'https://img.bosszhipin.com/beijin/upload/avatar/20240308/607f1f3d68754fd051616e8cbb5497eeb424117c525db88b9678efad60705bd8635e56633b90cd20.jpg.webp',
+      activeTimeDesc: '刚刚活跃',
+      bossOnline: false,
+      brandName: '上海艺学有害生物防治',
+      bossSource: 0,
+      certificated: true,
+      tagIconUrl: null,
+      avatarStickerUrl: null
+    },
+    brandComInfo: {
+      encryptBrandId: '3adabe54432380a01HF92d20EVE~',
+      brandName: '上海艺学有害生物防治',
+      logo: 'https://img.bosszhipin.com/beijin/icon/894ce6fa7e58d64d57e7f22d2f3a9d18afa7fcceaa24b8ea28f56f1bb14732c0.png',
+      stage: 0,
+      stageName: '',
+      scale: 302,
+      scaleName: '20-99人',
+      industry: 100020,
+      industryName: '互联网',
+      introduce: '高效沟通，互赞尊重，一起成就',
+      labels: [],
+      activeTime: 1722950076997,
+      visibleBrandInfo: true,
+      focusBrand: false,
+      customerBrandName: '上海艺学有害生物防治',
+      customerBrandStageName: ''
+    },
+    oneKeyResumeInfo: {
+      inviteType: 0,
+      alreadySend: false,
+      canSendResume: false,
+      canSendPhone: false,
+      canSendWechat: false
+    },
+    relationInfo: { interestJob: false, beFriend: false },
+    handicappedInfo: null,
+    appendixInfo: { canFeedback: false },
+    atsOnlineApplyInfo: { inviteType: 0, alreadyApply: false }
+  }
+}
+[2024-08-06T21:25:11.013] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-06T21:25:11.013] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-06T21:25:11.013] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-06T21:25:11.013] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-06T21:25:27.025] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/wap/choseShowSecurity
+[2024-08-06T21:25:27.025] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-06T21:25:38.533] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/job/detail.json?securityId=eS_6IQRN9u8z0-g17LAAGb7Dzbh7cHl-iUSq0C8t_Zixd9MXQJ9_4pzVWIg44WsiSyy4UHOyWnSP11SRCxUQGxJlZD0kmwsWxvjzDvqCf3dkVH2M2FUmu80a&lid=5YzSJJ7paRe.search.2
+[2024-08-06T21:25:38.533] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    pageType: 0,
+    selfAccess: false,
+    securityId: '0zRv2G3cBiPGD-b1TtQGx03FBrkrDvbmWWsaph1ylQbJfDGKUnkrE9G6Ho63W_2UHR0zh2BtaYDDLsy-iZn4SK9GpkJrlCR35iC38axf5PdQn61CQzEv3Frw',
+    sessionId: null,
+    lid: '5YzSJJ7paRe.search.2',
+    jobInfo: {
+      encryptId: '7008c56d33c10f4f1HN_2NS4FFZX',
+      encryptUserId: '477d191cfb9583dc1nZ-2dq8F1U~',
+      invalidStatus: false,
+      jobName: '高级ios开发工程师',
+      position: 100203,
+      positionName: 'iOS',
+      location: 101020100,
+      locationName: '上海',
+      experienceName: '3-5年',
+      degreeName: '本科',
+      jobType: 0,
+      proxyJob: 0,
+      proxyType: 0,
+      salaryDesc: '25-45K·16薪',
+      payTypeDesc: null,
+      postDescription: '岗位职责\n' +
+        '1、负责广告SDK架构设计、代码开发与和重构迭代优化；\n' +
+        '2、负责广告SDK对接接入跟进、SDK适配和优化升级等相关工作；\n' +
+        '3、开发高质量的广告形态，探索新型广告交互形式；\n' +
+        '4、负责iOS端应用的性能调优，技术攻关，和疑难问题的解决；\n' +
+        '5、不断探索相关行业新技术研究满足业务发展； \n' +
+        '任职要求\n' +
+        '1、5年以内iOS开发经验，精通Objectiv-C、Swift等编程语言。\n' +
+        '2、具有扎实的数据结构和算法基础。\n' +
+        '3、熟悉iOS系统架构，具有丰富的iOS应用模块化开发经验。具有一定的SDK设计和开发经验。\n' +
+        '4、熟悉iOS性能优化、内存管理、网络通信、数据存储等相关技术。\n' +
+        '5、熟练运用常见设计模式，熟练使用常见三方库并对其设计思想有充分理解；\n' +
+        '6、具有良好的语言表达能力，善于团队沟通合作，有良好的团队意识和高度的责任心。',
+      encryptAddressId: '6f0b90f01170eaa21nV72965GVFUwYW-VP2W',
+      address: '上海浦东新区盛大全球研发中心1号楼11层',
+      longitude: 121.596649,
+      latitude: 31.187826,
+      staticMapUrl: 'https://img.bosszhipin.com/beijin/upload/amap_proxy/20230418/48ba41acc9cef1bfa4221fc26f2d5062f8c5714cd7861d2d6bb61e3b7bce0931da574d19d1d82c88.jpg',
+      pcStaticMapUrl: 'https://img.bosszhipin.com/beijin/upload/amap_proxy/20230531/48ba41acc9cef1bf6742ceac4b44243c8bc524c0bee11fd36bb61e3b7bce0931da574d19d1d82c88.jpg',
+      overseasAddressList: [],
+      overseasInfo: null,
+      showSkills: [Array],
+      anonymous: 0,
+      jobStatusDesc: '最新'
+    },
+    bossInfo: {
+      name: '马女士',
+      title: '招聘经理',
+      tiny: 'https://img.bosszhipin.com/beijin/upload/avatar/20230913/607f1f3d68754fd064253e49879f46a638d2d4e07bb4ea6863ff2327fcf3e335c2ed6ecb05ea744c_s.png.webp',
+      large: 'https://img.bosszhipin.com/beijin/upload/avatar/20230913/607f1f3d68754fd064253e49879f46a638d2d4e07bb4ea6863ff2327fcf3e335c2ed6ecb05ea744c.png.webp',
+      activeTimeDesc: '刚刚活跃',
+      bossOnline: false,
+      brandName: '澄潭网络',
+      bossSource: 0,
+      certificated: true,
+      tagIconUrl: null,
+      avatarStickerUrl: null
+    },
+    brandComInfo: {
+      encryptBrandId: '0410b419a87d8bef1Xd429u4FVI~',
+      brandName: '澄潭网络',
+      logo: 'https://img.bosszhipin.com/beijin/icon/894ce6fa7e58d64d57e7f22d2f3a9d18afa7fcceaa24b8ea28f56f1bb14732c0.png',
+      stage: 0,
+      stageName: '',
+      scale: 302,
+      scaleName: '20-99人',
+      industry: 100019,
+      industryName: '移动互联网',
+      introduce: '',
+      labels: [],
+      activeTime: 1722945224984,
+      visibleBrandInfo: true,
+      focusBrand: false,
+      customerBrandName: '澄潭网络',
+      customerBrandStageName: ''
+    },
+    oneKeyResumeInfo: {
+      inviteType: 0,
+      alreadySend: false,
+      canSendResume: false,
+      canSendPhone: false,
+      canSendWechat: false
+    },
+    relationInfo: { interestJob: false, beFriend: false },
+    handicappedInfo: null,
+    appendixInfo: { canFeedback: false },
+    atsOnlineApplyInfo: { inviteType: 0, alreadyApply: false }
+  }
+}
+[2024-08-06T21:25:42.805] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/job/detail.json?securityId=hj_kPXMIPtbwR-M18LWxGJfIzFQTW8HzG73eUVXvs0-JKQfXWcub_BHimI-Vz0SkowPPWXLsAIlcRD_0ZMu9DMN0DKnJQrwVdxxsc-AXf6Pj3-peIIJ93w7W&lid=5YzSJJ7paRe.search.3
+[2024-08-06T21:25:42.805] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    pageType: 0,
+    selfAccess: false,
+    securityId: '7dKYdqtqmAdI6-L1uoAa-_A8HwTv1wp28bWsHMeivxUbgw5yaggH3YiOT8t-sUiBeVBsTvlMcu-gmslxe26nwlWgr_HyqhFo2AurywUU-XGTQVG24oEQnl9Y',
+    sessionId: null,
+    lid: '5YzSJJ7paRe.search.3',
+    jobInfo: {
+      encryptId: '2e9532148403ad5b1HF639S5GVJQ',
+      encryptUserId: '2324222859a52f7f1Xx42Nq7EVU~',
+      invalidStatus: false,
+      jobName: '前端开发工程师（上海）',
+      position: 100901,
+      positionName: '前端开发工程师',
+      location: 101020100,
+      locationName: '上海',
+      experienceName: '5-10年',
+      degreeName: '本科',
+      jobType: 0,
+      proxyJob: 0,
+      proxyType: 0,
+      salaryDesc: '18-25K·13薪',
+      payTypeDesc: null,
+      postDescription: '岗位职责：\n' +
+        '负责公司前端产品架构设计、开发、管理；\n' +
+        '负责解决系统运行过程中的问题，优化系统性能；\n' +
+        '负责与产品人员沟通需求，参与需求的制定过程。\n' +
+        '\n' +
+        '任职要求：\n' +
+        '大学本科计算机相关专业毕业，5年以上相关工作经验；\n' +
+        '有扎实的计算机基础知识，熟悉Web相关技术，了解行业热点；\n' +
+        '熟练使用HTML/JS/CSS，熟悉常见的开源前端框架，React生态优先；\n' +
+        '熟练使用Nodejs，熟练使用数据库、Redis等，对分布式、高并发有一定理解；\n' +
+        '有良好的代码习惯和团队协作能力，能够流畅准确地进行需求沟通、技术对接、文档编写，站在产品角度思考问题；\n' +
+        '主导或独立负责过一定规模产品前端，有一定的前端架构能力；\n' +
+        '工作独立自主有责任心，热爱技术，对自己有要求，能不断学习新知识。',
+      encryptAddressId: '50dac05262c80c751HF529W0EFVUwYS8Uvw~',
+      address: '上海徐汇区灿星大厦灿星大厦701蚂蚁云科技AI大模型研究院',
+      longitude: 121.459534,
+      latitude: 31.164888,
+      staticMapUrl: 'https://img.bosszhipin.com/beijin/upload/amap_proxy/20230725/48ba41acc9cef1bf1799e7cfa9adcd15618fa1a00a5f5c5a6bb61e3b7bce0931da574d19d1d82c88.jpg.webp',
+      pcStaticMapUrl: 'https://img.bosszhipin.com/beijin/upload/amap_proxy/20230725/48ba41acc9cef1bf67240757619500c4dd94398ad1b2da166bb61e3b7bce0931da574d19d1d82c88.jpg.webp',
+      overseasAddressList: [],
+      overseasInfo: null,
+      showSkills: [Array],
+      anonymous: 0,
+      jobStatusDesc: '招聘中'
+    },
+    bossInfo: {
+      name: '王女士',
+      title: 'HR',
+      tiny: 'https://img.bosszhipin.com/beijin/upload/avatar/20231115/607f1f3d68754fd09c0863710d91cc05862f7e0e83363a2e7e1eba6cf61531ad146b4dea759c244f_s.jpg.webp',
+      large: 'https://img.bosszhipin.com/beijin/upload/avatar/20231115/607f1f3d68754fd09c0863710d91cc05862f7e0e83363a2e7e1eba6cf61531ad146b4dea759c244f.jpg.webp',
+      activeTimeDesc: '刚刚活跃',
+      bossOnline: false,
+      brandName: '蚂蚁云科技集团',
+      bossSource: 0,
+      certificated: true,
+      tagIconUrl: null,
+      avatarStickerUrl: null
+    },
+    brandComInfo: {
+      encryptBrandId: 'd97781569b4b869e1nd_0tS8ElU~',
+      brandName: '蚂蚁云科技集团',
+      logo: 'https://img.bosszhipin.com/beijin/upload/com/logo/20230920/7b5b554d84f9729ce2b9a8b5d6d1150f49135bc5725dfc7b4d26a6f7a069f6e55aac38b8f065a495.png.webp',
+      stage: 808,
+      stageName: '不需要融资',
+      scale: 303,
+      scaleName: '100-499人',
+      industry: 100021,
+      industryName: '计算机软件',
+      introduce: '蚂蚁云科技集团是一家专注研发AI大模型以及上下游应用开发，产业生态拓展的人工智能公司。2019年集团成立至今，业务遍及华东、华南、华中、华北等地，并在上海、西安、杭州、东莞等地成立了AI研究院及运营中心，AI数字人研究院，算力中心等。我们秉持“让 AI 智能造福社会”的使命，倡导科技向善，深耕AI大模型原生应用产品，推动人工智能应用产品有效落地实施并解决实际问题，为构建起一个更加繁荣的AI生态，推动新一轮的经济增长而努力。',
+      labels: [Array],
+      activeTime: 1722937785891,
+      visibleBrandInfo: true,
+      focusBrand: false,
+      customerBrandName: '蚂蚁云科技集团',
+      customerBrandStageName: '不需要融资'
+    },
+    oneKeyResumeInfo: {
+      inviteType: 0,
+      alreadySend: false,
+      canSendResume: false,
+      canSendPhone: false,
+      canSendWechat: false
+    },
+    relationInfo: { interestJob: false, beFriend: false },
+    handicappedInfo: null,
+    appendixInfo: { canFeedback: false },
+    atsOnlineApplyInfo: { inviteType: 0, alreadyApply: false }
+  }
+}
+[2024-08-06T21:25:49.201] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-06T21:25:49.201] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    result: {
+      appKey: 'ObsSRskiryhn60pf',
+      bucketSize: 10,
+      timeSlice: 10,
+      reportPeriod: 10,
+      metricsSwitch: false,
+      pathBlacklist: [],
+      hostBlacklist: []
+    }
+  }
+}
+[2024-08-06T21:25:50.683] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-06T21:25:50.683] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-06T21:25:50.685] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-06T21:25:50.685] [INFO] response - Response:  { code: 0, message: 'Success', zpData: {} }
+[2024-08-06T21:25:50.687] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/notify/setting/get
+[2024-08-06T21:25:50.688] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    userNotifySettingList: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ]
+  }
+}
+[2024-08-06T21:25:50.688] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-06T21:25:50.688] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    whetherPopUp: false,
+    title: null,
+    subTitle: null,
+    imgUrl: null,
+    url: null,
+    type: 0
+  }
+}
+[2024-08-06T21:25:50.688] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-06T21:25:50.688] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { userType: 0, cid: '172295064021516744' }
+}
+[2024-08-06T21:25:50.710] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/recommend/job/list.json?expectId=31989474ec8d79001nR73N-4FFFSwg~~&pk=cpc_job_index_shanghai&sortType=1&page=1&salary=&payType=&degree=&experience=&stage=&scale=&districtCode=&businessCode=
+[2024-08-06T21:25:50.710] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    jobRecTips: '',
+    pageSize: 15,
+    sessionId: 'b65c8b00-2166-410c-8db1-7f29cb71c1df',
+    jobList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    searchJobList: [],
+    totalCount: 0
+  }
+}
+[2024-08-06T21:25:50.711] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/recommend/job/list.json?expectId=31989474ec8d79001nR73N-4FFFSwg~~&pk=cpc_job_index_shanghai&sortType=2&page=1&salary=&payType=&degree=&experience=&stage=&scale=&districtCode=&businessCode=
+[2024-08-06T21:25:50.711] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    jobRecTips: '',
+    pageSize: 15,
+    sessionId: '2fcfe6a7-27a9-4145-bdd0-04dc4a65a8a7',
+    jobList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    searchJobList: [],
+    totalCount: 0
+  }
+}
+[2024-08-06T21:25:50.711] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/home/top/joblist.json?expectId=31989474ec8d79001nR73N-4FFFSwg~~
+[2024-08-06T21:25:50.711] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { jobList: [] } }
+[2024-08-06T21:25:50.722] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/recommend/conditions.json
+[2024-08-06T21:25:50.722] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    payTypeList: [ [Object], [Object], [Object], [Object], [Object] ],
+    experienceList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    salaryList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    stageList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    scaleList: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    areaBusinessList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    degreeList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    positionTypeList: [],
+    expectList: [ [Object] ],
+    cityConfig: { code: 101020100, name: '上海' }
+  }
+}
+[2024-08-06T21:25:50.740] [INFO] response - Response url:  https://www.zhipin.com/wapi/certification/violate/rule/prompt/dialog
+[2024-08-06T21:25:50.740] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { show: false, dialog: null } }
+[2024-08-06T21:25:50.754] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/wap/ad/getPcActivity
+[2024-08-06T21:25:50.754] [INFO] response - Response:  { code: 0, message: 'Success', zpData: {} }
+[2024-08-06T21:25:50.756] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-06T21:25:50.756] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    otherCitySites: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    siteGroup: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    hotCitySites: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    siteList: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  }
+}
+[2024-08-06T21:25:50.757] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-06T21:25:50.757] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: [
+    {
+      code: 100000,
+      name: '互联网/AI',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101400,
+      name: '电子/通信/半导体',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101100,
+      name: '服务业',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101000,
+      name: '消费品/批发/零售',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100700,
+      name: '房地产/建筑',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100300,
+      name: '教育培训',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100100,
+      name: '广告/传媒/文化/体育',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100900,
+      name: '制造业',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100600,
+      name: '专业服务',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100400,
+      name: '制药/医疗',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100800,
+      name: '汽车',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100500,
+      name: '交通运输/物流',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101200,
+      name: '能源/化工/环保',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100200,
+      name: '金融',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101300,
+      name: '政府/非盈利机构/其他',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    }
+  ]
+}
+[2024-08-06T21:25:50.769] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-06T21:25:50.769] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    position: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  }
+}
+[2024-08-06T21:25:50.825] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-06T21:25:50.825] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    hotCityList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    cityList: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    locationCity: {
+      code: 101020100,
+      name: '上海',
+      tip: null,
+      subLevelModelList: null,
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    }
+  }
+}
+[2024-08-06T21:25:50.835] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-06T21:25:50.835] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { showType: 0, parserId: null, resumeName: null, target: 0 }
+}
+[2024-08-06T21:25:50.835] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-06T21:25:50.835] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { showTip: false } }
+[2024-08-06T21:25:50.872] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-06T21:25:50.872] [INFO] response - Response:  { c: 0, d: 718 }
+[2024-08-06T21:25:50.873] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-06T21:25:50.876] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { show: false, url: '' } }
+[2024-08-06T21:25:50.883] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpwukong/web/employer/task/showGeekEntry?
+[2024-08-06T21:25:50.883] [INFO] response - Response:  { code: 0, message: 'Success', zpData: false }
+[2024-08-06T21:25:50.884] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/h5/account/getStatus?
+[2024-08-06T21:25:50.884] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    bindWeiXin: false,
+    deviceSecurity: true,
+    securityProblem: false,
+    bindEmail: false,
+    changeWeixin: true
+  }
+}
+[2024-08-06T21:25:50.888] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpitem/geek/vip/info?
+[2024-08-06T21:25:50.888] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    geekVipInfo: {
+      vipStatus: 0,
+      endDate: null,
+      encryptPriceId: '78dfe43804a47d8a1nc~',
+      vipTitle: null,
+      jumpUrl: null,
+      buttonText: null,
+      vipDesc: null,
+      buttonUrl: null,
+      bzbTime: null,
+      appStoreUrl: null,
+      showVipType: 0,
+      tag: null,
+      privilegeCount: 8,
+      renewVipType: 0,
+      encryptBagId: null,
+      popWindowInfo: null,
+      newPurchaseGray: 1
+    }
+  }
+}
+[2024-08-06T21:25:50.902] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-06T21:25:50.902] [INFO] response - Response:  { c: 0, d: 803 }
+[2024-08-06T21:25:50.902] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-06T21:25:50.902] [INFO] response - Response:  { c: 0, d: 1107 }
+[2024-08-06T21:25:51.296] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/get/wt
+[2024-08-06T21:25:51.296] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    wt2: 'DpAbvQkaUWFJHSmZCNh77mGnIINpY-0eEh8RHsW6j4b-1x2kfAQAuch-qEN4J3i0_MopGE1xO6Co4HB8szVTmVQ~~'
+  }
+}
+[2024-08-06T21:25:51.323] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-06T21:25:51.323] [INFO] response - Response:  { c: 0, d: 1146 }
+[2024-08-06T21:25:51.691] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-06T21:25:51.691] [INFO] response - Response:  { c: 0, d: 1132 }
+[2024-08-06T21:25:51.771] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-06T21:25:51.771] [INFO] response - Response:  { c: 0, d: 1119 }
+[2024-08-06T21:25:52.710] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-06T21:25:52.710] [INFO] response - Response:  { c: 0, d: 1137 }
+[2024-08-06T21:25:52.761] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-06T21:25:52.761] [INFO] response - Response:  { c: 0, d: 1133 }
+[2024-08-06T21:25:54.398] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-06T21:25:54.398] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-06T21:26:02.384] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/autocomplete/query.json?query=web&_=1722950749068
+[2024-08-06T21:26:02.384] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    data: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    query: 'web'
+  }
+}
+[2024-08-06T21:26:03.828] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/autocomplete/query.json?query=webgl&_=1722950749069
+[2024-08-06T21:26:03.828] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    data: [ [Object], [Object], [Object], [Object], [Object] ],
+    query: 'webgl'
+  }
+}
+[2024-08-06T21:26:03.831] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/autocomplete/query.json?query=webgl&_=1722950749070
+[2024-08-06T21:26:03.831] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    data: [ [Object], [Object], [Object], [Object], [Object] ],
+    query: 'webgl'
+  }
+}
+[2024-08-06T21:26:09.574] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-06T21:26:09.575] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    result: {
+      appKey: 'ObsSRskiryhn60pf',
+      bucketSize: 10,
+      timeSlice: 10,
+      reportPeriod: 10,
+      metricsSwitch: false,
+      pathBlacklist: [],
+      hostBlacklist: []
+    }
+  }
+}
+[2024-08-06T21:26:10.738] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-06T21:26:10.738] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    result: {
+      appKey: 'ObsSRskiryhn60pf',
+      bucketSize: 10,
+      timeSlice: 10,
+      reportPeriod: 10,
+      metricsSwitch: false,
+      pathBlacklist: [],
+      hostBlacklist: []
+    }
+  }
+}
+[2024-08-06T21:26:11.123] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-06T21:26:11.123] [INFO] response - Response:  { c: 0, d: 1153 }
+[2024-08-06T21:26:11.217] [INFO] response - Response url:  https://www.zhipin.com/wapi/zprelation/friend/geekFilterByLabel?labelId=0
+[2024-08-06T21:26:11.217] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    foldText: '以上是30天内联系人',
+    filterEncryptIdList: [],
+    friendList: [],
+    filterBossIdList: []
+  }
+}
+[2024-08-06T21:26:11.217] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-06T21:26:11.217] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-06T21:26:11.218] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/group/gravityGroupInfoList?page=1&scene=0
+[2024-08-06T21:26:11.218] [INFO] response - Response:  { code: 0, message: 'Success', zpData: [] }
+[2024-08-06T21:26:11.218] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/config/get
+[2024-08-06T21:26:11.218] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { unreadBubble: true } }
+[2024-08-06T21:26:11.218] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpitem/web/item/config/get
+[2024-08-06T21:26:11.218] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    recruit: 0,
+    hunter: false,
+    hunterAdvanceGray: false,
+    searchChatHunter: 0,
+    onlineRemind: 2,
+    resumeRefresh: 2,
+    resumeRefreshImprove: 1,
+    resumeTemplateGary: 1,
+    resumeTemplatePurchaseGary: 0,
+    pcAdvanceSearchStyleGray: 1,
+    anonymousGeekInfoGray: 1,
+    pcAdvanceCitySearchGray: 1,
+    advanceSearchStyleGray: 0,
+    advanceSearchStyleGrayV2: 0,
+    advanceSearchStyleGrayV3: 0,
+    offlineUseGray: 0,
+    refinedSelected: 0,
+    detailPageStyleGray: 0,
+    resumeRefreshResultNewStyle: 1,
+    hunterSearchAvailable: 0,
+    hunterSearchTrail: 0,
+    geekTreeAvailable: 0,
+    itemOffLineIntroduceH5Style: 0,
+    pcSearchSubscribeStyleGray: 0,
+    pcSearchSubscribeDefaultGray: 0,
+    pcDirectCallGray: 0,
+    searchViewedStyleGray: 0,
+    sameCompanyGeekGray: 0,
+    itemInviteResultStyle: 0,
+    itemInviteResultStyleV2: 0,
+    hunterServiceGray: 0,
+    hunterServiceGrayV2: 0,
+    searchChatCardJobListDefaultGray: 0,
+    exposureCardShowName: null,
+    relatedGeekOptimizeGray: 0,
+    guideViewRelatedGeekGray: 0,
+    jobExposureDetailStyleGray: 0,
+    availableCallOptimizeGray: 0,
+    searchCardDefaultJob: null,
+    searchEasyChatGray: 0
+  }
+}
+[2024-08-06T21:26:12.562] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/group/groupInfoList
+[2024-08-06T21:26:12.563] [INFO] response - Response:  { code: 0, message: 'Success', zpData: [] }
+[2024-08-06T21:26:12.565] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/group/gravityGroupInfoList?page=1&scene=0
+[2024-08-06T21:26:12.565] [INFO] response - Response:  { code: 0, message: 'Success', zpData: [] }
+[2024-08-06T21:26:12.565] [INFO] response - Response url:  https://www.zhipin.com/wapi/zprelation/friend/geekFilterByLabel?labelId=-1
+[2024-08-06T21:26:12.565] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { foldText: '以上是30天内联系人', friendList: [] }
+}
+[2024-08-06T21:26:12.566] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/common/data/footer.json
+[2024-08-06T21:26:12.566] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: '<div id="footer">\n' +
+    '    <div class="inner home-inner">\n' +
+    '        <div class="footer-social">\n' +
+    '            <img src="https://static.zhipin.com/v2/web/geek/images/footer-logo.png" alt="">\n' +
+    '            <p>企业服务热线和算法/未成年人等举报渠道 <span>400 065 5799</span></p>\n' +
+    '            <p>老年人直连热线<span>400 661 6030</span></p >\n' +
+    '            <p>工作日 <span>8:00 - 22:00</span></p>\n' +
+    '            <p>休息日 <span>8:00 - 22:00</span></p>\n' +
+    '            <p class="footer-icon">\n' +
+    '                <a href="https://www.weibo.com/bosszhipin" rel="nofollow" ka="link-weibo" target="_blank" class="icon-weibo"><span>官方微博</span></a>\n' +
+    '                <a href="javascript:;" class="icon-weixin" ka="link-weixin"><span>微信公众号</span><img src="https://static.zhipin.com/v2/web/geek/images/we_chat_qr.jpg" class="qrcode-weixin" /></a>\n' +
+    '                <a href="https://app.zhipin.com" class="icon-app" ka="link-downloadapp"><span>下载</span></a>\n' +
+    '                <a href="https://www.zhipin.com/desktop/" class="icon-client-app" title="boss直聘电脑端下载" data-source="3" ka="bosszp_desktop_bottom_click" target="_blank">\n' +
+    '                    <img class="icon-image" src="https://img.bosszhipin.com/static/file/2021/dppx09luaq1637052502211.png" alt="">\n' +
+    '                    <span class="download-app-tip">PC桌面版下载</span>\n' +
+    '                </a>\n' +
+    '            </p>\n' +
+    '        </div>\n' +
+    '        <div class="footer-about clear-fix">\n' +
+    '            <dl>\n' +
+    '                <dt>企业服务</dt>\n' +
+    '                <dd>\n' +
+    '                    <a href="https://www.zhipin.com/job_detail/" ka="link-search">职位搜索</a>\n' +
+    '                    <a href="https://news.zhipin.com/" ka="link-news">新闻资讯</a>\n' +
+    '                    <a href="https://app.zhipin.com/" ka="link-app">BOSS直聘APP</a>\n' +
+    '                    <a href="https://ir.zhipin.com/" target="_blank" ka="link-ir">投资者关系 Investor Relations</a>\n' +
+    '                    <a href="https://gongyi.zhipin.com/home" target="_blank" ka="link-gongyi">直品公益基金会</a>\n' +
+    '                </dd>\n' +
+    '            </dl>\n' +
+    '            <dl>\n' +
+    '                <dt>使用与帮助</dt>\n' +
+    '                <dd>\n' +
+    '                    <a href="https://about.zhipin.com/agreement" rel="nofollow" ka="link-privacy" target="_blank">协议与规则</a>\n' +
+    '                    <a href="https://about.zhipin.com/agreement?id=personalinfopro" rel="nofollow" ka="link-privacy" target="_blank">隐私政策</a>\n' +
+    '                    <a href="https://www.zhipin.com/web/common/protocol/cheat-guide.html" rel="nofollow" ka="link-anticheatguide" target="_blank">防骗指南</a>\n' +
+    '                    <a href="https://www.zhipin.com/web/common/protocol/use-help.html" rel="nofollow" ka="link-usehelp" target="_blank">使用帮助</a>\n' +
+    '                </dd>\n' +
+    '            </dl>\n' +
+    '            <dl>\n' +
+    '                <dt>联系BOSS直聘</dt>\n' +
+    '                <dd>\n' +
+    '                    <p>北京华品博睿网络技术有限公司</p>\n' +
+    '                    <p>公司地址 北京市朝阳区太阳宫中路16号院1号楼18层1801内09</p>\n' +
+    '                    <p>违法和不良信息举报邮箱/未成年人举报渠道 <a class="report-mail" href="mailto:jubao@kanzhun.com" rel="nofollow">jubao@kanzhun.com</a></p>\n' +
+    '                </dd>\n' +
+    '            </dl>\n' +
+    '        </div>\n' +
+    '        <div class="copyright">\n' +
+    '            <p>\n' +
+    '                <span>Copyright © 2024 BOSS直聘</span><span><a href="https://beian.miit.gov.cn/" rel="nofollow" ka="link-icp" target="_blank">京ICP备14013441号-5</a></span><span>京ICP证150923号</span>\n' +
+    '                <span>\n' +
+    '                     <a href="https://www.zhipin.com/web/common/protocol/business-license.html" rel="nofollow" ka="link-businesslicense" target="_blank">\n' +
+    '                         <img src="https://static.zhipin.com/v2/web/geek/images/icon-badge-1.png" alt=""/>\n' +
+    '                         电子营业执照\n' +
+    '                     </a>\n' +
+    '                </span>\n' +
+    '                <span><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502032801" rel="nofollow" ka="link-beian" target="_blank"><img src="https://static.zhipin.com/v2/web/geek/images/icon-beian.png" alt=""/> 京公网安备11010502032801</a></span>\n' +
+    '                <span><a href="http://sdwj.zhipin.com/web/index.html" rel="nofollow" ka="link-sdwj" target="_blank">朝阳网警</a></span>\n' +
+    '                <span><a href="https://www.zhipin.com/web/common/protocol/hr-service.html" rel="nofollow" ka="link-hr-service" target="_blank">人力资源服务许可证</a></span>\n' +
+    '                <span><a href="https://www.12377.cn" rel="nofollow" ka="link-12377" target="_blank">网上有害信息举报专区</a></span>\n' +
+    '                <span class="renshe-phone">朝阳区人社局监督电话：(010)57596212，(010)65099938</span>\n' +
+    '                <span><a href="https://about.zhipin.com/agreement?id=b9f73536711c4928bde84337cb53aa91" rel="nofollow" ka="link-algo-beian" target="_blank">算法备案信息</a></span>\n' +
+    '            </p>\n' +
+    '        </div>\n' +
+    '    </div>\n' +
+    '</div>\n' +
+    '\n'
+}
+[2024-08-06T21:26:12.567] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/notify/setting/get
+[2024-08-06T21:26:12.567] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    userNotifySettingList: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ]
+  }
+}
+[2024-08-06T21:26:12.577] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-06T21:26:12.577] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    userId: 670504962,
+    identity: 0,
+    encryptUserId: '06cbd975ad1277930XN63t25GVRS',
+    name: 'null',
+    showName: 'null',
+    tinyAvatar: 'https://img.bosszhipin.com/boss/avatar/avatar_16.png',
+    largeAvatar: 'https://img.bosszhipin.com/boss/avatar/avatar_16.png',
+    token: 'kP3iMtcLuhpbqmE8',
+    isHunter: false,
+    clientIP: '112.64.60.240',
+    email: null,
+    phone: null,
+    brandName: null,
+    doubleIdentity: false,
+    recruit: false,
+    agentRecruit: false,
+    industryCostTag: 0,
+    gender: 0,
+    trueMan: false,
+    studentFlag: true,
+    completeDayStatus: false,
+    complete: true,
+    multiExpect: false,
+    encryptComId: null
+  }
+}
+[2024-08-06T21:26:12.763] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/common/data/header.json
+[2024-08-06T21:26:12.763] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: '<script>\n' +
+    "    var staticPath = 'https://static.zhipin.com/v2';\n" +
+    '    _PAGE = {\n' +
+    '        checkMobileUrl: "/registe/sendSms.json",\n' +
+    '        regMobileUrl: "/registe/save.json",\n' +
+    '        loginMobileUrl: "/login/phone.json",\n' +
+    '        loginAccountUrl: "/login/account.json",\n' +
+    '        getRandomKeyUrl: "/captcha/randkey.json",\n' +
+    '        verifyImgUrl: "/captcha/?randomKey={randomKey}",\n' +
+    '        getPositionUrl: "/user/position.json",\n' +
+    '        homeRedirectUrl: "",\n' +
+    '        citySiteName:"上海站",\n' +
+    '        citySiteCode:"101020100",\n' +
+    '        skillsUrl: "/common/data/positionSkill"\n' +
+    '            ,\n' +
+    '            uid:670504962,\n' +
+    '            name: "null",\n' +
+    '            face: "https://img.bosszhipin.com/boss/avatar/avatar_16.png",\n' +
+    '            token: "kP3iMtcLuhpbqmE8|0",\n' +
+    '            clientIP: "112.64.60.240",\n' +
+    '                ws: {\n' +
+    '                    useSSL: true,\n' +
+    '                    server: "ws.zhipin.com",\n' +
+    '                    port: 443\n' +
+    '                }\n' +
+    '    }\n' +
+    '</script>\n' +
+    '<div id="header">\n' +
+    '    <style>\n' +
+    '        #header .header-login-btn{ position: relative; }\n' +
+    '        #header .header-login-btn:hover .header-login-desc{ display: block; }\n' +
+    '        #header .header-login-btn:hover:after{\n' +
+    "            content: ' ';\n" +
+    '            position: absolute;\n' +
+    '            left: 0;\n' +
+    '            right: 0;\n' +
+    '            bottom: -12px;\n' +
+    '            height: 12px;\n' +
+    '            z-index: 1;\n' +
+    '            background: transparent;\n' +
+    '        }\n' +
+    '        #header .header-login-desc{\n' +
+    '            display: none;\n' +
+    '            position: absolute;\n' +
+    '            left: 50%;\n' +
+    '            top: 34px;\n' +
+    '            margin-left: -114px;\n' +
+    '            background: #FFFFFF;\n' +
+    '            box-shadow: 0px 16px 40px 0px rgba(153,153,153,0.3), 0px 2px 10px 0px rgba(0,0,0,0.08);\n' +
+    '            z-index: 2;\n' +
+    '            font-size: 14px;\n' +
+    '            text-align: left;\n' +
+    '            padding: 16px 18px;\n' +
+    '            border-radius: 8px;\n' +
+    '            box-sizing: border-box;\n' +
+    '            font-weight: normal;\n' +
+    '        }\n' +
+    '        #header .header-login-desc:before{\n' +
+    "            content: ' ';\n" +
+    '            position: absolute;\n' +
+    '            left: 50%;\n' +
+    '            margin-left: -4px;\n' +
+    '            top: -8px;\n' +
+    '            width: 0;\n' +
+    '            height: 0;\n' +
+    '            border-top: 4px solid transparent;\n' +
+    '            border-left: 4px solid transparent;\n' +
+    '            border-right: 4px solid transparent;\n' +
+    '            border-bottom: 4px solid #fff;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-title{\n' +
+    '            font-weight: 500;\n' +
+    '            color: #333333;\n' +
+    '            line-height: 20px;\n' +
+    '            display: block;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list{\n' +
+    '            margin-top: 4px;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list li{\n' +
+    '            margin: 8px 0 0 0;\n' +
+    '            display: block;\n' +
+    '            font-size: 13px;\n' +
+    '            color: #333333;\n' +
+    '            text-align: left;\n' +
+    '            height: 26px;\n' +
+    '            line-height: 26px;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list .login-desc-icon{\n' +
+    '            display: inline-block;\n' +
+    '            height: 26px;\n' +
+    '            width: 26px;\n' +
+    '            margin-right: 8px;\n' +
+    '            vertical-align: middle;\n' +
+    '            background: url(https://img.bosszhipin.com/static/file/2022/7rf2cut4bc1669274264900.png) 0 0 / 26px auto no-repeat;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list .login-desc-icon.desc-icon-chat{\n' +
+    '            background-position: 0 0;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list .login-desc-icon.desc-icon-match{\n' +
+    '            background-position: 0 -26px;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list .login-desc-icon.desc-icon-info{\n' +
+    '            background-position: 0 -52px;\n' +
+    '        }\n' +
+    '        #header .header-resume-new .header-resume-tip{\n' +
+    '            z-index: 2;\n' +
+    '            display: none;\n' +
+    '        }\n' +
+    '        #header .header-resume-new a:hover .header-resume-tip{\n' +
+    '            display: none;\n' +
+    '        }\n' +
+    '        #header .header-nav-group{\n' +
+    '            margin: 0 5px;\n' +
+    '            float: none;\n' +
+    '        }\n' +
+    '        #header .header-nav-group li{\n' +
+    '            margin: 0;\n' +
+    '            position: relative;\n' +
+    '        }\n' +
+    '        #header .header-nav-group .header-nav-dot{\n' +
+    '            display: inline-block;\n' +
+    '            width: 2px;\n' +
+    '            height: 2px;\n' +
+    '            border-radius: 100%;\n' +
+    '            background: #fff;\n' +
+    '            vertical-align: middle;\n' +
+    '        }\n' +
+    '        #header .user-nav .header-login-btn{\n' +
+    '            vertical-align: middle;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-tools{\n' +
+    '            display: inline-block;\n' +
+    '            vertical-align: middle;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-tools > a{\n' +
+    '            display: inline-block;\n' +
+    '            font-weight: 500;\n' +
+    '            color: #FFFFFF;\n' +
+    '            line-height: 20px;\n' +
+    '            height: auto;\n' +
+    '            padding: 3px 7px;\n' +
+    '            vertical-align: middle;\n' +
+    '            border-radius: 4px;\n' +
+    '            margin-right: 8px;\n' +
+    '            border: 1px solid transparent;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-tools > a:hover{\n' +
+    '            color: #fff;\n' +
+    '            background: rgba(255, 255, 255, 0.2);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-tools:hover .nav-resume-box{\n' +
+    '            display: block;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box{\n' +
+    '            display: none;\n' +
+    '            position: absolute;\n' +
+    '            top: 49px;\n' +
+    '            right: 0;\n' +
+    '            z-index: 1;\n' +
+    '            padding: 4px;\n' +
+    '            background: #FFFFFF;\n' +
+    '            box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.08);\n' +
+    '            border-radius: 8px;\n' +
+    '            border: 1px solid #EDEDED;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box ul{\n' +
+    '            overflow: hidden;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li{\n' +
+    '            display: block;\n' +
+    '            float: left;\n' +
+    '            text-align: center;\n' +
+    '            width: 120px;\n' +
+    '            margin: 4px;\n' +
+    '            border-radius: 8px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li a{\n' +
+    '            border: 1px solid transparent;\n' +
+    '            transition: all 0.2s linear;\n' +
+    '            border-radius: 8px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li:hover a{\n' +
+    '            border: 1px solid transparent;\n' +
+    '            border: 1px solid rgba(0,190,189,0.5);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li:hover span{\n' +
+    '            color: #00A6A7;\n' +
+    '        }\n' +
+    '        #header .user-nav .header-resume-new + .nav-resume-box .resume-box-update{\n' +
+    '            display: block;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box .resume-box-update{\n' +
+    '            display: none;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-boss{\n' +
+    '            background: linear-gradient(180deg, #CCDDFF 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-geek{\n' +
+    '            background: linear-gradient(180deg, #FFE4C2 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-geek a:before{\n' +
+    '            background-position: 0 -60px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-upload a:before{\n' +
+    '            background-position: 0 -120px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-update{\n' +
+    '            position: relative;\n' +
+    '            background: linear-gradient(180deg, #CCDDFF 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-update:after{\n' +
+    "            content: '解析成功';\n" +
+    '            position: absolute;\n' +
+    '            z-index: 1;\n' +
+    '            top: 0;\n' +
+    '            right: 0;\n' +
+    '            font-size: 12px;\n' +
+    '            background: rgba(0, 166, 167, 0.1);\n' +
+    '            display: inline-block;\n' +
+    '            padding: 2px 4px;\n' +
+    '            line-height: 16px;\n' +
+    '            background: #00BEBD;\n' +
+    '            border-radius: 0px 8px 0px 8px;\n' +
+    '            color: #fff;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-update a:before{\n' +
+    '            background-position: 0 -180px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-resume{\n' +
+    '            background: linear-gradient(180deg, #A6FFE7 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-resume a:before{\n' +
+    '            background-position: 0 -240px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-upload{\n' +
+    '            background: linear-gradient(180deg, #A4E5FF 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li a{\n' +
+    '            display: block;\n' +
+    '            padding: 20px 0 10px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li a:before{\n' +
+    "            content: ' ';\n" +
+    '            display: block;\n' +
+    '            margin: 0 auto;\n' +
+    '            width: 60px;\n' +
+    '            height: 60px;\n' +
+    '            background: url(https://img.bosszhipin.com/static/file/2023/d1mkjebr121695198610640.png) 0 0 / 60px auto no-repeat;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li span{\n' +
+    '            display: block;\n' +
+    '            font-size: 14px;\n' +
+    '            font-weight: 500;\n' +
+    '            color: #222222;\n' +
+    '            line-height: 20px;\n' +
+    '            margin-top: 12px;\n' +
+    '            transition: all 0.2s linear;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li p{\n' +
+    '            font-size: 12px;\n' +
+    '            color: #999999;\n' +
+    '            line-height: 17px;\n' +
+    '            margin-top: 4px;\n' +
+    '        }\n' +
+    '    </style>\n' +
+    '    <div class="inner home-inner">\n' +
+    '        <div class="logo">\n' +
+    '            <a href="https://www.zhipin.com/" ka="header-home-logo" title="BOSS直聘"><span>BOSS直聘</span></a>\n' +
+    '        </div>\n' +
+    '        <div class="nav">\n' +
+    '            <ul>\n' +
+    '                <li class=""><a ka="header-home" href="https://www.zhipin.com/shanghai/">首页</a></li>\n' +
+    '                <li class=""><a ka="header-job-recommend" href="https://www.zhipin.com/web/geek/job-recommend">推荐</a></li>\n' +
+    '                <ul class="header-nav-group">\n' +
+    '                    <li class=""><a ka="header-job" href="https://www.zhipin.com/job_detail/">搜索</a></li>\n' +
+    '                    <span class="header-nav-dot"></span>\n' +
+    '                    <li class=""><a ka="header_brand" href="https://www.zhipin.com/gongsi/">公司</a></li>\n' +
+    '                </ul>\n' +
+    '              '... 4092 more characters
+}
+[2024-08-06T21:26:12.887] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/resume/restrict/list.json
+[2024-08-06T21:26:12.887] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { restrictStatus: 0 } }
+[2024-08-06T21:26:13.004] [INFO] response - Response url:  https://img.bosszhipin.com/static/file/2022/slv5z2t59n1655432972265.json
+[2024-08-06T21:26:13.004] [INFO] response - Response:  {
+  v: '5.9.4',
+  fr: 24,
+  ip: 0,
+  op: 24,
+  w: 100,
+  h: 100,
+  nm: 'bumanyi',
+  ddd: 0,
+  assets: [
+    { id: 'comp_0', nm: '预合成 1', fr: 24, layers: [Array] },
+    { id: 'comp_1', nm: '预合成 2', fr: 24, layers: [Array] },
+    { id: 'comp_2', nm: '预合成 5', fr: 24, layers: [Array] },
+    { id: 'comp_3', nm: '预合成 6', fr: 24, layers: [Array] }
+  ],
+  layers: [
+    {
+      ddd: 0,
+      ind: 1,
+      ty: 0,
+      nm: '预合成 1',
+      refId: 'comp_0',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 0,
+      op: 120,
+      st: 0,
+      bm: 0
+    },
+    {
+      ddd: 0,
+      ind: 2,
+      ty: 4,
+      nm: '椭圆形',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      ef: [Array],
+      shapes: [Array],
+      ip: 0,
+      op: 120,
+      st: 0,
+      ct: 1,
+      bm: 0
+    },
+    {
+      ddd: 0,
+      ind: 3,
+      ty: 0,
+      nm: '预合成 5',
+      refId: 'comp_2',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 0,
+      op: 120,
+      st: 0,
+      bm: 0
+    },
+    {
+      ddd: 0,
+      ind: 4,
+      ty: 0,
+      nm: '预合成 6',
+      refId: 'comp_3',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 0,
+      op: 120,
+      st: 0,
+      bm: 0
+    }
+  ],
+  markers: []
+}
+[2024-08-06T21:26:13.066] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-06T21:26:13.066] [INFO] response - Response:  { c: 0, d: 1164 }
+[2024-08-06T21:26:13.067] [INFO] response - Response url:  https://img.bosszhipin.com/static/file/2022/coyoauheri1655433298743.json
+[2024-08-06T21:26:13.067] [INFO] response - Response:  {
+  v: '5.9.4',
+  fr: 24,
+  ip: 0,
+  op: 25,
+  w: 100,
+  h: 100,
+  nm: 'manyi',
+  ddd: 0,
+  assets: [
+    { id: 'comp_0', nm: '▽ 编组', fr: 60, layers: [Array] },
+    { id: 'comp_1', nm: '▽ 编组 29备份 8', fr: 24, layers: [Array] },
+    { id: 'comp_2', nm: '▽ 编组 33', fr: 24, layers: [Array] },
+    { id: 'comp_3', nm: '▽ 椭圆形 2', fr: 24, layers: [Array] }
+  ],
+  layers: [
+    {
+      ddd: 0,
+      ind: 1,
+      ty: 0,
+      nm: '▽ 编组',
+      refId: 'comp_0',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 7,
+      op: 18,
+      st: 7,
+      bm: 0
+    },
+    {
+      ddd: 0,
+      ind: 2,
+      ty: 0,
+      nm: '▽ 编组',
+      refId: 'comp_0',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 13,
+      op: 24,
+      st: 13,
+      bm: 0
+    },
+    {
+      ddd: 0,
+      ind: 3,
+      ty: 0,
+      nm: '▽ 编组',
+      refId: 'comp_0',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 0,
+      op: 11,
+      st: 0,
+      bm: 0
+    },
+    {
+      ddd: 0,
+      ind: 4,
+      ty: 0,
+      nm: '▽ 编组 29备份 8',
+      refId: 'comp_1',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 13,
+      op: 26,
+      st: 13,
+      ct: 1,
+      bm: 0
+    },
+    {
+      ddd: 0,
+      ind: 5,
+      ty: 0,
+      nm: '▽ 编组 29备份 8',
+      refId: 'comp_1',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 0,
+      op: 13,
+      st: 0,
+      ct: 1,
+      bm: 0
+    },
+    {
+      ddd: 0,
+      ind: 6,
+      ty: 0,
+      nm: '▽ 编组',
+      refId: 'comp_0',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 3,
+      op: 14,
+      st: 3,
+      bm: 0
+    }
+  ],
+  markers: []
+}
+[2024-08-06T21:26:13.067] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/get/wt
+[2024-08-06T21:26:13.067] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    wt2: 'DpAbvQkaUWFJHSmZCNh77mGnIINpY-0eEh8RHsW6j4b-1x2kfAQAuch-qEN4J3i0_MopGE1xO6Co4HB8szVTmVQ~~'
+  }
+}
+[2024-08-06T21:26:13.068] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/common/data/friendlylinks.json?uri=%2Fweb%2Fgeek%2Fjob
+[2024-08-06T21:26:13.068] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { uri: '/web/geek/job', links: [] }
+}
+[2024-08-06T21:26:13.068] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/job/sidebar.json
+[2024-08-06T21:26:13.068] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    staticPath: 'https://static.zhipin.com/zhipin-geek-seo/v5142',
+    isonline: true,
+    hasAttachmentResume: false,
+    showResumeExportBtn: true,
+    salaryreporturi: '',
+    geekLogin: true,
+    geekComplete: true
+  }
+}
+[2024-08-06T21:26:13.068] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/job/condition.json
+[2024-08-06T21:26:13.068] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    payTypeList: [ [Object], [Object], [Object], [Object], [Object] ],
+    experienceList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    salaryList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    stageList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    scaleList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    partTimeList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    degreeList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    jobTypeList: [ [Object], [Object], [Object] ]
+  }
+}
+[2024-08-06T21:26:13.069] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpitem/geek/vip/info
+[2024-08-06T21:26:13.069] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    geekVipInfo: {
+      vipStatus: 0,
+      endDate: null,
+      encryptPriceId: '78dfe43804a47d8a1nc~',
+      vipTitle: null,
+      jumpUrl: null,
+      buttonText: null,
+      vipDesc: null,
+      buttonUrl: null,
+      bzbTime: null,
+      appStoreUrl: null,
+      showVipType: 0,
+      tag: null,
+      privilegeCount: 8,
+      renewVipType: 0,
+      encryptBagId: null,
+      popWindowInfo: null,
+      newPurchaseGray: 1
+    }
+  }
+}
+[2024-08-06T21:26:13.070] [INFO] response - Response url:  https://img.bosszhipin.com/static/file/2022/yq4s2zwazm1655433298817.json
+[2024-08-06T21:26:13.070] [INFO] response - Response:  {
+  v: '5.9.4',
+  fr: 24,
+  ip: 0,
+  op: 24,
+  w: 100,
+  h: 100,
+  nm: 'yiban',
+  ddd: 0,
+  assets: [
+    { id: 'comp_0', nm: '预合成 4', fr: 24, layers: [Array] },
+    { id: 'comp_1', nm: '预合成 3', fr: 24, layers: [Array] }
+  ],
+  layers: [
+    {
+      ddd: 0,
+      ind: 1,
+      ty: 0,
+      nm: '预合成 4',
+      refId: 'comp_0',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 0,
+      op: 24,
+      st: 0,
+      bm: 0
+    },
+    {
+      ddd: 0,
+      ind: 2,
+      ty: 4,
+      nm: '椭圆形',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      ef: [Array],
+      shapes: [Array],
+      ip: 0,
+      op: 120,
+      st: 0,
+      ct: 1,
+      bm: 0
+    }
+  ],
+  markers: []
+}
+[2024-08-06T21:26:13.071] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/job/subinfo.json?query=webgl%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91&city=101020100&experience=&payType=&partTime=&degree=&industry=&scale=&stage=&position=&jobType=&salary=&multiBusinessDistrict=&multiSubway=&page=1
+[2024-08-06T21:26:13.071] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    jobSubscribeMsg: '【上海/webgl前端开...】',
+    jobSubscribeFilter: '{"city":{"desc":"上海","value":"101020100"},"filterMsg":"【上海/webgl前端开...】","otherMsg":"上海","query":"webgl前端开发","queryMsg":"webgl前端开发"}',
+    query: 'webgl前端开发',
+    showFilter: '上海',
+    showJobSubscribe: true,
+    sceneString: '662d2d04e5f54a4c8cd89245620676b7'
+  }
+}
+[2024-08-06T21:26:13.074] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/data/cityGroup.json
+[2024-08-06T21:26:13.074] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    cityGroup: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    hotCityList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    locationCity: {
+      code: 101020100,
+      name: '上海',
+      tip: null,
+      subLevelModelList: null,
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: '021',
+      regionCode: 0,
+      value: null
+    }
+  }
+}
+[2024-08-06T21:26:13.075] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/job/tdk.json?city=101020100&experience=&payType=&partTime=&degree=&industry=&scale=&stage=&position=&jobType=&salary=&multiBusinessDistrict=&multiSubway=
+[2024-08-06T21:26:13.075] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    description: 'BOSS直聘为求职者提供2024年上海招聘信息，百万Boss在线直聘，直接开聊，在线面试，找工作就上BOSS直聘网站或APP，直接与Boss开聊吧！',
+    title: '「上海招聘」-2024年上海人才招聘信息 - BOSS直聘',
+    keywords: '上海招聘,上海人才网,上海招聘网'
+  }
+}
+[2024-08-06T21:26:13.075] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/job/related/word.json?query=webgl%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91
+[2024-08-06T21:26:13.075] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { relatedSearchWordList: [] } }
+[2024-08-06T21:26:13.076] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/data/industryFilterExemption
+[2024-08-06T21:26:13.076] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: [
+    {
+      code: 100000,
+      name: '互联网/AI',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101400,
+      name: '电子/通信/半导体',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101100,
+      name: '服务业',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101000,
+      name: '消费品/批发/零售',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100700,
+      name: '房地产/建筑',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100300,
+      name: '教育培训',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100100,
+      name: '广告/传媒/文化/体育',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100900,
+      name: '制造业',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100600,
+      name: '专业服务',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100400,
+      name: '制药/医疗',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100800,
+      name: '汽车',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100500,
+      name: '交通运输/物流',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101200,
+      name: '能源/化工/环保',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100200,
+      name: '金融',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101300,
+      name: '政府/非盈利机构/其他',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    }
+  ]
+}
+[2024-08-06T21:26:13.078] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/businessDistrict.json?cityCode=101020100
+[2024-08-06T21:26:13.078] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    businessDistrict: { code: 101020100, name: '上海', subLevelModelList: [Array] }
+  }
+}
+[2024-08-06T21:26:13.083] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/data/getSubwayByCity?cityCode=101020100
+[2024-08-06T21:26:13.083] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    subwayList: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object]
+    ]
+  }
+}
+[2024-08-06T21:26:13.097] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition
+[2024-08-06T21:26:13.097] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    position: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  }
+}
+[2024-08-06T21:26:13.098] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-06T21:26:13.098] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { showType: 0, parserId: null, resumeName: null, target: 0 }
+}
+[2024-08-06T21:26:13.098] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-06T21:26:13.098] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { showTip: false } }
+[2024-08-06T21:26:13.098] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-06T21:26:13.098] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    whetherPopUp: false,
+    title: null,
+    subTitle: null,
+    imgUrl: null,
+    url: null,
+    type: 0
+  }
+}
+[2024-08-06T21:26:13.099] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-06T21:26:13.099] [INFO] response - Response:  { code: 0, message: 'Success', zpData: {} }
+[2024-08-06T21:26:13.101] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-06T21:26:13.101] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    otherCitySites: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    siteGroup: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    hotCitySites: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    siteList: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  }
+}
+[2024-08-06T21:26:13.422] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-06T21:26:13.422] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { userType: 0, cid: '172295064021516744' }
+}
+[2024-08-06T21:26:13.473] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/joblist.json?scene=1&query=webgl%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91&city=101020100&experience=&payType=&partTime=&degree=&industry=&scale=&stage=&position=&jobType=&salary=&multiBusinessDistrict=&multiSubway=&page=1&pageSize=30
+[2024-08-06T21:26:13.473] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    resCount: 450,
+    filterString: '',
+    lid: '5YyCdsmfitO',
+    hasMore: true,
+    jobList: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object]
+    ],
+    totalCount: 300,
+    brandCard: null
+  }
+}
+[2024-08-06T21:26:13.476] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpitem/geek/vip/info?
+[2024-08-06T21:26:13.476] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    geekVipInfo: {
+      vipStatus: 0,
+      endDate: null,
+      encryptPriceId: '78dfe43804a47d8a1nc~',
+      vipTitle: null,
+      jumpUrl: null,
+      buttonText: null,
+      vipDesc: null,
+      buttonUrl: null,
+      bzbTime: null,
+      appStoreUrl: null,
+      showVipType: 0,
+      tag: null,
+      privilegeCount: 8,
+      renewVipType: 0,
+      encryptBagId: null,
+      popWindowInfo: null,
+      newPurchaseGray: 1
+    }
+  }
+}
+[2024-08-06T21:26:13.476] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpwukong/web/employer/task/showGeekEntry?
+[2024-08-06T21:26:13.476] [INFO] response - Response:  { code: 0, message: 'Success', zpData: false }
+[2024-08-06T21:26:13.477] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-06T21:26:13.477] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { show: false, url: '' } }
+[2024-08-06T21:26:13.477] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/h5/account/getStatus?
+[2024-08-06T21:26:13.477] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    bindWeiXin: false,
+    deviceSecurity: true,
+    securityProblem: false,
+    bindEmail: false,
+    changeWeixin: true
+  }
+}
+[2024-08-06T21:26:13.477] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpApm/actionLog/fe/ie/common.json
+[2024-08-06T21:26:13.477] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-06T21:26:13.497] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/job/seo/data.json?city=101020100&position=&industry=&multiBusinessDistrict=&jobCity=101020100
+[2024-08-06T21:26:13.497] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    breadSites: [ [Object], [Object] ],
+    seoData: {
+      hotJobs: [Array],
+      hotCities: [Array],
+      nearbyCities: [Array],
+      hotBrands: [Array]
+    }
+  }
+}
+[2024-08-06T21:26:13.587] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/job/subscribe/qr.json
+[2024-08-06T21:26:13.587] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: 'http://weixin.qq.com/q/02eusAkMUhapP1zdCONC1z'
+}
+[2024-08-06T21:26:14.240] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-06T21:26:14.240] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-06T21:26:17.912] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/job/card.json?securityId=uZkN54AymjRHO-H1CCX7WADiuQlyzQRJw1x13SxT49C3J9e947rVGlfzNzL3W4w7oORfq6Zny1k8XdFq1lAxEqklxUC_S4k6GGJeekz9_OAdn65a7l3Vu9WK9sW8Jx7E43-NM-v71uMovLKyKU5dZTQ2FT_ZHJDksnnyMaDZORFakG5S&lid=5YyCdsmfitO.search.1&sessionId=
+[2024-08-06T21:26:17.912] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    jobCard: {
+      jobName: '初中级前端开发工程师',
+      postDescription: '- 理解 JavaScript 的各项特性，掌握css 的多种布局方法，熟练使用常见css 方案\n' +
+        '- 熟练掌握基础数据结构\n' +
+        '- 理解 HTTP 网络协议\n' +
+        '- 熟练掌握前端debug工具\n' +
+        '-  熟练使用vue 或者react 任意框架',
+      encryptJobId: 'd0aa0f15d4513eda1HN43t25E1VQ',
+      atsDirectPost: false,
+      atsProxyJob: false,
+      salaryDesc: '15-30K',
+      cityName: '上海',
+      experienceName: '经验不限',
+      degreeName: '本科',
+      jobLabels: [Array],
+      address: '上海虹口区瑞虹天地太阳宫瑞虹天地T2F23CONSTRUCT',
+      lid: '5YyCdsmfitO.search.1',
+      sessionId: '',
+      securityId: 'PRqSNp3Jcepd2-q1nKFRbfJPZDZoi8CQ75XWnZjfm097CKspATRFP82tIwCLoXXBEs0uM4w~',
+      encryptUserId: 'c8d398903fce865d1HZ409m0GFc~',
+      bossName: '葛先生',
+      bossTitle: '人事专员',
+      bossAvatar: 'https://img.bosszhipin.com/boss/avatar/avatar_14.png',
+      online: true,
+      certificated: true,
+      activeTimeDesc: '刚刚活跃',
+      brandName: '肯斯爪特',
+      canAddFriend: true,
+      friendStatus: 0,
+      isInterested: 0,
+      login: true
+    }
+  }
+}
+[2024-08-06T21:26:38.590] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/actionLog/common.json
+[2024-08-06T21:26:38.590] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-06T21:26:44.382] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/job/card.json?securityId=xQQkPPqHysrqD-m1Lp1eYT5hGDOOcjBd1iiPWtuSoDL66UUx6LCZlDzbGhniMTdUZY5TzD9pZlx_QHgxARl9T6TNhvsDWXv5gm91Lnn2-kaeZx9nUn2qxfzqSj-6NU_pLhaJGqIajdGGeQ~~&lid=5YyCdsmfitO.search.3&sessionId=
+[2024-08-06T21:26:44.382] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    jobCard: {
+      jobName: '前端开发工程师(J10165)',
+      postDescription: '工作职责:\n' +
+        '1.根据工作安排高效、高质地完成代码编写，确保符合规范的前端代码规范；\n' +
+        '2.负责公司现有项目和新项目的前端修改调试和开发工作；\n' +
+        '3.与设计团队紧密配合，能够实现设计师的设计想法；\n' +
+        '4.与后端开发团队紧密配合，确保代码有效对接，优化网站前端性能；\n' +
+        '5.负责不同平台的兼容性调试，包括主流PC浏览器及手机浏览器的兼容；\n' +
+        '6.负责整体web前端用户体验及改进工作；\n' +
+        '7.负责前端编码技术规范制定及文档撰写。\n' +
+        '任职资格:\n' +
+        '任职资格\n' +
+        '1.本科以上学历；\n' +
+        '2.计算机相关专业；\n' +
+        '3.理解Web标准，关注前端技术发展动向；\n' +
+        '4.有HTML、CSS、JavaScript基础；\n' +
+        '6.热爱开源技术，参与过开源项目加分；',
+      encryptJobId: '2c1d46e9432fb5541HV729q5EFRQ',
+      atsDirectPost: false,
+      atsProxyJob: false,
+      salaryDesc: '15-20K·17薪',
+      cityName: '上海',
+      experienceName: '1-3年',
+      degreeName: '学历不限',
+      jobLabels: [Array],
+      address: '上海闵行区上海柏楚电子科技股份有限公司兰香湖南路1000号',
+      lid: '5YyCdsmfitO.search.3',
+      sessionId: '',
+      securityId: 'MMu0qy-voUtTD-J1oHhRCRwpKIFjsQx8VamA-HsNkDx1WiygnuV43HKqXWzbxvyPigAKrVrV',
+      encryptUserId: 'c550a0d49c716fa70nd70tS0EVdQ',
+      bossName: '郑女士',
+      bossTitle: 'HR',
+      bossAvatar: 'https://img.bosszhipin.com/beijin/upload/avatar/20210821/607f1f3d68754fd03225364e443384d408793550a9836a3965aa03e0f0f5cb9f5b61963076800e6c_s.jpg',
+      online: false,
+      certificated: true,
+      activeTimeDesc: '今日活跃',
+      brandName: '上海柏楚',
+      canAddFriend: true,
+      friendStatus: 0,
+      isInterested: 0,
+      login: true
+    }
+  }
+}
+[2024-08-06T21:27:09.003] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/job/card.json?securityId=it-Hpq1mAbdJ7-E1Vy6W8nwgrRQRWgT9RdTXNMDxN0eifBZaxlEtITL1huA29WEh2J-dKDYFCJNuXfuZjYSG9BOaU_TvkhbOjI6Nt1BbvyEJ5LksBjGLXM9Z48gK34wZNPthyAYLDixc4g~~&lid=5YyCdsmfitO.search.4&sessionId=
+[2024-08-06T21:27:09.003] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    jobCard: {
+      jobName: '前端开发工程师',
+      postDescription: '1.本科及以上学历优先考虑，计算机相关专业优先考虑。\n' +
+        '2.丰富的前端开发经验，熟练掌握HTML、CSS、JavaScript等前端相关技术。\n' +
+        '3.熟悉并具备使用常见的前端开发框架和工具，如Vue.js、React、Webpack等。\n' +
+        '4.对前端性能优化和用户体验有深入的理解和实践经验。\n' +
+        '5.具备良好的沟通能力和团队协作能力，能够与其他团队成员进行有效的技术交流和合作。\n' +
+        '6.具备独立解决问题的能力，具备较强的学习能力和自我驱动能力。\n' +
+        '7.对新技术有强烈的学习兴趣和追求，能够持续关注前端领域的发展和变化。',
+      encryptJobId: '2e6536eea2969ab01HN42tW_GVZZ',
+      atsDirectPost: false,
+      atsProxyJob: false,
+      salaryDesc: '12-18K',
+      cityName: '上海',
+      experienceName: '1-3年',
+      degreeName: '大专',
+      jobLabels: [Array],
+      address: '上海杨浦区互联·宝地1楼',
+      lid: '5YyCdsmfitO.search.4',
+      sessionId: '',
+      securityId: 'OyKlLtZf6772o-W1t2uJnWpsN0y5C7jl7TdCRPdoKUpNdzT8h87rwBO50UAVvyH8a4vk9Otp',
+      encryptUserId: '567bca4e5456898e0nN62924ElBX',
+      bossName: '钱开来',
+      bossTitle: 'HR主管',
+      bossAvatar: 'https://img.bosszhipin.com/beijin/upload/avatar/20231103/607f1f3d68754fd05fb0d013fdc46d47096755ad6125c0b107b56d4ffa76a4f8923bf88fedf381d0_s.jpg.webp',
+      online: false,
+      certificated: true,
+      activeTimeDesc: '刚刚活跃',
+      brandName: '北京外企德科人力...',
+      canAddFriend: true,
+      friendStatus: 0,
+      isInterested: 0,
+      login: true
+    }
+  }
+}
+[2024-08-06T21:27:21.073] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/job/card.json?securityId=T695dbFtmnCox-n1BhHrr3mUGqz0T24A7Xs_mDBl_fUTWsIZ_llhnNXB51rBJAqAqtAvWhfpbiptBHb21Sm7yL80ztO_FdRntosymjLD-Sr7MS-a1O1HhYL1XVpdfhxXerxH1HJESDGc0w~~&lid=5YyCdsmfitO.search.6&sessionId=
+[2024-08-06T21:27:21.073] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    jobCard: {
+      jobName: 'webgl开发工程师',
+      postDescription: '我们在寻找并肩战斗的小伙伴，我们需要你：\n' +
+        '1、负责高校智慧校园、智慧实验室、智慧楼宇前端开发；\n' +
+        '2、持续改进并优化产品，提高用户体验及性能。 \n' +
+        '\n' +
+        '我们希望你：\n' +
+        '1、乐观开朗，学习能力强，具有互联网创新精神，良好的审美及代码洁癖；\n' +
+        '2、极强的责任心，追求完美的习惯，刨根问底的精神；\n' +
+        '3、具有高等教育行业互联网产品开发经验，有相关智慧城市、智慧园区、智慧校园相关工作经历。\n' +
+        '\n' +
+        '技术上：\n' +
+        '1、精通Vue、ElementUI、Less等前端技术框架，熟悉组件化开发;\n' +
+        '2、精通webgl，threejs，cesium三维前端可视化开发；\n' +
+        '3、有H5和小程序、Uni-app开发经验，熟悉一些后端开发语言和框架.\n' +
+        ' \n' +
+        '本岗位有学历和专业要求，不符合条件者请勿扰！！！\n' +
+        '1、全日制本科及以上学历； \n' +
+        '2、计算机相关专业。\n' +
+        '\n' +
+        '岗位急需，面试合格后需一周内到岗， 具有高校信息系统开发经验者优先！\n' +
+        '\n' +
+        '你将加入这样一个团队：\n' +
+        '追求自由、平等，提倡简单、透明和分享！\n' +
+        '对新事物充满好奇，对技术充满热情！\n' +
+        '快来加入我们体验吧！',
+      encryptJobId: '10ff823da29d74ba1HJ73tq6ElZZ',
+      atsDirectPost: false,
+      atsProxyJob: false,
+      salaryDesc: '12-13K',
+      cityName: '上海',
+      experienceName: '1-3年',
+      degreeName: '本科',
+      jobLabels: [Array],
+      address: '上海徐汇区上海数娱大厦(东南门)501-502室',
+      lid: '5YyCdsmfitO.search.6',
+      sessionId: '',
+      securityId: 'wOlkp2ishJmOm-z1INd2kqi9dXgtTaymZXywL8HL6VJSIpbzLs-tokDdt6HbwzwxueNIFanu',
+      encryptUserId: '364be059fc9ddb011nVz3Nu_FlpU',
+      bossName: '刘先生',
+      bossTitle: '招聘者',
+      bossAvatar: 'https://img.bosszhipin.com/boss/avatar/avatar_7.png',
+      online: false,
+      certificated: true,
+      activeTimeDesc: '3日内活跃',
+      brandName: '艾拉网',
+      canAddFriend: true,
+      friendStatus: 0,
+      isInterested: 0,
+      login: true
+    }
+  }
+}

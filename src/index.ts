@@ -1,16 +1,18 @@
 /*
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-07-31 00:09:32
- * @LastEditors: wuyifan wuyifan@max-optics.com
- * @LastEditTime: 2024-08-06 17:59:40
+ * @LastEditors: wuyifan 1208097313@qq.com
+ * @LastEditTime: 2024-08-07 01:26:07
  * @FilePath: /Auto-delivery-helper/src/index.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 
 import { launch } from 'puppeteer';
 import type { Page, Browser } from 'puppeteer';
-import url from 'url';
+import util from 'util';
 import { logger, errorLogger, requestLogger, responseLogger } from './log4js'
+import { actionMap } from './actionMap';
+import { URL } from './url';
 
 let browser: undefined | Browser;
 
@@ -37,11 +39,12 @@ async function main() {
 
     const baiduUrl = 'https://www.baidu.com/';
 
+
     preparePage(page)
-    await page.goto(baiduUrl, { waitUntil: 'networkidle2' });
+    await page.goto(url, { waitUntil: 'networkidle2' });
     await page.evaluate(() => {
         const mask = document.createElement('div');
-        mask.style.position = 'fixed';
+        mask.style.position = 'none';
         mask.style.top = '0';
         mask.style.left = '0';
         mask.style.width = '100%';
@@ -81,10 +84,20 @@ async function preparePage(page: Page) {
         try {
             if (response.status() === 200 || response.status() === 304) {
                 const body = await response.json();
-                responseLogger.info('Response url: ', response.url());
-                responseLogger.debug('Response: ', body);
+                const url = response.url();
+                responseLogger.info('Response url: ', url);
+                responseLogger.info('Response: ', body);
+                console.log(`Response url: ${url}`);
+                
+                const func = actionMap[url as URL];
+                if(func){
+                    await func(body,page);
+                }
+         
             }
-        } catch { }
+        } catch {
+            errorLogger.error('Response error: ', response.url());
+        }
     })
 
     page.on('request', request => {
