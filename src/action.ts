@@ -1,8 +1,8 @@
 /*
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-08-06 00:23:30
- * @LastEditors: wuyifan 1208097313@qq.com
- * @LastEditTime: 2024-08-07 01:18:42
+ * @LastEditors: wuyifan wuyifan@max-optics.com
+ * @LastEditTime: 2024-08-12 18:02:19
  * @FilePath: /Auto-delivery-helper/src/action.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
@@ -43,12 +43,21 @@ const action = {
             const targetElement = await page.$('body > div.dialog-wrap.dialog-account-safe > div.dialog-container > div.dialog-title > a:nth-child(2)');
             targetElement && await targetElement.click();
             logger.info('close guide');
-        }else{
+        } else {
             logger.info('don`t need close guide');
         }
-    
+
+    },
+    async getJobDetail({ zpData }: RequestBody, page: Page) {
+        if (!state.isLogin) return
+        const { jobInfo, bossInfo, brandComInfo } = zpData;
+
+        const { location, postDescription, showSkills } = jobInfo;
+        const { activeTimeDesc } = bossInfo;
+        
+
     }
 }
 
 
-export { action, state };
+export { action, state, RequestBody };
