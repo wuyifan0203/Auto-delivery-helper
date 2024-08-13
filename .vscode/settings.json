@@ -22,5 +22,6 @@
   "cSpell.words": [
     "Appender",
     "appenders"
-  ]
+  ],
+  "Codegeex.CompletionDelay": 0.4
 }

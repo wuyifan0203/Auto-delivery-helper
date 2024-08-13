@@ -1,0 +1,3646 @@
+[2024-08-12T22:54:29.693] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-12T22:54:29.693] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    result: {
+      appKey: 'ObsSRskiryhn60pf',
+      bucketSize: 10,
+      timeSlice: 10,
+      reportPeriod: 10,
+      metricsSwitch: false,
+      pathBlacklist: [],
+      hostBlacklist: []
+    }
+  }
+}
+[2024-08-12T22:54:29.709] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-12T22:54:29.709] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-12T22:54:29.973] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-12T22:54:29.973] [INFO] response - Response:  { c: 0, d: 724 }
+[2024-08-12T22:54:30.061] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-12T22:54:30.061] [INFO] response - Response:  { code: 7, message: '当前登录状态已失效', zpData: {} }
+[2024-08-12T22:54:30.089] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-12T22:54:30.089] [INFO] response - Response:  { c: 0, d: 724 }
+[2024-08-12T22:54:33.080] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-12T22:54:33.080] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-12T22:54:33.080] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-12T22:54:33.080] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-12T22:54:33.724] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/captcha/randkey
+[2024-08-12T22:54:33.724] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    qrId: 'bosszp-3d2c6d76-d738-4b3a-bfb8-c964d3f540af',
+    randKey: 'sjgV6Vjix2peLkadVMrk3a8MU3guFauB',
+    secretKey: 'B0XZlcSW',
+    shortRandKey: 'bosszp-lARNKtCP7HNu4n2o'
+  }
+}
+[2024-08-12T22:54:58.246] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/qrcode/scan?uuid=bosszp-3d2c6d76-d738-4b3a-bfb8-c964d3f540af
+[2024-08-12T22:54:58.246] [INFO] response - Response:  { msg: 'timeout', scaned: false }
+[2024-08-12T22:55:10.353] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/captcha/randkey
+[2024-08-12T22:55:10.353] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    qrId: 'bosszp-9a93c23a-7972-44a6-879e-0f7e648c9760',
+    randKey: 'mYNsKxcGCTvueCY0MRQ2mMDZMe7jupL4',
+    secretKey: 'ldkPWY6Y',
+    shortRandKey: 'bosszp-2ZHYhYSJ50DUWJti'
+  }
+}
+[2024-08-12T22:55:10.718] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/qrcode/scan?uuid=bosszp-9a93c23a-7972-44a6-879e-0f7e648c9760
+[2024-08-12T22:55:10.718] [INFO] response - Response:  { scaned: true, allweb: true, newScaned: true, scanedV2: true }
+[2024-08-12T22:55:10.833] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/captcha/getSecondKey?uuid=bosszp-9a93c23a-7972-44a6-879e-0f7e648c9760
+[2024-08-12T22:55:10.833] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { qrId: 'bosszp-2cfa4380-ec52-4b12-bbd6-380b01ee3e89' }
+}
+[2024-08-12T22:55:11.102] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/qrcode/scanSecond?uuid=bosszp-2cfa4380-ec52-4b12-bbd6-380b01ee3e89
+[2024-08-12T22:55:11.102] [INFO] response - Response:  { scaned: true, allweb: true }
+[2024-08-12T22:55:11.553] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/qrcode/getHeadImg?qrId=bosszp-9a93c23a-7972-44a6-879e-0f7e648c9760
+[2024-08-12T22:55:11.553] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    wxMp: false,
+    headImg: 16,
+    large: 'https://img.bosszhipin.com/boss/avatar/avatar_16.png',
+    tiny: 'https://img.bosszhipin.com/boss/avatar/avatar_16.png'
+  }
+}
+[2024-08-12T22:55:12.925] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/qrcode/scanLogin?qrId=bosszp-9a93c23a-7972-44a6-879e-0f7e648c9760
+[2024-08-12T22:55:12.925] [INFO] response - Response:  { scaned: true, newScaned: true, login: true }
+[2024-08-12T22:55:14.031] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-12T22:55:14.031] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    result: {
+      appKey: 'ObsSRskiryhn60pf',
+      bucketSize: 10,
+      timeSlice: 10,
+      reportPeriod: 10,
+      metricsSwitch: false,
+      pathBlacklist: [],
+      hostBlacklist: []
+    }
+  }
+}
+[2024-08-12T22:55:14.342] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-12T22:55:14.342] [INFO] response - Response:  { c: 0, d: 767 }
+[2024-08-12T22:55:14.583] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-12T22:55:14.583] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-12T22:55:14.586] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/group/gravityGroupInfoList?page=1&scene=0
+[2024-08-12T22:55:14.586] [INFO] response - Response:  { code: 0, message: 'Success', zpData: [] }
+[2024-08-12T22:55:14.587] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/config/get
+[2024-08-12T22:55:14.587] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { unreadBubble: true } }
+[2024-08-12T22:55:14.587] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpitem/web/item/config/get
+[2024-08-12T22:55:14.588] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    recruit: 0,
+    hunter: false,
+    hunterAdvanceGray: false,
+    searchChatHunter: 0,
+    onlineRemind: 2,
+    resumeRefresh: 2,
+    resumeRefreshImprove: 1,
+    resumeTemplateGary: 1,
+    resumeTemplatePurchaseGary: 0,
+    pcAdvanceSearchStyleGray: 1,
+    anonymousGeekInfoGray: 1,
+    pcAdvanceCitySearchGray: 1,
+    advanceSearchStyleGray: 0,
+    advanceSearchStyleGrayV2: 0,
+    advanceSearchStyleGrayV3: 0,
+    offlineUseGray: 0,
+    refinedSelected: 0,
+    detailPageStyleGray: 0,
+    resumeRefreshResultNewStyle: 1,
+    hunterSearchAvailable: 0,
+    hunterSearchTrail: 0,
+    geekTreeAvailable: 0,
+    itemOffLineIntroduceH5Style: 0,
+    pcSearchSubscribeStyleGray: 0,
+    pcSearchSubscribeDefaultGray: 0,
+    pcDirectCallGray: 0,
+    searchViewedStyleGray: 0,
+    sameCompanyGeekGray: 0,
+    itemInviteResultStyle: 0,
+    itemInviteResultStyleV2: 0,
+    hunterServiceGray: 0,
+    hunterServiceGrayV2: 0,
+    searchChatCardJobListDefaultGray: 0,
+    exposureCardShowName: null,
+    relatedGeekOptimizeGray: 0,
+    guideViewRelatedGeekGray: 0,
+    jobExposureDetailStyleGray: 0,
+    availableCallOptimizeGray: 0,
+    searchCardDefaultJob: null,
+    searchEasyChatGray: 0
+  }
+}
+[2024-08-12T22:55:14.590] [INFO] response - Response url:  https://www.zhipin.com/wapi/zprelation/friend/geekFilterByLabel?labelId=0
+[2024-08-12T22:55:14.590] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    foldText: '以上是30天内联系人',
+    filterEncryptIdList: [],
+    friendList: [],
+    filterBossIdList: []
+  }
+}
+[2024-08-12T22:55:14.671] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-12T22:55:14.671] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    userId: 670504962,
+    identity: 0,
+    encryptUserId: '06cbd975ad1277930XN63t25GVRS',
+    name: 'null',
+    showName: 'null',
+    tinyAvatar: 'https://img.bosszhipin.com/boss/avatar/avatar_16.png',
+    largeAvatar: 'https://img.bosszhipin.com/boss/avatar/avatar_16.png',
+    token: 'kP3iMtcLuhpbqmE8',
+    isHunter: false,
+    clientIP: '112.64.60.240',
+    email: null,
+    phone: null,
+    brandName: null,
+    doubleIdentity: false,
+    recruit: false,
+    agentRecruit: false,
+    industryCostTag: 0,
+    gender: 0,
+    trueMan: false,
+    studentFlag: true,
+    completeDayStatus: false,
+    complete: true,
+    multiExpect: false,
+    encryptComId: null
+  }
+}
+[2024-08-12T22:55:14.674] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/notify/setting/get
+[2024-08-12T22:55:14.674] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    userNotifySettingList: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ]
+  }
+}
+[2024-08-12T22:55:14.677] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/group/groupInfoList
+[2024-08-12T22:55:14.677] [INFO] response - Response:  { code: 0, message: 'Success', zpData: [] }
+[2024-08-12T22:55:14.678] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/group/gravityGroupInfoList?page=1&scene=0
+[2024-08-12T22:55:14.678] [INFO] response - Response:  { code: 0, message: 'Success', zpData: [] }
+[2024-08-12T22:55:14.678] [INFO] response - Response url:  https://www.zhipin.com/wapi/zprelation/friend/geekFilterByLabel?labelId=-1
+[2024-08-12T22:55:14.678] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { foldText: '以上是30天内联系人', friendList: [] }
+}
+[2024-08-12T22:55:14.740] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/common/data/header.json
+[2024-08-12T22:55:14.740] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: '<script>\n' +
+    "    var staticPath = 'https://static.zhipin.com/v2';\n" +
+    '    _PAGE = {\n' +
+    '        checkMobileUrl: "/registe/sendSms.json",\n' +
+    '        regMobileUrl: "/registe/save.json",\n' +
+    '        loginMobileUrl: "/login/phone.json",\n' +
+    '        loginAccountUrl: "/login/account.json",\n' +
+    '        getRandomKeyUrl: "/captcha/randkey.json",\n' +
+    '        verifyImgUrl: "/captcha/?randomKey={randomKey}",\n' +
+    '        getPositionUrl: "/user/position.json",\n' +
+    '        homeRedirectUrl: "",\n' +
+    '        citySiteName:"上海站",\n' +
+    '        citySiteCode:"101020100",\n' +
+    '        skillsUrl: "/common/data/positionSkill"\n' +
+    '            ,\n' +
+    '            uid:670504962,\n' +
+    '            name: "null",\n' +
+    '            face: "https://img.bosszhipin.com/boss/avatar/avatar_16.png",\n' +
+    '            token: "kP3iMtcLuhpbqmE8|0",\n' +
+    '            clientIP: "112.64.60.240",\n' +
+    '                ws: {\n' +
+    '                    useSSL: true,\n' +
+    '                    server: "ws.zhipin.com",\n' +
+    '                    port: 443\n' +
+    '                }\n' +
+    '    }\n' +
+    '</script>\n' +
+    '<div id="header">\n' +
+    '    <style>\n' +
+    '        #header .header-login-btn{ position: relative; }\n' +
+    '        #header .header-login-btn:hover .header-login-desc{ display: block; }\n' +
+    '        #header .header-login-btn:hover:after{\n' +
+    "            content: ' ';\n" +
+    '            position: absolute;\n' +
+    '            left: 0;\n' +
+    '            right: 0;\n' +
+    '            bottom: -12px;\n' +
+    '            height: 12px;\n' +
+    '            z-index: 1;\n' +
+    '            background: transparent;\n' +
+    '        }\n' +
+    '        #header .header-login-desc{\n' +
+    '            display: none;\n' +
+    '            position: absolute;\n' +
+    '            left: 50%;\n' +
+    '            top: 34px;\n' +
+    '            margin-left: -114px;\n' +
+    '            background: #FFFFFF;\n' +
+    '            box-shadow: 0px 16px 40px 0px rgba(153,153,153,0.3), 0px 2px 10px 0px rgba(0,0,0,0.08);\n' +
+    '            z-index: 2;\n' +
+    '            font-size: 14px;\n' +
+    '            text-align: left;\n' +
+    '            padding: 16px 18px;\n' +
+    '            border-radius: 8px;\n' +
+    '            box-sizing: border-box;\n' +
+    '            font-weight: normal;\n' +
+    '        }\n' +
+    '        #header .header-login-desc:before{\n' +
+    "            content: ' ';\n" +
+    '            position: absolute;\n' +
+    '            left: 50%;\n' +
+    '            margin-left: -4px;\n' +
+    '            top: -8px;\n' +
+    '            width: 0;\n' +
+    '            height: 0;\n' +
+    '            border-top: 4px solid transparent;\n' +
+    '            border-left: 4px solid transparent;\n' +
+    '            border-right: 4px solid transparent;\n' +
+    '            border-bottom: 4px solid #fff;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-title{\n' +
+    '            font-weight: 500;\n' +
+    '            color: #333333;\n' +
+    '            line-height: 20px;\n' +
+    '            display: block;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list{\n' +
+    '            margin-top: 4px;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list li{\n' +
+    '            margin: 8px 0 0 0;\n' +
+    '            display: block;\n' +
+    '            font-size: 13px;\n' +
+    '            color: #333333;\n' +
+    '            text-align: left;\n' +
+    '            height: 26px;\n' +
+    '            line-height: 26px;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list .login-desc-icon{\n' +
+    '            display: inline-block;\n' +
+    '            height: 26px;\n' +
+    '            width: 26px;\n' +
+    '            margin-right: 8px;\n' +
+    '            vertical-align: middle;\n' +
+    '            background: url(https://img.bosszhipin.com/static/file/2022/7rf2cut4bc1669274264900.png) 0 0 / 26px auto no-repeat;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list .login-desc-icon.desc-icon-chat{\n' +
+    '            background-position: 0 0;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list .login-desc-icon.desc-icon-match{\n' +
+    '            background-position: 0 -26px;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list .login-desc-icon.desc-icon-info{\n' +
+    '            background-position: 0 -52px;\n' +
+    '        }\n' +
+    '        #header .header-resume-new .header-resume-tip{\n' +
+    '            z-index: 2;\n' +
+    '            display: none;\n' +
+    '        }\n' +
+    '        #header .header-resume-new a:hover .header-resume-tip{\n' +
+    '            display: none;\n' +
+    '        }\n' +
+    '        #header .header-nav-group{\n' +
+    '            margin: 0 5px;\n' +
+    '            float: none;\n' +
+    '        }\n' +
+    '        #header .header-nav-group li{\n' +
+    '            margin: 0;\n' +
+    '            position: relative;\n' +
+    '        }\n' +
+    '        #header .header-nav-group .header-nav-dot{\n' +
+    '            display: inline-block;\n' +
+    '            width: 2px;\n' +
+    '            height: 2px;\n' +
+    '            border-radius: 100%;\n' +
+    '            background: #fff;\n' +
+    '            vertical-align: middle;\n' +
+    '        }\n' +
+    '        #header .user-nav .header-login-btn{\n' +
+    '            vertical-align: middle;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-tools{\n' +
+    '            display: inline-block;\n' +
+    '            vertical-align: middle;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-tools > a{\n' +
+    '            display: inline-block;\n' +
+    '            font-weight: 500;\n' +
+    '            color: #FFFFFF;\n' +
+    '            line-height: 20px;\n' +
+    '            height: auto;\n' +
+    '            padding: 3px 7px;\n' +
+    '            vertical-align: middle;\n' +
+    '            border-radius: 4px;\n' +
+    '            margin-right: 8px;\n' +
+    '            border: 1px solid transparent;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-tools > a:hover{\n' +
+    '            color: #fff;\n' +
+    '            background: rgba(255, 255, 255, 0.2);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-tools:hover .nav-resume-box{\n' +
+    '            display: block;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box{\n' +
+    '            display: none;\n' +
+    '            position: absolute;\n' +
+    '            top: 49px;\n' +
+    '            right: 0;\n' +
+    '            z-index: 1;\n' +
+    '            padding: 4px;\n' +
+    '            background: #FFFFFF;\n' +
+    '            box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.08);\n' +
+    '            border-radius: 8px;\n' +
+    '            border: 1px solid #EDEDED;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box ul{\n' +
+    '            overflow: hidden;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li{\n' +
+    '            display: block;\n' +
+    '            float: left;\n' +
+    '            text-align: center;\n' +
+    '            width: 120px;\n' +
+    '            margin: 4px;\n' +
+    '            border-radius: 8px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li a{\n' +
+    '            border: 1px solid transparent;\n' +
+    '            transition: all 0.2s linear;\n' +
+    '            border-radius: 8px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li:hover a{\n' +
+    '            border: 1px solid transparent;\n' +
+    '            border: 1px solid rgba(0,190,189,0.5);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li:hover span{\n' +
+    '            color: #00A6A7;\n' +
+    '        }\n' +
+    '        #header .user-nav .header-resume-new + .nav-resume-box .resume-box-update{\n' +
+    '            display: block;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box .resume-box-update{\n' +
+    '            display: none;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-boss{\n' +
+    '            background: linear-gradient(180deg, #CCDDFF 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-geek{\n' +
+    '            background: linear-gradient(180deg, #FFE4C2 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-geek a:before{\n' +
+    '            background-position: 0 -60px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-upload a:before{\n' +
+    '            background-position: 0 -120px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-update{\n' +
+    '            position: relative;\n' +
+    '            background: linear-gradient(180deg, #CCDDFF 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-update:after{\n' +
+    "            content: '解析成功';\n" +
+    '            position: absolute;\n' +
+    '            z-index: 1;\n' +
+    '            top: 0;\n' +
+    '            right: 0;\n' +
+    '            font-size: 12px;\n' +
+    '            background: rgba(0, 166, 167, 0.1);\n' +
+    '            display: inline-block;\n' +
+    '            padding: 2px 4px;\n' +
+    '            line-height: 16px;\n' +
+    '            background: #00BEBD;\n' +
+    '            border-radius: 0px 8px 0px 8px;\n' +
+    '            color: #fff;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-update a:before{\n' +
+    '            background-position: 0 -180px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-resume{\n' +
+    '            background: linear-gradient(180deg, #A6FFE7 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-resume a:before{\n' +
+    '            background-position: 0 -240px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-upload{\n' +
+    '            background: linear-gradient(180deg, #A4E5FF 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li a{\n' +
+    '            display: block;\n' +
+    '            padding: 20px 0 10px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li a:before{\n' +
+    "            content: ' ';\n" +
+    '            display: block;\n' +
+    '            margin: 0 auto;\n' +
+    '            width: 60px;\n' +
+    '            height: 60px;\n' +
+    '            background: url(https://img.bosszhipin.com/static/file/2023/d1mkjebr121695198610640.png) 0 0 / 60px auto no-repeat;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li span{\n' +
+    '            display: block;\n' +
+    '            font-size: 14px;\n' +
+    '            font-weight: 500;\n' +
+    '            color: #222222;\n' +
+    '            line-height: 20px;\n' +
+    '            margin-top: 12px;\n' +
+    '            transition: all 0.2s linear;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li p{\n' +
+    '            font-size: 12px;\n' +
+    '            color: #999999;\n' +
+    '            line-height: 17px;\n' +
+    '            margin-top: 4px;\n' +
+    '        }\n' +
+    '    </style>\n' +
+    '    <div class="inner home-inner">\n' +
+    '        <div class="logo">\n' +
+    '            <a href="https://www.zhipin.com/" ka="header-home-logo" title="BOSS直聘"><span>BOSS直聘</span></a>\n' +
+    '        </div>\n' +
+    '        <div class="nav">\n' +
+    '            <ul>\n' +
+    '                <li class=""><a ka="header-home" href="https://www.zhipin.com/shanghai/">首页</a></li>\n' +
+    '                <li class=""><a ka="header-job-recommend" href="https://www.zhipin.com/web/geek/job-recommend">推荐</a></li>\n' +
+    '                <ul class="header-nav-group">\n' +
+    '                    <li class=""><a ka="header-job" href="https://www.zhipin.com/job_detail/">搜索</a></li>\n' +
+    '                    <span class="header-nav-dot"></span>\n' +
+    '                    <li class=""><a ka="header_brand" href="https://www.zhipin.com/gongsi/">公司</a></li>\n' +
+    '                </ul>\n' +
+    '              '... 4092 more characters
+}
+[2024-08-12T22:55:15.001] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/resume/restrict/list.json
+[2024-08-12T22:55:15.001] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { restrictStatus: 0 } }
+[2024-08-12T22:55:15.051] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-12T22:55:15.051] [INFO] response - Response:  { c: 0, d: 789 }
+[2024-08-12T22:55:15.149] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/get/wt
+[2024-08-12T22:55:15.150] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    wt2: 'DV-2IBaHrNwTgMzfIs_-0pchk57qIkI-YXjvhsLzf6_3tgzNT8KRFT_c1HnuN2aYHJMIWzw5i-VEMxBbaU-WoOA~~'
+  }
+}
+[2024-08-12T22:55:15.153] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/resume/complete/step.json?version=2
+[2024-08-12T22:55:15.153] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    freshGraduate: 3,
+    grayStyleType: 0,
+    completeTime: 1722655419000,
+    step: 0,
+    completeType: 0,
+    stepText: ''
+  }
+}
+[2024-08-12T22:55:15.173] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/data/cityGroup.json
+[2024-08-12T22:55:15.173] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    cityGroup: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    hotCityList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    locationCity: {
+      code: 101020100,
+      name: '上海',
+      tip: null,
+      subLevelModelList: null,
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: '021',
+      regionCode: 0,
+      value: null
+    }
+  }
+}
+[2024-08-12T22:55:15.176] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/pc/recommend/expect/list.json
+[2024-08-12T22:55:15.176] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { mixExpect: null, expectList: [ [Object] ], partTimeExpectList: [] }
+}
+[2024-08-12T22:55:15.178] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/common/data/footer.json
+[2024-08-12T22:55:15.178] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: '<div id="footer">\n' +
+    '    <div class="inner home-inner">\n' +
+    '        <div class="footer-social">\n' +
+    '            <img src="https://static.zhipin.com/v2/web/geek/images/footer-logo.png" alt="">\n' +
+    '            <p>企业服务热线和算法/未成年人等举报渠道 <span>400 065 5799</span></p>\n' +
+    '            <p>老年人直连热线<span>400 661 6030</span></p >\n' +
+    '            <p>工作日 <span>8:00 - 22:00</span></p>\n' +
+    '            <p>休息日 <span>8:00 - 22:00</span></p>\n' +
+    '            <p class="footer-icon">\n' +
+    '                <a href="https://www.weibo.com/bosszhipin" rel="nofollow" ka="link-weibo" target="_blank" class="icon-weibo"><span>官方微博</span></a>\n' +
+    '                <a href="javascript:;" class="icon-weixin" ka="link-weixin"><span>微信公众号</span><img src="https://static.zhipin.com/v2/web/geek/images/we_chat_qr.jpg" class="qrcode-weixin" /></a>\n' +
+    '                <a href="https://app.zhipin.com" class="icon-app" ka="link-downloadapp"><span>下载</span></a>\n' +
+    '                <a href="https://www.zhipin.com/desktop/" class="icon-client-app" title="boss直聘电脑端下载" data-source="3" ka="bosszp_desktop_bottom_click" target="_blank">\n' +
+    '                    <img class="icon-image" src="https://img.bosszhipin.com/static/file/2021/dppx09luaq1637052502211.png" alt="">\n' +
+    '                    <span class="download-app-tip">PC桌面版下载</span>\n' +
+    '                </a>\n' +
+    '            </p>\n' +
+    '        </div>\n' +
+    '        <div class="footer-about clear-fix">\n' +
+    '            <dl>\n' +
+    '                <dt>企业服务</dt>\n' +
+    '                <dd>\n' +
+    '                    <a href="https://www.zhipin.com/job_detail/" ka="link-search">职位搜索</a>\n' +
+    '                    <a href="https://news.zhipin.com/" ka="link-news">新闻资讯</a>\n' +
+    '                    <a href="https://app.zhipin.com/" ka="link-app">BOSS直聘APP</a>\n' +
+    '                    <a href="https://ir.zhipin.com/" target="_blank" ka="link-ir">投资者关系 Investor Relations</a>\n' +
+    '                    <a href="https://gongyi.zhipin.com/home" target="_blank" ka="link-gongyi">直品公益基金会</a>\n' +
+    '                </dd>\n' +
+    '            </dl>\n' +
+    '            <dl>\n' +
+    '                <dt>使用与帮助</dt>\n' +
+    '                <dd>\n' +
+    '                    <a href="https://about.zhipin.com/agreement" rel="nofollow" ka="link-privacy" target="_blank">协议与规则</a>\n' +
+    '                    <a href="https://about.zhipin.com/agreement?id=personalinfopro" rel="nofollow" ka="link-privacy" target="_blank">隐私政策</a>\n' +
+    '                    <a href="https://www.zhipin.com/web/common/protocol/cheat-guide.html" rel="nofollow" ka="link-anticheatguide" target="_blank">防骗指南</a>\n' +
+    '                    <a href="https://www.zhipin.com/web/common/protocol/use-help.html" rel="nofollow" ka="link-usehelp" target="_blank">使用帮助</a>\n' +
+    '                </dd>\n' +
+    '            </dl>\n' +
+    '            <dl>\n' +
+    '                <dt>联系BOSS直聘</dt>\n' +
+    '                <dd>\n' +
+    '                    <p>北京华品博睿网络技术有限公司</p>\n' +
+    '                    <p>公司地址 北京市朝阳区太阳宫中路16号院1号楼18层1801内09</p>\n' +
+    '                    <p>违法和不良信息举报邮箱/未成年人举报渠道 <a class="report-mail" href="mailto:jubao@kanzhun.com" rel="nofollow">jubao@kanzhun.com</a></p>\n' +
+    '                </dd>\n' +
+    '            </dl>\n' +
+    '        </div>\n' +
+    '        <div class="copyright">\n' +
+    '            <p>\n' +
+    '                <span>Copyright © 2024 BOSS直聘</span><span><a href="https://beian.miit.gov.cn/" rel="nofollow" ka="link-icp" target="_blank">京ICP备14013441号-5</a></span><span>京ICP证150923号</span>\n' +
+    '                <span>\n' +
+    '                     <a href="https://www.zhipin.com/web/common/protocol/business-license.html" rel="nofollow" ka="link-businesslicense" target="_blank">\n' +
+    '                         <img src="https://static.zhipin.com/v2/web/geek/images/icon-badge-1.png" alt=""/>\n' +
+    '                         电子营业执照\n' +
+    '                     </a>\n' +
+    '                </span>\n' +
+    '                <span><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502032801" rel="nofollow" ka="link-beian" target="_blank"><img src="https://static.zhipin.com/v2/web/geek/images/icon-beian.png" alt=""/> 京公网安备11010502032801</a></span>\n' +
+    '                <span><a href="http://sdwj.zhipin.com/web/index.html" rel="nofollow" ka="link-sdwj" target="_blank">朝阳网警</a></span>\n' +
+    '                <span><a href="https://www.zhipin.com/web/common/protocol/hr-service.html" rel="nofollow" ka="link-hr-service" target="_blank">人力资源服务许可证</a></span>\n' +
+    '                <span><a href="https://www.12377.cn" rel="nofollow" ka="link-12377" target="_blank">网上有害信息举报专区</a></span>\n' +
+    '                <span class="renshe-phone">朝阳区人社局监督电话：(010)57596212，(010)65099938</span>\n' +
+    '                <span><a href="https://about.zhipin.com/agreement?id=b9f73536711c4928bde84337cb53aa91" rel="nofollow" ka="link-algo-beian" target="_blank">算法备案信息</a></span>\n' +
+    '            </p>\n' +
+    '        </div>\n' +
+    '    </div>\n' +
+    '</div>\n' +
+    '\n'
+}
+[2024-08-12T22:55:15.180] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/data/industryFilterExemption
+[2024-08-12T22:55:15.180] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: [
+    {
+      code: 100000,
+      name: '互联网/AI',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101400,
+      name: '电子/通信/半导体',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101100,
+      name: '服务业',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101000,
+      name: '消费品/批发/零售',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100700,
+      name: '房地产/建筑',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100300,
+      name: '教育培训',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100100,
+      name: '广告/传媒/文化/体育',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100900,
+      name: '制造业',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100600,
+      name: '专业服务',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100400,
+      name: '制药/医疗',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100800,
+      name: '汽车',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100500,
+      name: '交通运输/物流',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101200,
+      name: '能源/化工/环保',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100200,
+      name: '金融',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101300,
+      name: '政府/非盈利机构/其他',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    }
+  ]
+}
+[2024-08-12T22:55:15.234] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-12T22:55:15.234] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { showTip: false } }
+[2024-08-12T22:55:15.235] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-12T22:55:15.235] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { showType: 0, parserId: null, resumeName: null, target: 0 }
+}
+[2024-08-12T22:55:15.235] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-12T22:55:15.235] [INFO] response - Response:  { code: 0, message: 'Success', zpData: {} }
+[2024-08-12T22:55:15.236] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-12T22:55:15.236] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    whetherPopUp: true,
+    title: '尚未设置安全问题验证',
+    subTitle: '你还未设置安全问题，设置安全问题后可以应用到一些触发场景中，比如更换手机号申诉的流程中来保护你的账号安全',
+    imgUrl: 'https://img.bosszhipin.com/static/file/2023/74qem8lrsb1673419225709.png',
+    url: '/web/geek/account?type=identityCheck&verifyType=bindSecurityProblem',
+    type: 3
+  }
+}
+[2024-08-12T22:55:15.242] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-12T22:55:15.242] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    otherCitySites: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    siteGroup: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    hotCitySites: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    siteList: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  }
+}
+[2024-08-12T22:55:15.245] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/common/data/defaultcity.json
+[2024-08-12T22:55:15.245] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    city: {
+      id: 2483,
+      code: 101020100,
+      name: '上海',
+      level: 2,
+      rank: 1,
+      parentCode: 101020000,
+      cityPinyin: 'sh',
+      cityFullPinyin: 'shanghai',
+      firstChar: 's',
+      cityCode: '021',
+      parentName: '上海',
+      grandParentCode: 0,
+      grandParentName: null,
+      deleted: 0,
+      cityType: 0,
+      capital: 1,
+      cityDegree: 1,
+      regionCode: 310000,
+      refreshCookie: false,
+      subLocation: 0,
+      subLocationName: null,
+      citySiteUrl: '/shanghai/',
+      source: 4
+    }
+  }
+}
+[2024-08-12T22:55:15.250] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/pc/recommend/conditions.json
+[2024-08-12T22:55:15.250] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    payTypeList: [ [Object], [Object], [Object], [Object], [Object] ],
+    experienceList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    salaryList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    scaleList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    partTimeList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    degreeList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    jobTypeList: [ [Object], [Object], [Object], [Object] ]
+  }
+}
+[2024-08-12T22:55:15.289] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpwukong/web/employer/task/showGeekEntry?
+[2024-08-12T22:55:15.289] [INFO] response - Response:  { code: 0, message: 'Success', zpData: false }
+[2024-08-12T22:55:15.292] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpitem/geek/vip/info?
+[2024-08-12T22:55:15.292] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    geekVipInfo: {
+      vipStatus: 0,
+      endDate: null,
+      encryptPriceId: '78dfe43804a47d8a1nc~',
+      vipTitle: null,
+      jumpUrl: null,
+      buttonText: null,
+      vipDesc: null,
+      buttonUrl: null,
+      bzbTime: null,
+      appStoreUrl: null,
+      showVipType: 0,
+      tag: null,
+      privilegeCount: 8,
+      renewVipType: 0,
+      encryptBagId: null,
+      popWindowInfo: null,
+      newPurchaseGray: 1
+    }
+  }
+}
+[2024-08-12T22:55:15.295] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-12T22:55:15.295] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { show: false, url: '' } }
+[2024-08-12T22:55:15.371] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/h5/account/getStatus?
+[2024-08-12T22:55:15.371] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    bindWeiXin: false,
+    deviceSecurity: true,
+    securityProblem: false,
+    bindEmail: false,
+    changeWeixin: true
+  }
+}
+[2024-08-12T22:55:15.373] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/pc/recommend/job/list.json?city=101020100&experience=&payType=&partTime=&degree=&industry=&scale=&salary=&jobType=&encryptExpectId=&mixExpectType=&page=1&pageSize=15
+[2024-08-12T22:55:15.373] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    jobList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    hasMore: true
+  }
+}
+[2024-08-12T22:55:15.839] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/wap/choseShowSecurity
+[2024-08-12T22:55:15.839] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-12T22:55:15.839] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpmsg/history/pull?type=0&lastId=112706436142080&secretId=wbDrEIVMdnfF_2yHKprDbn4qNc_6xFMp--BWrjEda9_v9hNCd-wpjMhRRRxqhwJcR01elNOnKZuAQs55UuLBo_BHRHyW8BkkiRMIOn4~
+[2024-08-12T22:55:15.839] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    hasMore: true,
+    lastId: 115163290805250,
+    secretId: '3pr9Y5Icd3CE5S7-WcvFNG54ZM2r3lpsv_NH1RRHMMTt81ZFZYw6iN1ZV0V6gANVQkVchoLGWfKTV8N4FbzF9fcTFirC',
+    type: 0,
+    stringList: [
+      'CAEazAcKYQiDBxIM57O757uf6YCa55+lGkZodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9iZWlqaW4vbWNzL3VzZXJhdmF0YXIvMjAxNzAxMDEvODk5XzEwMDAuanBnIgAoADAAOAASSgiCsNy/AhIEbnVsbBo0aHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYm9zcy9hdmF0YXIvYXZhdGFyXzE2LnBuZyIAKBAwADgAGAMggajcmJjQGSjg3I6ykTIyxwMIARABGrsD5bCK5pWs55qE55So5oi377yM5aaC5oKo5Zyo5rGC6IGM5Lit6YGH5Yiw6K+m57uG5omT5ZCs5a625bqt5oOF5Ya144CB5LuF55S16K+d6Z2i6K+V44CB5byC5Zyw5Z+56K6t44CB56eB5Lq66YKu566x5Y+Rb2ZmZXLvvIzor7fmj5Dpq5jorabmg5XvvIzosKjpmLLlj5fpqpfvvJvku7vkvZXopoHmsYLnvLTnurPotLnnlKjjgIHovazotKbmsYfmrL7nrYnmtonlj4rotKLliqHnmoTmg4XlhrXvvIzor7fliqHlv4Xmi5Lnu53vvJvlr7nkuo7pmYznlJ/mnaXnlLXnuqbpnaLor5XvvIzljbPkvr/lr7nmlrnnn6XpgZPmgqjnmoTlp5PlkI3vvIzkuZ/liIforrDopoHmoLjlrp7lr7nmlrnlhazlj7jlj4rkuKrkurrouqvku73vvIzliIfli7/ooqvlpZfor53lubbovbvkv6Hlr7nmlrnvvIzosKjpmLLnlLXkv6Hor4jpqpfjgILnpZ3mgqjpobrliKnmib7liLDmu6HmhI/nmoTlt6XkvZzvvIFaAOIBADgAQAFKxgHns7vnu5/pgJrnn6U65bCK5pWs55qE55So5oi377yM5aaC5oKo5Zyo5rGC6IGM5Lit6YGH5Yiw6K+m57uG5omT5ZCs5a625bqt5oOF5Ya144CB5LuF55S16K+d6Z2i6K+V44CB5byC5Zyw5Z+56K6t44CB56eB5Lq66YKu566x5Y+Rb2ZmZXLvvIzor7fmj5Dpq5jorabmg5XvvIzosKjpmLLlj5fpqpfvvJvku7vkvZXopoHmsYLnvLTnurPotLnnlKguLi5QAFgAYAFoAHAAeACQAaOY8QWaAWB0aWdnTE5yM2tNbm9qLS0xMzBZMThodVBXWk0zZW4tZFpyUFkzMGpOTVdTYXRLb1lNdzdzV0dzZWdfaWFvWGE3UUJYZWRMTm1BQjcxVHpqbmFqU2lkUGRmWUNGUEVBfn4algwKYQiDBxIM57O757uf6YCa55+lGkZodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9iZWlqaW4vbWNzL3VzZXJhdmF0YXIvMjAxNzAxMDEvODk5XzEwMDAuanBnIgAoADAAOAASSgiCsNy/AhIEbnVsbBo0aHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYm9zcy9hdmF0YXIvYXZhdGFyXzE2LnBuZyIAKBAwADgAGAMggOijmZjQGSjg3I6ykTIyggkIDxABOq8ICiXov5nlpZfmtYvor5Xpopjmj63np5g15aSn5oub6IGY6Zm36ZixEjflkKzor7TlhajnrZTlr7nnmoTkurrmib7lt6XkvZzpg73lvojpobrvvIHpgoDkvaDlh7rmiJh+GkpodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS8vMTY4NjEwNzYwOThhYmM2MTI3YjU5MTQ0MmM5Mzg2NDc3YjRjNzVkNTRhLnBuZyLoBmJvc3N6cDovL2Jvc3N6aGlwaW4uYXBwL29wZW53aXRoP3R5cGU9d2VidmlldyZ1cmw9aHR0cHMlM0ElMkYlMkZtLnpoaXBpbi5jb20lMkZhY3Rpdml0eSUyRmh0bWwlMkZkZXZlbG9wZXIlM0ZhY3Rpdml0eUlkJTNEZDljY2Y0YmE5YTI1NzgzZXFBVjQzZHE1JTI2c291cmNlJTNEJmJhPSU3QiUyMmFjdGlvbiUyMiUzQSUyMnB1c2gtY2FyZC1jbGljayUyMiUyQyUyMnAlMjIlM0ElMjI2MDE2OTY5MiUyMiUyQyUyMnAyJTIyJTNBJTIyMTcyMjY1NTQyMDAzOSUyMiUyQyUyMnAzJTIyJTNBJTIyMTI2OTI1NDM1NTgxNTUwMTgyNCUyMiUyQyUyMnA0JTIyJTNBJTIyMTY1OSUyMiUyQyUyMnA1JTIyJTNBNTAyJTJDJTIycDYlMjIlM0ElMjJib3NzenAlM0ElMkYlMkZib3NzemhpcGluLmFwcCUyRm9wZW53aXRoJTNGdHlwZSUzRHdlYnZpZXclMjZ1cmwlM0RodHRwcyUyNTNBJTI1MkYlMjUyRm0uemhpcGluLmNvbSUyNTJGYWN0aXZpdHklMjUyRmh0bWwlMjUyRmRldmVsb3BlciUyNTNGYWN0aXZpdHlJZCUyNTNEZDljY2Y0YmE5YTI1NzgzZXFBVjQzZHE1JTI1MjZzb3VyY2UlMjUzRCUyMiUyQyUyMnA3JTIyJTNBJTIyJUU4JUJGJTk5JUU1JUE1JTk3JUU2JUI1JThCJUU4JUFGJTk1JUU5JUEyJTk4JUU2JThGJUFEJUU3JUE3JTk4NSVFNSVBNCVBNyVFNiU4QiU5QiVFOCU4MSU5OCVFOSU5OSVCNyVFOSU5OCVCMSUyMiUyQyUyMnA4JTIyJTNBJTIyJUU1JTkwJUFDJUU4JUFGJUI0JUU1JTg1JUE4JUU3JUFEJTk0JUU1JUFGJUI5JUU3JTlBJTg0JUU0JUJBJUJBJUU2JTg5JUJFJUU1JUI3JUE1JUU0JUJEJTlDJUU5JTgzJUJEJUU1JUJFJTg4JUU5JUExJUJBJUVGJUJDJTgxJUU5JTgyJTgwJUU0JUJEJUEwJUU1JTg3JUJBJUU2JTg4JTk4JTdFJTIyJTdEKAAyDOeCueWHu+afpeecizgAQgBaAGIAOkgKFeivt+WcqEFQUOaJk+W8gOafpeecixIAGgAiH2Jvc3N6cDovL2Jvc3N6aGlwaW4ucGMvb3BlblBhZ2UoADIAOABCAFoAYgBaADgAQAFKN+WQrOivtOWFqOetlOWvueeahOS6uuaJvuW3peS9nOmDveW+iOmhuu+8gemCgOS9oOWHuuaImH5QpMSn4///////AVgAYAFoAHAAeACKARMxMjY5MjU0MzU1ODE1NTAxODI0kAHcu9gcmgFgRXVteDVkWUcyUzhNWS15MVdtRDJqMjlGWnlmbEFKS0JUZ1RfazNDM2hzRm1zd19KcktTbm9UNkEzMkZzMWtYbHpvSUgtdmFkNWVKbUx2T0pET0U4enFoTHRWMUhYd35+GuYGCnIInQYSDOmBk+WFt+mAmuefpRpXaHR0cHM6Ly9pbWcyLmJvc3N6aGlwaW4uY29tL2FwcC9hbmRyb2lkL2l0ZW1FZmZlY3QtYmRjNjQ1ZWNiY2ViN2RjNGY3NDBlY2Y0MGNiNGM1ZDUucG5nIgAoADAAOAASSgiCsNy/AhIEbnVsbBo0aHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYm9zcy9hdmF0YXIvYXZhdGFyXzE2LnBuZyIAKBAwADgAGAMggejxsbHzGSiAvfO+kjIy3QMIDxABOogCCgzlpKnpmY3npo/liKkSOuaBreWWnOaCqOiOt+W+l+S4gOasoeeJm+S6ulZJUO+8iDflpKnvvInor5XnlKjnmoTmnLrkvJrvvIEaACIzaHR0cHM6Ly9tLnpoaXBpbi5jb20vd2FwaS96cGl0ZW0vZ2Vlay92aXA/c291cmNlPTE3KAAyDOeri+WNs+afpeecizgAQgBaAGJveyJpdGVtSWNvbiI6Imh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9hcHAvYW5kcm9pZC9yZXN1bWVSZWZyZXNoLTBkMTUzYWZjY2RiOTZhODcwMzYxY2FmNWRmZWU3OTliLnBuZyJ9OskBCgznq4vljbPmn6XnnIsSOuaBreWWnOaCqOiOt+W+l+S4gOasoeeJm+S6ulZJUO+8iDflpKnvvInor5XnlKjnmoTmnLrkvJrvvIEaACIAKAAyADgAQgBaAGJveyJpdGVtSWNvbiI6Imh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9hcHAvYW5kcm9pZC9yZXN1bWVSZWZyZXNoLTBkMTUzYWZjY2RiOTZhODcwMzYxY2FmNWRmZWU3OTliLnBuZyJ9WgA4AEABSjrmga3llpzmgqjojrflvpfkuIDmrKHniZvkurpWSVDvvIg35aSp77yJ6K+V55So55qE5py65Lya77yBUABYAGABaABwAHgAkAHOmPEFmgFgNnBBeC1aWEhGaE9LSy1xMWRjVXhNVDlpanp5OG9URW85VEZUam9tMjVQejBsaEszVWtKX25JWEZRTkFaUXRTaG5Id253NGp5U2stQ1FnQkttaloyMGFZU2dKYTkxd35+GosHCmEIgwcSDOezu+e7n+mAmuefpRpGaHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYmVpamluL21jcy91c2VyYXZhdGFyLzIwMTcwMTAxLzg5OV8xMDAwLmpwZyIAKAAwADgAEkoIgrDcvwISBG51bGwaNGh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2Jvc3MvYXZhdGFyL2F2YXRhcl8xNi5wbmciACgQMAA4ABgDIIHI9LGx8xkogL3zvpIyMuoDCA8QATrhAwodMTblnovkurrmoLzogYzkuJrmgKfmoLzmtYvor5USY+mAmui/h+iBjOS4muaAp+agvOa1i+ivlee7k+aenO+8jOS6huino+aCqOeahOiBjOS4muS8mOWKv+WSjOa9nOWKm++8jOS4uuaCqOaOqOiNkOmAguWQiOeahOiBjOS9jeOAghqJAWh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9pdGVtLzIwMjQwMzA0L2U4NGJlNTEyMjA4ZGNjMDkzYzUxNjRmMDU5YzQ2ZDBmYjg2NmVkNzA0YWYzNTc2N2Y3NmQyMWE1MjBkMGFhODI3MGRmZmEzOGY0ODhlMzQwLnBuZy53ZWJwIrYBYm9zc3pwOi8vYm9zc3poaXBpbi5hcHAvb3BlbndpdGg/dHlwZT13ZWJ2aWV3JnVybD1odHRwcyUzQSUyRiUyRnd3dy56aGlwaW4uY29tJTJGbXBhJTJGaHRtbCUyRm1peCUyRmFzc2Vzc1JvdXRlJTNGYXNzZXNzSWQlM0Q3ODlkYmMzZDRhNzkyOWE4MFhSLSUyNnNvdXJjZSUzRDIyJTI2ZnJvbSUzRDMlMjZzY2VuZSUzRDMoADIM56uL5Y2z5Y+C5YqgOABCAFoAYgBaADgAQAFKY+mAmui/h+iBjOS4muaAp+agvOa1i+ivlee7k+aenO+8jOS6huino+aCqOeahOiBjOS4muS8mOWKv+WSjOa9nOWKm++8jOS4uuaCqOaOqOiNkOmAguWQiOeahOiBjOS9jeOAglAAWABgAWgAcAB4AJAB8JbxBZoBYFd3cFh3R2FGNUNUdnktMjFENDVYaUVUY09DVHlBUldkaUhpdFFoODdFY0Z4WmVjX3ZleFl2UEt4SkhHOV90UXBYd1ZVRFVSMVNZYUVVS0o1UG9pYUw4RkQxQnR4OHd+fhquCAphCIMHEgzns7vnu5/pgJrnn6UaRmh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9tY3MvdXNlcmF2YXRhci8yMDE3MDEwMS84OTlfMTAwMC5qcGciACgAMAA4ABJKCIKw3L8CEgRudWxsGjRodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9ib3NzL2F2YXRhci9hdmF0YXJfMTYucG5nIgAoEDAAOAAYAyCDiMCBs/MZKPiA+r6SMjLbBAgPEAE60gQKLeW8gOWQr+iZmuaLn+eUteivne+8jOiuqeiAgeadv+ebtOaOpeiBlOezu+S9oBKUAeaxguiBjOW/q+S6uuS4gOatpe+8jOS4jemUmei/h+WlveacuuS8mu+8ge+8iOa4qemmqOaPkOekuu+8mkJvc3Pmi6jmiZPkvaDnmoTnlLXor53ml7bvvIzmiYvmnLrlj7fkvJrku6XliqDlr4blvaLlvI/lsZXnpLrvvIzkuI3mmrTpnLLnnJ/lrp7lj7fnoIHvvIkahAFodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9iZWlqaW4vaXRlbS8yMDIzMDUxMC9lODRiZTUxMjIwOGRjYzA5YzhhYWU5YzhlZDVhZjlkM2FmOGI0NTBkNGNmMTFjNzhmZGM2NzYxMmM3NTJmNzc3NmJlNmI5M2MyZTY2YmE1ZS5wbmci7QFib3NzenA6Ly9ib3NzemhpcGluLmFwcC9vcGVud2l0aD90eXBlPW9wZW5EaXJlY3RDYWxsU2V0dGluZyZzb3VyY2U9MiZiYT17ImFjdGlvbiI6ImRldGFpbC1ub3RpZnktbXNnIiwicCI6IiR7bWVzc2FnZUlkfSIsInAyIjoxLCJwMyI6IiR7ZnJvbUlkfSIsInA0IjowLCJwNSI6IuW8gOWQr+iZmuaLn+eUteivne+8jOiuqeiAgeadv+ebtOaOpeiBlOezu+S9oCIsInA4IjoiZGlyZWN0Y2FsbC1hdXRob3JpemF0aW9uIn0oADIJ5Y675byA5ZCvOABCAFoAYgBaADgAQAFKlAHmsYLogYzlv6vkurrkuIDmraXvvIzkuI3plJnov4flpb3mnLrkvJrvvIHvvIjmuKnppqjmj5DnpLrvvJpCb3Nz5ouo5omT5L2g55qE55S16K+d5pe277yM5omL5py65Y+35Lya5Lul5Yqg5a+G5b2i5byP5bGV56S677yM5LiN5pq06Zyy55yf5a6e5Y+356CB77yJUABYAGABaABwAHgAkAGSmPEFmgFgcDJscnJ5V09kWnhHdS05MXpTcUY0R3ZmN182RUJ2YU8wVWRMbEVZelp2M2NjRGJyVVhzNzljVTRpMG1TYV9tUy0zSnluWkJ3MHRRb24zN0NuamIyQW1ZeFNtYlVwQX5+GuoGCmEIgwcSDOezu+e7n+mAmuefpRpGaHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYmVpamluL21jcy91c2VyYXZhdGFyLzIwMTcwMTAxLzg5OV8xMDAwLmpwZyIAKAAwADgAEkoIgrDcvwISBG51bGwaNGh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2Jvc3MvYXZhdGFyL2F2YXRhcl8xNi5wbmciACgQMAA4ABgDIIDok4Kz8xko+ID6vpIyMs8DCA8QATr8Agov5paw5Lic5pa5MjAyNeeni+Wto+agoeWbreaLm+iBmOato+WcqOi/m+ihjOS4rX4SPuaWsOS4nOaWuTIwMjXnp4vlraPmoKHlm63mi5vogZjngavng63mi5vogZjkuK1+5py65LiN5Y+v5aSx77yBGooBaHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYmVpamluL3h6YXRzLzIwMjQwMjI3LzQ0N2EwYjM4NDdmM2E3YjcyMzFiNWIyZTlkM2Y3NGM4Mzc0YjgyNWJkNGM3MTg3ODZiYjYxZTNiN2JjZTA5MzFkYTU3NGQxOWQxZDgyYzg4LmpwZy53ZWJwImRodHRwczovL3d3dy56aGlwaW4uY29tL21wYS92My9odG1sL2F0cy9qb2ItbGlzdC9ob21lP2VuY3J5cHRQcm9qZWN0SWQ9MzdkNTI3ODQzZGUzNmFmMDFIUi0mc291cmNlPTIxKAAyDOeri+WNs+aKlemAkjgAQgBaAGIAOkgKFeivt+WcqEFQUOaJk+W8gOafpeecixIAGgAiH2Jvc3N6cDovL2Jvc3N6aGlwaW4ucGMvb3BlblBhZ2UoADIAOABCAFoAYgBaADgAQAFKPuaWsOS4nOaWuTIwMjXnp4vlraPmoKHlm63mi5vogZjngavng63mi5vogZjkuK1+5py65LiN5Y+v5aSx77yBUOiWo+P//////wFYAGABaABwAHgAigETMTI3MDQ5MzE4MDg5MDA0NjQ2NJABmOncHJoBYDBGMWJuOFhvMHpON1otWjEyU2tZUTJpeWt3VkpGdi0yT2tnNEVUX25XUVBTYS1zanFHT1U4UUhxeC1la2JBRDFNbGxtYXBZRFB1TENlTkZLM3dNbFJZWHZEVk9MMEF+fhrMBwphCIMHEgzns7vnu5/pgJrnn6UaRmh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9tY3MvdXNlcmF2YXRhci8yMDE3MDEwMS84OTlfMTAwMC5qcGciACgAMAA4ABJKCIKw3L8CEgRudWxsGjRodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9ib3NzL2F2YXRhci9hdmF0YXJfMTYucG5nIgAoEDAAOAAYAyCCyKjY2JcaKKDZkNCTMjLHAwgBEAEauwPlsIrmlaznmoTnlKjmiLfvvIzlpoLmgqjlnKjmsYLogYzkuK3pgYfliLDor6bnu4bmiZPlkKzlrrbluq3mg4XlhrXjgIHku4XnlLXor53pnaLor5XjgIHlvILlnLDln7norq3jgIHnp4Hkurrpgq7nrrHlj5FvZmZlcu+8jOivt+aPkOmrmOitpuaDle+8jOiwqOmYsuWPl+mql++8m+S7u+S9leimgeaxgue8tOe6s+i0ueeUqOOAgei9rOi0puaxh+asvuetiea2ieWPiui0ouWKoeeahOaDheWGte+8jOivt+WKoeW/heaLkue7ne+8m+WvueS6jumZjOeUn+adpeeUtee6pumdouivle+8jOWNs+S+v+WvueaWueefpemBk+aCqOeahOWnk+WQje+8jOS5n+WIh+iusOimgeaguOWunuWvueaWueWFrOWPuOWPiuS4quS6uui6q+S7ve+8jOWIh+WLv+iiq+Wll+ivneW5tui9u+S/oeWvueaWue+8jOiwqOmYsueUteS/oeiviOmql+OAguelneaCqOmhuuWIqeaJvuWIsOa7oeaEj+eahOW3peS9nO+8gVoA4gEAOABAAUrGAeezu+e7n+mAmuefpTrlsIrmlaznmoTnlKjmiLfvvIzlpoLmgqjlnKjmsYLogYzkuK3pgYfliLDor6bnu4bmiZPlkKzlrrbluq3mg4XlhrXjgIHku4XnlLXor53pnaLor5XjgIHlvILlnLDln7norq3jgIHnp4Hkurrpgq7nrrHlj5FvZmZlcu+8jOivt+aPkOmrmOitpuaDle+8jOiwqOmYsuWPl+mql++8m+S7u+S9leimgeaxgue8tOe6s+i0ueeUqC4uLlAAWABgAWgAcAB4AJABo5jxBZoBYENBX1ByYnlHa2NsR1AtMzFrWFB6TEd5enB3Z3dzSXNiWEc5NnRRMldVeEdtV1JDNDZRWUc3RllhbHF4cldmRXdxUXZuaHluYzg4ZnJxQ1puOTh3OHQwOHMwdUY2RXd+fg=='
+    ]
+  }
+}
+[2024-08-12T22:55:15.850] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/job/detail.json?securityId=we2vnXdAKEwxc-x18cZ-JvD6gLmkMtZRTxPoQBBw7YM87ncgXIIoxzQLFqx4dH-8tH9Uk2_IGhxJlz_cR2vG2dnwXSkiHJrocaLQx-Q1dTSHBS04WY1tseEC&lid=3io2J7wx7VQ.search.1
+[2024-08-12T22:55:15.850] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    pageType: 0,
+    selfAccess: false,
+    securityId: 'OKaamc0vzW6lf-L1jXgsP4nKWR26pQS7yvl43R6EnlhGl1NcHhFVM4BdL8ELlusA_EgxQWKrncPl_X6gLsOLNOhfokRwdB9fHq0amHqKSn8dl34NoiKA0wDb',
+    sessionId: null,
+    lid: '3io2J7wx7VQ.search.1',
+    jobInfo: {
+      encryptId: '87ca0f461afc15331HN-2Ni7FVtQ',
+      encryptUserId: '82638b26cc3539933nBy3Nu7EVs~',
+      invalidStatus: false,
+      jobName: 'android高级开发',
+      position: 100202,
+      positionName: 'Android',
+      location: 101020100,
+      locationName: '上海',
+      experienceName: '5-10年',
+      degreeName: '大专',
+      jobType: 0,
+      proxyJob: 0,
+      proxyType: 0,
+      salaryDesc: '12-20K',
+      payTypeDesc: null,
+      postDescription: '任职要求：\n' +
+        '1. 五年以上Android或IOS开发经验。\n' +
+        '2. 熟悉dart，了解Flutter混合开发模式。\n' +
+        '3. 熟练使用Flutter Widgets,了解并掌握flutter状态管理。\n' +
+        '4. 熟悉项目工程化。\n' +
+        '5. 了解Flutter页面绘制逻辑。\n' +
+        '6. 了解Flutter事件响应链。\n' +
+        '7. 了解Flutter-Unity混合开发模式，对Unity As Lib开发模式项目经验者优先',
+      encryptAddressId: 'b9cef12b0ef59a681nRz09u5E1VWxYq8UP2a',
+      address: '上海浦东新区金桥智造·金港园3号楼',
+      longitude: 121.614449,
+      latitude: 31.247412,
+      staticMapUrl: 'https://img.bosszhipin.com/beijin/upload/amap_proxy/20230717/48ba41acc9cef1bf5f466072f246a0328e6beb79d7fc6e176bb61e3b7bce0931da574d19d1d82c88.jpg.webp',
+      pcStaticMapUrl: 'https://img.bosszhipin.com/beijin/upload/amap_proxy/20230717/48ba41acc9cef1bfe3e4c7043789899e5a1ff73248b4d8dd6bb61e3b7bce0931da574d19d1d82c88.jpg.webp',
+      overseasAddressList: [],
+      overseasInfo: null,
+      showSkills: [Array],
+      anonymous: 0,
+      jobStatusDesc: '招聘中'
+    },
+    bossInfo: {
+      name: '王似昭',
+      title: '项目经理',
+      tiny: 'https://img.bosszhipin.com/boss/avatar/avatar_9.png',
+      large: 'https://img.bosszhipin.com/boss/avatar/avatar_9.png',
+      activeTimeDesc: '刚刚活跃',
+      bossOnline: false,
+      brandName: '云天畅想',
+      bossSource: 0,
+      certificated: true,
+      tagIconUrl: null,
+      avatarStickerUrl: null
+    },
+    brandComInfo: {
+      encryptBrandId: 'e593ce49ccf22baf1Xd-2tW8FFQ~',
+      brandName: '云天畅想',
+      logo: 'https://img.bosszhipin.com/beijin/upload/com/workfeel/20230725/7bf6f160950405e986c2e65f905cb525371a86f2d140e79c13bb8776a7f2650c4f5d0aff304be0a5.png',
+      stage: 805,
+      stageName: 'C轮',
+      scale: 303,
+      scaleName: '100-499人',
+      industry: 100020,
+      industryName: '互联网',
+      introduce: '公司成立于2016年，是全球互动视频云（Visual Cloud）服务商，专注于“超高清、强互动、低时延”互动视频云计算，在GPU计算架构、操作系统、图形渲染、视频编解码、虚拟化、边缘云等核心领域进行了软硬一体定制优化和突破，实现高性价比互动视频云PaaS服务，在云游戏、云视讯、视频AI、云工作站、云VR等领域实现大规模商业化解决方案。  \n' +
+        '       公司聚焦龙头客户，国内客户覆盖运营商、云服务商、互联网流量平台、游戏开发商等，并在积极拓展北美、东南亚等海外市场。\n' +
+        '        目前人员规模将近300人，今年计划扩充至400人，总部在深圳，北京和南京有分公司，上海广州西安成都均有办事处，在日本东京也有核心技术研发团队；人才密度较高，50%是研发人员，大部分来自一线大厂的高级工程师，创始团队来自Intel/Sony/腾讯/华为/中国移动等，均为半导体芯片、GPU架构、3D渲染、视频云计算、5G通讯等领域专家。\n' +
+        '      2022年已完成c轮融资，且自身造血能力强，22年业绩增速300%以上，已实现规模化盈利',
+      labels: [Array],
+      activeTime: 1723468464003,
+      visibleBrandInfo: true,
+      focusBrand: false,
+      customerBrandName: '云天畅想',
+      customerBrandStageName: 'C轮'
+    },
+    oneKeyResumeInfo: {
+      inviteType: 0,
+      alreadySend: false,
+      canSendResume: false,
+      canSendPhone: false,
+      canSendWechat: false
+    },
+    relationInfo: { interestJob: false, beFriend: false },
+    handicappedInfo: null,
+    appendixInfo: { canFeedback: false },
+    atsOnlineApplyInfo: { inviteType: 0, alreadyApply: false }
+  }
+}
+[2024-08-12T22:55:15.854] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpmsg/history/pull?type=0&lastId=115163290805250&secretId=3pr9Y5Icd3CE5S7-WcvFNG54ZM2r3lpsv_NH1RRHMMTt81ZFZYw6iN1ZV0V6gANVQkVchoLGWfKTV8N4FbzF9fcTFirC
+[2024-08-12T22:55:15.854] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { hasMore: false, lastId: 115163290805250, type: 0 }
+}
+[2024-08-12T22:55:16.604] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpApm/actionLog/fe/ie/common.json
+[2024-08-12T22:55:16.604] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-12T22:55:17.730] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-12T22:55:17.730] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-12T22:56:12.052] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-12T22:56:12.052] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    result: {
+      appKey: 'ObsSRskiryhn60pf',
+      bucketSize: 10,
+      timeSlice: 10,
+      reportPeriod: 10,
+      metricsSwitch: false,
+      pathBlacklist: [],
+      hostBlacklist: []
+    }
+  }
+}
+[2024-08-12T22:56:13.339] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-12T22:56:13.339] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-12T22:56:13.352] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-12T22:56:13.352] [INFO] response - Response:  { code: 0, message: 'Success', zpData: {} }
+[2024-08-12T22:56:13.353] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/notify/setting/get
+[2024-08-12T22:56:13.353] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    userNotifySettingList: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ]
+  }
+}
+[2024-08-12T22:56:13.358] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-12T22:56:13.358] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { userType: 0, cid: '172347447022817651' }
+}
+[2024-08-12T22:56:13.358] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-12T22:56:13.359] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    whetherPopUp: false,
+    title: null,
+    subTitle: null,
+    imgUrl: null,
+    url: null,
+    type: 0
+  }
+}
+[2024-08-12T22:56:13.362] [INFO] response - Response url:  https://www.zhipin.com/wapi/certification/violate/rule/prompt/dialog
+[2024-08-12T22:56:13.362] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { show: false, dialog: null } }
+[2024-08-12T22:56:13.397] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/recommend/job/list.json?expectId=31989474ec8d79001nR73N-4FFFSwg~~&pk=cpc_job_index_shanghai&sortType=1&page=1&salary=&payType=&degree=&experience=&stage=&scale=&districtCode=&businessCode=
+[2024-08-12T22:56:13.397] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    jobRecTips: '',
+    pageSize: 15,
+    sessionId: '440d92f2-0682-4215-bc2f-1fd8bf4ae4a9',
+    jobList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    searchJobList: [],
+    totalCount: 0
+  }
+}
+[2024-08-12T22:56:13.398] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/recommend/job/list.json?expectId=31989474ec8d79001nR73N-4FFFSwg~~&pk=cpc_job_index_shanghai&sortType=2&page=1&salary=&payType=&degree=&experience=&stage=&scale=&districtCode=&businessCode=
+[2024-08-12T22:56:13.398] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    jobRecTips: '',
+    pageSize: 15,
+    sessionId: '7120fae4-01a4-4533-9176-a96d9b5b0f0c',
+    jobList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    searchJobList: [],
+    totalCount: 0
+  }
+}
+[2024-08-12T22:56:13.399] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/home/top/joblist.json?expectId=31989474ec8d79001nR73N-4FFFSwg~~
+[2024-08-12T22:56:13.399] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { jobList: [] } }
+[2024-08-12T22:56:13.420] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/recommend/conditions.json
+[2024-08-12T22:56:13.421] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    payTypeList: [ [Object], [Object], [Object], [Object], [Object] ],
+    experienceList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    salaryList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    stageList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    scaleList: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    areaBusinessList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    degreeList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    positionTypeList: [],
+    expectList: [ [Object] ],
+    cityConfig: { code: 101020100, name: '上海' }
+  }
+}
+[2024-08-12T22:56:13.429] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/wap/ad/getPcActivity
+[2024-08-12T22:56:13.429] [INFO] response - Response:  { code: 0, message: 'Success', zpData: {} }
+[2024-08-12T22:56:13.432] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-12T22:56:13.432] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: [
+    {
+      code: 100000,
+      name: '互联网/AI',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101400,
+      name: '电子/通信/半导体',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101100,
+      name: '服务业',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101000,
+      name: '消费品/批发/零售',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100700,
+      name: '房地产/建筑',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100300,
+      name: '教育培训',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100100,
+      name: '广告/传媒/文化/体育',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100900,
+      name: '制造业',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100600,
+      name: '专业服务',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100400,
+      name: '制药/医疗',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100800,
+      name: '汽车',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100500,
+      name: '交通运输/物流',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101200,
+      name: '能源/化工/环保',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100200,
+      name: '金融',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101300,
+      name: '政府/非盈利机构/其他',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    }
+  ]
+}
+[2024-08-12T22:56:13.441] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-12T22:56:13.441] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    otherCitySites: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    siteGroup: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    hotCitySites: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    siteList: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  }
+}
+[2024-08-12T22:56:13.454] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-12T22:56:13.454] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    position: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  }
+}
+[2024-08-12T22:56:13.545] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-12T22:56:13.545] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    hotCityList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    cityList: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    locationCity: {
+      code: 101020100,
+      name: '上海',
+      tip: null,
+      subLevelModelList: null,
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    }
+  }
+}
+[2024-08-12T22:56:13.599] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-12T22:56:13.599] [INFO] response - Response:  { c: 0, d: 804 }
+[2024-08-12T22:56:13.599] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-12T22:56:13.599] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { showTip: false } }
+[2024-08-12T22:56:13.600] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-12T22:56:13.600] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { showType: 0, parserId: null, resumeName: null, target: 0 }
+}
+[2024-08-12T22:56:13.614] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpitem/geek/vip/info?
+[2024-08-12T22:56:13.614] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    geekVipInfo: {
+      vipStatus: 0,
+      endDate: null,
+      encryptPriceId: '78dfe43804a47d8a1nc~',
+      vipTitle: null,
+      jumpUrl: null,
+      buttonText: null,
+      vipDesc: null,
+      buttonUrl: null,
+      bzbTime: null,
+      appStoreUrl: null,
+      showVipType: 0,
+      tag: null,
+      privilegeCount: 8,
+      renewVipType: 0,
+      encryptBagId: null,
+      popWindowInfo: null,
+      newPurchaseGray: 1
+    }
+  }
+}
+[2024-08-12T22:56:13.615] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-12T22:56:13.615] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { show: false, url: '' } }
+[2024-08-12T22:56:13.615] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpwukong/web/employer/task/showGeekEntry?
+[2024-08-12T22:56:13.615] [INFO] response - Response:  { code: 0, message: 'Success', zpData: false }
+[2024-08-12T22:56:13.615] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-12T22:56:13.615] [INFO] response - Response:  { c: 0, d: 718 }
+[2024-08-12T22:56:13.616] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/h5/account/getStatus?
+[2024-08-12T22:56:13.616] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    bindWeiXin: false,
+    deviceSecurity: true,
+    securityProblem: false,
+    bindEmail: false,
+    changeWeixin: true
+  }
+}
+[2024-08-12T22:56:13.616] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-12T22:56:13.616] [INFO] response - Response:  { c: 0, d: 1146 }
+[2024-08-12T22:56:13.661] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/get/wt
+[2024-08-12T22:56:13.661] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    wt2: 'DV-2IBaHrNwTgMzfIs_-0pchk57qIkI-YXjvhsLzf6_3tgzNT8KRFT_c1HnuN2aYHJMIWzw5i-VEMxBbaU-WoOA~~'
+  }
+}
+[2024-08-12T22:56:13.730] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-12T22:56:13.730] [INFO] response - Response:  { c: 0, d: 1121 }
+[2024-08-12T22:56:13.730] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-12T22:56:13.730] [INFO] response - Response:  { c: 0, d: 1148 }
+[2024-08-12T22:56:13.969] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-12T22:56:13.969] [INFO] response - Response:  { c: 0, d: 1165 }
+[2024-08-12T22:56:14.410] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-12T22:56:14.410] [INFO] response - Response:  { c: 0, d: 1135 }
+[2024-08-12T22:56:15.290] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-12T22:56:15.291] [INFO] response - Response:  { c: 0, d: 1151 }
+[2024-08-12T22:56:16.828] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-12T22:56:16.828] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-12T22:56:29.298] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/autocomplete/query.json?query=web&_=1723474571741
+[2024-08-12T22:56:29.299] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    data: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    query: 'web'
+  }
+}
+[2024-08-12T22:56:29.547] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/autocomplete/query.json?query=web&_=1723474571742
+[2024-08-12T22:56:29.547] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    data: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    query: 'web'
+  }
+}
+[2024-08-12T22:56:30.686] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/autocomplete/query.json?query=webgl&_=1723474571743
+[2024-08-12T22:56:30.686] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    data: [ [Object], [Object], [Object], [Object], [Object] ],
+    query: 'webgl'
+  }
+}
+[2024-08-12T22:56:30.897] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/autocomplete/query.json?query=webgl&_=1723474571744
+[2024-08-12T22:56:30.898] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    data: [ [Object], [Object], [Object], [Object], [Object] ],
+    query: 'webgl'
+  }
+}
+[2024-08-12T22:56:34.364] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-12T22:56:34.365] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    result: {
+      appKey: 'ObsSRskiryhn60pf',
+      bucketSize: 10,
+      timeSlice: 10,
+      reportPeriod: 10,
+      metricsSwitch: false,
+      pathBlacklist: [],
+      hostBlacklist: []
+    }
+  }
+}
+[2024-08-12T22:56:35.277] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-12T22:56:35.277] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    result: {
+      appKey: 'ObsSRskiryhn60pf',
+      bucketSize: 10,
+      timeSlice: 10,
+      reportPeriod: 10,
+      metricsSwitch: false,
+      pathBlacklist: [],
+      hostBlacklist: []
+    }
+  }
+}
+[2024-08-12T22:56:35.338] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-12T22:56:35.338] [INFO] response - Response:  { c: 0, d: 1177 }
+[2024-08-12T22:56:35.848] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-12T22:56:35.848] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-12T22:56:37.134] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/group/gravityGroupInfoList?page=1&scene=0
+[2024-08-12T22:56:37.134] [INFO] response - Response:  { code: 0, message: 'Success', zpData: [] }
+[2024-08-12T22:56:37.134] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/config/get
+[2024-08-12T22:56:37.134] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { unreadBubble: true } }
+[2024-08-12T22:56:37.135] [INFO] response - Response url:  https://www.zhipin.com/wapi/zprelation/friend/geekFilterByLabel?labelId=0
+[2024-08-12T22:56:37.135] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    foldText: '以上是30天内联系人',
+    filterEncryptIdList: [],
+    friendList: [],
+    filterBossIdList: []
+  }
+}
+[2024-08-12T22:56:37.135] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpitem/web/item/config/get
+[2024-08-12T22:56:37.135] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    recruit: 0,
+    hunter: false,
+    hunterAdvanceGray: false,
+    searchChatHunter: 0,
+    onlineRemind: 2,
+    resumeRefresh: 2,
+    resumeRefreshImprove: 1,
+    resumeTemplateGary: 1,
+    resumeTemplatePurchaseGary: 0,
+    pcAdvanceSearchStyleGray: 1,
+    anonymousGeekInfoGray: 1,
+    pcAdvanceCitySearchGray: 1,
+    advanceSearchStyleGray: 0,
+    advanceSearchStyleGrayV2: 0,
+    advanceSearchStyleGrayV3: 0,
+    offlineUseGray: 0,
+    refinedSelected: 0,
+    detailPageStyleGray: 0,
+    resumeRefreshResultNewStyle: 1,
+    hunterSearchAvailable: 0,
+    hunterSearchTrail: 0,
+    geekTreeAvailable: 0,
+    itemOffLineIntroduceH5Style: 0,
+    pcSearchSubscribeStyleGray: 0,
+    pcSearchSubscribeDefaultGray: 0,
+    pcDirectCallGray: 0,
+    searchViewedStyleGray: 0,
+    sameCompanyGeekGray: 0,
+    itemInviteResultStyle: 0,
+    itemInviteResultStyleV2: 0,
+    hunterServiceGray: 0,
+    hunterServiceGrayV2: 0,
+    searchChatCardJobListDefaultGray: 0,
+    exposureCardShowName: null,
+    relatedGeekOptimizeGray: 0,
+    guideViewRelatedGeekGray: 0,
+    jobExposureDetailStyleGray: 0,
+    availableCallOptimizeGray: 0,
+    searchCardDefaultJob: null,
+    searchEasyChatGray: 0
+  }
+}
+[2024-08-12T22:56:37.156] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-12T22:56:37.156] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    userId: 670504962,
+    identity: 0,
+    encryptUserId: '06cbd975ad1277930XN63t25GVRS',
+    name: 'null',
+    showName: 'null',
+    tinyAvatar: 'https://img.bosszhipin.com/boss/avatar/avatar_16.png',
+    largeAvatar: 'https://img.bosszhipin.com/boss/avatar/avatar_16.png',
+    token: 'kP3iMtcLuhpbqmE8',
+    isHunter: false,
+    clientIP: '112.64.60.240',
+    email: null,
+    phone: null,
+    brandName: null,
+    doubleIdentity: false,
+    recruit: false,
+    agentRecruit: false,
+    industryCostTag: 0,
+    gender: 0,
+    trueMan: false,
+    studentFlag: true,
+    completeDayStatus: false,
+    complete: true,
+    multiExpect: false,
+    encryptComId: null
+  }
+}
+[2024-08-12T22:56:37.157] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/common/data/footer.json
+[2024-08-12T22:56:37.157] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: '<div id="footer">\n' +
+    '    <div class="inner home-inner">\n' +
+    '        <div class="footer-social">\n' +
+    '            <img src="https://static.zhipin.com/v2/web/geek/images/footer-logo.png" alt="">\n' +
+    '            <p>企业服务热线和算法/未成年人等举报渠道 <span>400 065 5799</span></p>\n' +
+    '            <p>老年人直连热线<span>400 661 6030</span></p >\n' +
+    '            <p>工作日 <span>8:00 - 22:00</span></p>\n' +
+    '            <p>休息日 <span>8:00 - 22:00</span></p>\n' +
+    '            <p class="footer-icon">\n' +
+    '                <a href="https://www.weibo.com/bosszhipin" rel="nofollow" ka="link-weibo" target="_blank" class="icon-weibo"><span>官方微博</span></a>\n' +
+    '                <a href="javascript:;" class="icon-weixin" ka="link-weixin"><span>微信公众号</span><img src="https://static.zhipin.com/v2/web/geek/images/we_chat_qr.jpg" class="qrcode-weixin" /></a>\n' +
+    '                <a href="https://app.zhipin.com" class="icon-app" ka="link-downloadapp"><span>下载</span></a>\n' +
+    '                <a href="https://www.zhipin.com/desktop/" class="icon-client-app" title="boss直聘电脑端下载" data-source="3" ka="bosszp_desktop_bottom_click" target="_blank">\n' +
+    '                    <img class="icon-image" src="https://img.bosszhipin.com/static/file/2021/dppx09luaq1637052502211.png" alt="">\n' +
+    '                    <span class="download-app-tip">PC桌面版下载</span>\n' +
+    '                </a>\n' +
+    '            </p>\n' +
+    '        </div>\n' +
+    '        <div class="footer-about clear-fix">\n' +
+    '            <dl>\n' +
+    '                <dt>企业服务</dt>\n' +
+    '                <dd>\n' +
+    '                    <a href="https://www.zhipin.com/job_detail/" ka="link-search">职位搜索</a>\n' +
+    '                    <a href="https://news.zhipin.com/" ka="link-news">新闻资讯</a>\n' +
+    '                    <a href="https://app.zhipin.com/" ka="link-app">BOSS直聘APP</a>\n' +
+    '                    <a href="https://ir.zhipin.com/" target="_blank" ka="link-ir">投资者关系 Investor Relations</a>\n' +
+    '                    <a href="https://gongyi.zhipin.com/home" target="_blank" ka="link-gongyi">直品公益基金会</a>\n' +
+    '                </dd>\n' +
+    '            </dl>\n' +
+    '            <dl>\n' +
+    '                <dt>使用与帮助</dt>\n' +
+    '                <dd>\n' +
+    '                    <a href="https://about.zhipin.com/agreement" rel="nofollow" ka="link-privacy" target="_blank">协议与规则</a>\n' +
+    '                    <a href="https://about.zhipin.com/agreement?id=personalinfopro" rel="nofollow" ka="link-privacy" target="_blank">隐私政策</a>\n' +
+    '                    <a href="https://www.zhipin.com/web/common/protocol/cheat-guide.html" rel="nofollow" ka="link-anticheatguide" target="_blank">防骗指南</a>\n' +
+    '                    <a href="https://www.zhipin.com/web/common/protocol/use-help.html" rel="nofollow" ka="link-usehelp" target="_blank">使用帮助</a>\n' +
+    '                </dd>\n' +
+    '            </dl>\n' +
+    '            <dl>\n' +
+    '                <dt>联系BOSS直聘</dt>\n' +
+    '                <dd>\n' +
+    '                    <p>北京华品博睿网络技术有限公司</p>\n' +
+    '                    <p>公司地址 北京市朝阳区太阳宫中路16号院1号楼18层1801内09</p>\n' +
+    '                    <p>违法和不良信息举报邮箱/未成年人举报渠道 <a class="report-mail" href="mailto:jubao@kanzhun.com" rel="nofollow">jubao@kanzhun.com</a></p>\n' +
+    '                </dd>\n' +
+    '            </dl>\n' +
+    '        </div>\n' +
+    '        <div class="copyright">\n' +
+    '            <p>\n' +
+    '                <span>Copyright © 2024 BOSS直聘</span><span><a href="https://beian.miit.gov.cn/" rel="nofollow" ka="link-icp" target="_blank">京ICP备14013441号-5</a></span><span>京ICP证150923号</span>\n' +
+    '                <span>\n' +
+    '                     <a href="https://www.zhipin.com/web/common/protocol/business-license.html" rel="nofollow" ka="link-businesslicense" target="_blank">\n' +
+    '                         <img src="https://static.zhipin.com/v2/web/geek/images/icon-badge-1.png" alt=""/>\n' +
+    '                         电子营业执照\n' +
+    '                     </a>\n' +
+    '                </span>\n' +
+    '                <span><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502032801" rel="nofollow" ka="link-beian" target="_blank"><img src="https://static.zhipin.com/v2/web/geek/images/icon-beian.png" alt=""/> 京公网安备11010502032801</a></span>\n' +
+    '                <span><a href="http://sdwj.zhipin.com/web/index.html" rel="nofollow" ka="link-sdwj" target="_blank">朝阳网警</a></span>\n' +
+    '                <span><a href="https://www.zhipin.com/web/common/protocol/hr-service.html" rel="nofollow" ka="link-hr-service" target="_blank">人力资源服务许可证</a></span>\n' +
+    '                <span><a href="https://www.12377.cn" rel="nofollow" ka="link-12377" target="_blank">网上有害信息举报专区</a></span>\n' +
+    '                <span class="renshe-phone">朝阳区人社局监督电话：(010)57596212，(010)65099938</span>\n' +
+    '                <span><a href="https://about.zhipin.com/agreement?id=b9f73536711c4928bde84337cb53aa91" rel="nofollow" ka="link-algo-beian" target="_blank">算法备案信息</a></span>\n' +
+    '            </p>\n' +
+    '        </div>\n' +
+    '    </div>\n' +
+    '</div>\n' +
+    '\n'
+}
+[2024-08-12T22:56:37.159] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/notify/setting/get
+[2024-08-12T22:56:37.159] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    userNotifySettingList: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ]
+  }
+}
+[2024-08-12T22:56:37.160] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/group/groupInfoList
+[2024-08-12T22:56:37.160] [INFO] response - Response:  { code: 0, message: 'Success', zpData: [] }
+[2024-08-12T22:56:37.161] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpchat/group/gravityGroupInfoList?page=1&scene=0
+[2024-08-12T22:56:37.161] [INFO] response - Response:  { code: 0, message: 'Success', zpData: [] }
+[2024-08-12T22:56:37.162] [INFO] response - Response url:  https://www.zhipin.com/wapi/zprelation/friend/geekFilterByLabel?labelId=-1
+[2024-08-12T22:56:37.162] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { foldText: '以上是30天内联系人', friendList: [] }
+}
+[2024-08-12T22:56:37.547] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/common/data/header.json
+[2024-08-12T22:56:37.547] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: '<script>\n' +
+    "    var staticPath = 'https://static.zhipin.com/v2';\n" +
+    '    _PAGE = {\n' +
+    '        checkMobileUrl: "/registe/sendSms.json",\n' +
+    '        regMobileUrl: "/registe/save.json",\n' +
+    '        loginMobileUrl: "/login/phone.json",\n' +
+    '        loginAccountUrl: "/login/account.json",\n' +
+    '        getRandomKeyUrl: "/captcha/randkey.json",\n' +
+    '        verifyImgUrl: "/captcha/?randomKey={randomKey}",\n' +
+    '        getPositionUrl: "/user/position.json",\n' +
+    '        homeRedirectUrl: "",\n' +
+    '        citySiteName:"上海站",\n' +
+    '        citySiteCode:"101020100",\n' +
+    '        skillsUrl: "/common/data/positionSkill"\n' +
+    '            ,\n' +
+    '            uid:670504962,\n' +
+    '            name: "null",\n' +
+    '            face: "https://img.bosszhipin.com/boss/avatar/avatar_16.png",\n' +
+    '            token: "kP3iMtcLuhpbqmE8|0",\n' +
+    '            clientIP: "112.64.60.240",\n' +
+    '                ws: {\n' +
+    '                    useSSL: true,\n' +
+    '                    server: "ws.zhipin.com",\n' +
+    '                    port: 443\n' +
+    '                }\n' +
+    '    }\n' +
+    '</script>\n' +
+    '<div id="header">\n' +
+    '    <style>\n' +
+    '        #header .header-login-btn{ position: relative; }\n' +
+    '        #header .header-login-btn:hover .header-login-desc{ display: block; }\n' +
+    '        #header .header-login-btn:hover:after{\n' +
+    "            content: ' ';\n" +
+    '            position: absolute;\n' +
+    '            left: 0;\n' +
+    '            right: 0;\n' +
+    '            bottom: -12px;\n' +
+    '            height: 12px;\n' +
+    '            z-index: 1;\n' +
+    '            background: transparent;\n' +
+    '        }\n' +
+    '        #header .header-login-desc{\n' +
+    '            display: none;\n' +
+    '            position: absolute;\n' +
+    '            left: 50%;\n' +
+    '            top: 34px;\n' +
+    '            margin-left: -114px;\n' +
+    '            background: #FFFFFF;\n' +
+    '            box-shadow: 0px 16px 40px 0px rgba(153,153,153,0.3), 0px 2px 10px 0px rgba(0,0,0,0.08);\n' +
+    '            z-index: 2;\n' +
+    '            font-size: 14px;\n' +
+    '            text-align: left;\n' +
+    '            padding: 16px 18px;\n' +
+    '            border-radius: 8px;\n' +
+    '            box-sizing: border-box;\n' +
+    '            font-weight: normal;\n' +
+    '        }\n' +
+    '        #header .header-login-desc:before{\n' +
+    "            content: ' ';\n" +
+    '            position: absolute;\n' +
+    '            left: 50%;\n' +
+    '            margin-left: -4px;\n' +
+    '            top: -8px;\n' +
+    '            width: 0;\n' +
+    '            height: 0;\n' +
+    '            border-top: 4px solid transparent;\n' +
+    '            border-left: 4px solid transparent;\n' +
+    '            border-right: 4px solid transparent;\n' +
+    '            border-bottom: 4px solid #fff;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-title{\n' +
+    '            font-weight: 500;\n' +
+    '            color: #333333;\n' +
+    '            line-height: 20px;\n' +
+    '            display: block;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list{\n' +
+    '            margin-top: 4px;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list li{\n' +
+    '            margin: 8px 0 0 0;\n' +
+    '            display: block;\n' +
+    '            font-size: 13px;\n' +
+    '            color: #333333;\n' +
+    '            text-align: left;\n' +
+    '            height: 26px;\n' +
+    '            line-height: 26px;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list .login-desc-icon{\n' +
+    '            display: inline-block;\n' +
+    '            height: 26px;\n' +
+    '            width: 26px;\n' +
+    '            margin-right: 8px;\n' +
+    '            vertical-align: middle;\n' +
+    '            background: url(https://img.bosszhipin.com/static/file/2022/7rf2cut4bc1669274264900.png) 0 0 / 26px auto no-repeat;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list .login-desc-icon.desc-icon-chat{\n' +
+    '            background-position: 0 0;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list .login-desc-icon.desc-icon-match{\n' +
+    '            background-position: 0 -26px;\n' +
+    '        }\n' +
+    '        #header .header-login-desc .login-desc-list .login-desc-icon.desc-icon-info{\n' +
+    '            background-position: 0 -52px;\n' +
+    '        }\n' +
+    '        #header .header-resume-new .header-resume-tip{\n' +
+    '            z-index: 2;\n' +
+    '            display: none;\n' +
+    '        }\n' +
+    '        #header .header-resume-new a:hover .header-resume-tip{\n' +
+    '            display: none;\n' +
+    '        }\n' +
+    '        #header .header-nav-group{\n' +
+    '            margin: 0 5px;\n' +
+    '            float: none;\n' +
+    '        }\n' +
+    '        #header .header-nav-group li{\n' +
+    '            margin: 0;\n' +
+    '            position: relative;\n' +
+    '        }\n' +
+    '        #header .header-nav-group .header-nav-dot{\n' +
+    '            display: inline-block;\n' +
+    '            width: 2px;\n' +
+    '            height: 2px;\n' +
+    '            border-radius: 100%;\n' +
+    '            background: #fff;\n' +
+    '            vertical-align: middle;\n' +
+    '        }\n' +
+    '        #header .user-nav .header-login-btn{\n' +
+    '            vertical-align: middle;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-tools{\n' +
+    '            display: inline-block;\n' +
+    '            vertical-align: middle;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-tools > a{\n' +
+    '            display: inline-block;\n' +
+    '            font-weight: 500;\n' +
+    '            color: #FFFFFF;\n' +
+    '            line-height: 20px;\n' +
+    '            height: auto;\n' +
+    '            padding: 3px 7px;\n' +
+    '            vertical-align: middle;\n' +
+    '            border-radius: 4px;\n' +
+    '            margin-right: 8px;\n' +
+    '            border: 1px solid transparent;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-tools > a:hover{\n' +
+    '            color: #fff;\n' +
+    '            background: rgba(255, 255, 255, 0.2);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-tools:hover .nav-resume-box{\n' +
+    '            display: block;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box{\n' +
+    '            display: none;\n' +
+    '            position: absolute;\n' +
+    '            top: 49px;\n' +
+    '            right: 0;\n' +
+    '            z-index: 1;\n' +
+    '            padding: 4px;\n' +
+    '            background: #FFFFFF;\n' +
+    '            box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.08);\n' +
+    '            border-radius: 8px;\n' +
+    '            border: 1px solid #EDEDED;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box ul{\n' +
+    '            overflow: hidden;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li{\n' +
+    '            display: block;\n' +
+    '            float: left;\n' +
+    '            text-align: center;\n' +
+    '            width: 120px;\n' +
+    '            margin: 4px;\n' +
+    '            border-radius: 8px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li a{\n' +
+    '            border: 1px solid transparent;\n' +
+    '            transition: all 0.2s linear;\n' +
+    '            border-radius: 8px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li:hover a{\n' +
+    '            border: 1px solid transparent;\n' +
+    '            border: 1px solid rgba(0,190,189,0.5);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li:hover span{\n' +
+    '            color: #00A6A7;\n' +
+    '        }\n' +
+    '        #header .user-nav .header-resume-new + .nav-resume-box .resume-box-update{\n' +
+    '            display: block;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box .resume-box-update{\n' +
+    '            display: none;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-boss{\n' +
+    '            background: linear-gradient(180deg, #CCDDFF 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-geek{\n' +
+    '            background: linear-gradient(180deg, #FFE4C2 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-geek a:before{\n' +
+    '            background-position: 0 -60px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-upload a:before{\n' +
+    '            background-position: 0 -120px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-update{\n' +
+    '            position: relative;\n' +
+    '            background: linear-gradient(180deg, #CCDDFF 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-update:after{\n' +
+    "            content: '解析成功';\n" +
+    '            position: absolute;\n' +
+    '            z-index: 1;\n' +
+    '            top: 0;\n' +
+    '            right: 0;\n' +
+    '            font-size: 12px;\n' +
+    '            background: rgba(0, 166, 167, 0.1);\n' +
+    '            display: inline-block;\n' +
+    '            padding: 2px 4px;\n' +
+    '            line-height: 16px;\n' +
+    '            background: #00BEBD;\n' +
+    '            border-radius: 0px 8px 0px 8px;\n' +
+    '            color: #fff;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-update a:before{\n' +
+    '            background-position: 0 -180px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-resume{\n' +
+    '            background: linear-gradient(180deg, #A6FFE7 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-resume a:before{\n' +
+    '            background-position: 0 -240px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li.resume-box-upload{\n' +
+    '            background: linear-gradient(180deg, #A4E5FF 0%, rgba(255,255,255,0) 100%);\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li a{\n' +
+    '            display: block;\n' +
+    '            padding: 20px 0 10px;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li a:before{\n' +
+    "            content: ' ';\n" +
+    '            display: block;\n' +
+    '            margin: 0 auto;\n' +
+    '            width: 60px;\n' +
+    '            height: 60px;\n' +
+    '            background: url(https://img.bosszhipin.com/static/file/2023/d1mkjebr121695198610640.png) 0 0 / 60px auto no-repeat;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li span{\n' +
+    '            display: block;\n' +
+    '            font-size: 14px;\n' +
+    '            font-weight: 500;\n' +
+    '            color: #222222;\n' +
+    '            line-height: 20px;\n' +
+    '            margin-top: 12px;\n' +
+    '            transition: all 0.2s linear;\n' +
+    '        }\n' +
+    '        #header .user-nav .nav-resume-box li p{\n' +
+    '            font-size: 12px;\n' +
+    '            color: #999999;\n' +
+    '            line-height: 17px;\n' +
+    '            margin-top: 4px;\n' +
+    '        }\n' +
+    '    </style>\n' +
+    '    <div class="inner home-inner">\n' +
+    '        <div class="logo">\n' +
+    '            <a href="https://www.zhipin.com/" ka="header-home-logo" title="BOSS直聘"><span>BOSS直聘</span></a>\n' +
+    '        </div>\n' +
+    '        <div class="nav">\n' +
+    '            <ul>\n' +
+    '                <li class=""><a ka="header-home" href="https://www.zhipin.com/shanghai/">首页</a></li>\n' +
+    '                <li class=""><a ka="header-job-recommend" href="https://www.zhipin.com/web/geek/job-recommend">推荐</a></li>\n' +
+    '                <ul class="header-nav-group">\n' +
+    '                    <li class=""><a ka="header-job" href="https://www.zhipin.com/job_detail/">搜索</a></li>\n' +
+    '                    <span class="header-nav-dot"></span>\n' +
+    '                    <li class=""><a ka="header_brand" href="https://www.zhipin.com/gongsi/">公司</a></li>\n' +
+    '                </ul>\n' +
+    '              '... 4092 more characters
+}
+[2024-08-12T22:56:37.578] [INFO] response - Response url:  https://img.bosszhipin.com/static/file/2022/slv5z2t59n1655432972265.json
+[2024-08-12T22:56:37.578] [INFO] response - Response:  {
+  v: '5.9.4',
+  fr: 24,
+  ip: 0,
+  op: 24,
+  w: 100,
+  h: 100,
+  nm: 'bumanyi',
+  ddd: 0,
+  assets: [
+    { id: 'comp_0', nm: '预合成 1', fr: 24, layers: [Array] },
+    { id: 'comp_1', nm: '预合成 2', fr: 24, layers: [Array] },
+    { id: 'comp_2', nm: '预合成 5', fr: 24, layers: [Array] },
+    { id: 'comp_3', nm: '预合成 6', fr: 24, layers: [Array] }
+  ],
+  layers: [
+    {
+      ddd: 0,
+      ind: 1,
+      ty: 0,
+      nm: '预合成 1',
+      refId: 'comp_0',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 0,
+      op: 120,
+      st: 0,
+      bm: 0
+    },
+    {
+      ddd: 0,
+      ind: 2,
+      ty: 4,
+      nm: '椭圆形',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      ef: [Array],
+      shapes: [Array],
+      ip: 0,
+      op: 120,
+      st: 0,
+      ct: 1,
+      bm: 0
+    },
+    {
+      ddd: 0,
+      ind: 3,
+      ty: 0,
+      nm: '预合成 5',
+      refId: 'comp_2',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 0,
+      op: 120,
+      st: 0,
+      bm: 0
+    },
+    {
+      ddd: 0,
+      ind: 4,
+      ty: 0,
+      nm: '预合成 6',
+      refId: 'comp_3',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 0,
+      op: 120,
+      st: 0,
+      bm: 0
+    }
+  ],
+  markers: []
+}
+[2024-08-12T22:56:37.579] [INFO] response - Response url:  https://img.bosszhipin.com/static/file/2022/yq4s2zwazm1655433298817.json
+[2024-08-12T22:56:37.579] [INFO] response - Response:  {
+  v: '5.9.4',
+  fr: 24,
+  ip: 0,
+  op: 24,
+  w: 100,
+  h: 100,
+  nm: 'yiban',
+  ddd: 0,
+  assets: [
+    { id: 'comp_0', nm: '预合成 4', fr: 24, layers: [Array] },
+    { id: 'comp_1', nm: '预合成 3', fr: 24, layers: [Array] }
+  ],
+  layers: [
+    {
+      ddd: 0,
+      ind: 1,
+      ty: 0,
+      nm: '预合成 4',
+      refId: 'comp_0',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 0,
+      op: 24,
+      st: 0,
+      bm: 0
+    },
+    {
+      ddd: 0,
+      ind: 2,
+      ty: 4,
+      nm: '椭圆形',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      ef: [Array],
+      shapes: [Array],
+      ip: 0,
+      op: 120,
+      st: 0,
+      ct: 1,
+      bm: 0
+    }
+  ],
+  markers: []
+}
+[2024-08-12T22:56:37.630] [INFO] response - Response url:  https://img.bosszhipin.com/static/file/2022/coyoauheri1655433298743.json
+[2024-08-12T22:56:37.631] [INFO] response - Response:  {
+  v: '5.9.4',
+  fr: 24,
+  ip: 0,
+  op: 25,
+  w: 100,
+  h: 100,
+  nm: 'manyi',
+  ddd: 0,
+  assets: [
+    { id: 'comp_0', nm: '▽ 编组', fr: 60, layers: [Array] },
+    { id: 'comp_1', nm: '▽ 编组 29备份 8', fr: 24, layers: [Array] },
+    { id: 'comp_2', nm: '▽ 编组 33', fr: 24, layers: [Array] },
+    { id: 'comp_3', nm: '▽ 椭圆形 2', fr: 24, layers: [Array] }
+  ],
+  layers: [
+    {
+      ddd: 0,
+      ind: 1,
+      ty: 0,
+      nm: '▽ 编组',
+      refId: 'comp_0',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 7,
+      op: 18,
+      st: 7,
+      bm: 0
+    },
+    {
+      ddd: 0,
+      ind: 2,
+      ty: 0,
+      nm: '▽ 编组',
+      refId: 'comp_0',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 13,
+      op: 24,
+      st: 13,
+      bm: 0
+    },
+    {
+      ddd: 0,
+      ind: 3,
+      ty: 0,
+      nm: '▽ 编组',
+      refId: 'comp_0',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 0,
+      op: 11,
+      st: 0,
+      bm: 0
+    },
+    {
+      ddd: 0,
+      ind: 4,
+      ty: 0,
+      nm: '▽ 编组 29备份 8',
+      refId: 'comp_1',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 13,
+      op: 26,
+      st: 13,
+      ct: 1,
+      bm: 0
+    },
+    {
+      ddd: 0,
+      ind: 5,
+      ty: 0,
+      nm: '▽ 编组 29备份 8',
+      refId: 'comp_1',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 0,
+      op: 13,
+      st: 0,
+      ct: 1,
+      bm: 0
+    },
+    {
+      ddd: 0,
+      ind: 6,
+      ty: 0,
+      nm: '▽ 编组',
+      refId: 'comp_0',
+      sr: 1,
+      ks: [Object],
+      ao: 0,
+      w: 100,
+      h: 100,
+      ip: 3,
+      op: 14,
+      st: 3,
+      bm: 0
+    }
+  ],
+  markers: []
+}
+[2024-08-12T22:56:37.636] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-12T22:56:37.636] [INFO] response - Response:  { c: 0, d: 1189 }
+[2024-08-12T22:56:37.636] [INFO] response - Response url:  https://www.zhipin.com/wapi/zppassport/get/wt
+[2024-08-12T22:56:37.637] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    wt2: 'DV-2IBaHrNwTgMzfIs_-0pchk57qIkI-YXjvhsLzf6_3tgzNT8KRFT_c1HnuN2aYHJMIWzw5i-VEMxBbaU-WoOA~~'
+  }
+}
+[2024-08-12T22:56:37.637] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/common/data/friendlylinks.json?uri=%2Fweb%2Fgeek%2Fjob
+[2024-08-12T22:56:37.637] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { uri: '/web/geek/job', links: [] }
+}
+[2024-08-12T22:56:37.638] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/job/sidebar.json
+[2024-08-12T22:56:37.638] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    staticPath: 'https://static.zhipin.com/zhipin-geek-seo/v5147',
+    isonline: true,
+    hasAttachmentResume: false,
+    showResumeExportBtn: true,
+    salaryreporturi: '',
+    geekComplete: true,
+    geekLogin: true
+  }
+}
+[2024-08-12T22:56:37.639] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/job/condition.json
+[2024-08-12T22:56:37.639] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    payTypeList: [ [Object], [Object], [Object], [Object], [Object] ],
+    experienceList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    salaryList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    stageList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    scaleList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    partTimeList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    degreeList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    jobTypeList: [ [Object], [Object], [Object] ]
+  }
+}
+[2024-08-12T22:56:37.642] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/data/cityGroup.json
+[2024-08-12T22:56:37.642] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    cityGroup: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    hotCityList: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    locationCity: {
+      code: 101020100,
+      name: '上海',
+      tip: null,
+      subLevelModelList: null,
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: '021',
+      regionCode: 0,
+      value: null
+    }
+  }
+}
+[2024-08-12T22:56:37.643] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/job/subinfo.json?query=webgl%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88&city=101020100&experience=&payType=&partTime=&degree=&industry=&scale=&stage=&position=&jobType=&salary=&multiBusinessDistrict=&multiSubway=&page=1
+[2024-08-12T22:56:37.643] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    jobSubscribeMsg: '【上海/webgl开发工...】',
+    jobSubscribeFilter: '{"city":{"desc":"上海","value":"101020100"},"filterMsg":"【上海/webgl开发工...】","otherMsg":"上海","query":"webgl开发工程师","queryMsg":"webgl开发工程师"}',
+    query: 'webgl开发工程师',
+    showFilter: '上海',
+    showJobSubscribe: true,
+    sceneString: '69bdf362da8047baa904db3f989010e3'
+  }
+}
+[2024-08-12T22:56:37.644] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpitem/geek/vip/info
+[2024-08-12T22:56:37.644] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    geekVipInfo: {
+      vipStatus: 0,
+      endDate: null,
+      encryptPriceId: '78dfe43804a47d8a1nc~',
+      vipTitle: null,
+      jumpUrl: null,
+      buttonText: null,
+      vipDesc: null,
+      buttonUrl: null,
+      bzbTime: null,
+      appStoreUrl: null,
+      showVipType: 0,
+      tag: null,
+      privilegeCount: 8,
+      renewVipType: 0,
+      encryptBagId: null,
+      popWindowInfo: null,
+      newPurchaseGray: 1
+    }
+  }
+}
+[2024-08-12T22:56:37.644] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/job/related/word.json?query=webgl%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88
+[2024-08-12T22:56:37.644] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { relatedSearchWordList: [] } }
+[2024-08-12T22:56:37.645] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/job/tdk.json?city=101020100&experience=&payType=&partTime=&degree=&industry=&scale=&stage=&position=&jobType=&salary=&multiBusinessDistrict=&multiSubway=
+[2024-08-12T22:56:37.645] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    description: 'BOSS直聘为求职者提供2024年上海招聘信息，百万Boss在线直聘，直接开聊，在线面试，找工作就上BOSS直聘网站或APP，直接与Boss开聊吧！',
+    title: '「上海招聘」-2024年上海人才招聘信息 - BOSS直聘',
+    keywords: '上海招聘,上海人才网,上海招聘网'
+  }
+}
+[2024-08-12T22:56:37.925] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/businessDistrict.json?cityCode=101020100
+[2024-08-12T22:56:37.925] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    businessDistrict: { code: 101020100, name: '上海', subLevelModelList: [Array] }
+  }
+}
+[2024-08-12T22:56:37.928] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/data/industryFilterExemption
+[2024-08-12T22:56:37.928] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: [
+    {
+      code: 100000,
+      name: '互联网/AI',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101400,
+      name: '电子/通信/半导体',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101100,
+      name: '服务业',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101000,
+      name: '消费品/批发/零售',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100700,
+      name: '房地产/建筑',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100300,
+      name: '教育培训',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100100,
+      name: '广告/传媒/文化/体育',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100900,
+      name: '制造业',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100600,
+      name: '专业服务',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100400,
+      name: '制药/医疗',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100800,
+      name: '汽车',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100500,
+      name: '交通运输/物流',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101200,
+      name: '能源/化工/环保',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 100200,
+      name: '金融',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    },
+    {
+      code: 101300,
+      name: '政府/非盈利机构/其他',
+      tip: null,
+      subLevelModelList: [Array],
+      firstChar: null,
+      pinyin: null,
+      rank: 0,
+      mark: 0,
+      positionType: 0,
+      cityType: 0,
+      capital: 0,
+      color: null,
+      recruitmentType: null,
+      cityCode: null,
+      regionCode: 0,
+      value: null
+    }
+  ]
+}
+[2024-08-12T22:56:37.937] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/data/getSubwayByCity?cityCode=101020100
+[2024-08-12T22:56:37.937] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    subwayList: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object]
+    ]
+  }
+}
+[2024-08-12T22:56:37.980] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition
+[2024-08-12T22:56:37.980] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    position: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  }
+}
+[2024-08-12T22:56:37.981] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/resume/restrict/list.json
+[2024-08-12T22:56:37.981] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { restrictStatus: 0 } }
+[2024-08-12T22:56:38.179] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpCommon/actionLog/common.json
+[2024-08-12T22:56:38.179] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-12T22:56:38.200] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/joblist.json?scene=1&query=webgl%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88&city=101020100&experience=&payType=&partTime=&degree=&industry=&scale=&stage=&position=&jobType=&salary=&multiBusinessDistrict=&multiSubway=&page=1&pageSize=30
+[2024-08-12T22:56:38.200] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    resCount: 450,
+    filterString: '',
+    lid: '3imrfIeLbzN',
+    hasMore: true,
+    jobList: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    totalCount: 300,
+    brandCard: null
+  }
+}
+[2024-08-12T22:56:38.211] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-12T22:56:38.211] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { showTip: false } }
+[2024-08-12T22:56:38.211] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-12T22:56:38.211] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { showType: 0, parserId: null, resumeName: null, target: 0 }
+}
+[2024-08-12T22:56:38.212] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-12T22:56:38.212] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    whetherPopUp: false,
+    title: null,
+    subTitle: null,
+    imgUrl: null,
+    url: null,
+    type: 0
+  }
+}
+[2024-08-12T22:56:38.212] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-12T22:56:38.212] [INFO] response - Response:  { code: 0, message: 'Success', zpData: {} }
+[2024-08-12T22:56:38.213] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-12T22:56:38.213] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { userType: 0, cid: '172347447022817651' }
+}
+[2024-08-12T22:56:38.215] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-12T22:56:38.215] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    otherCitySites: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    siteGroup: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    hotCitySites: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    siteList: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  }
+}
+[2024-08-12T22:56:38.222] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpApm/actionLog/fe/ie/common.json
+[2024-08-12T22:56:38.222] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-12T22:56:38.231] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/job/seo/data.json?city=101020100&position=&industry=&multiBusinessDistrict=&jobCity=101020100
+[2024-08-12T22:56:38.231] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    breadSites: [ [Object], [Object] ],
+    seoData: {
+      hotJobs: [Array],
+      hotCities: [Array],
+      nearbyCities: [Array],
+      hotBrands: [Array]
+    }
+  }
+}
+[2024-08-12T22:56:38.247] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpwukong/web/employer/task/showGeekEntry?
+[2024-08-12T22:56:38.247] [INFO] response - Response:  { code: 0, message: 'Success', zpData: false }
+[2024-08-12T22:56:38.247] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpuser/h5/account/getStatus?
+[2024-08-12T22:56:38.247] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    bindWeiXin: false,
+    deviceSecurity: true,
+    securityProblem: false,
+    bindEmail: false,
+    changeWeixin: true
+  }
+}
+[2024-08-12T22:56:38.248] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-12T22:56:38.248] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { show: false, url: '' } }
+[2024-08-12T22:56:38.248] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpitem/geek/vip/info?
+[2024-08-12T22:56:38.248] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    geekVipInfo: {
+      vipStatus: 0,
+      endDate: null,
+      encryptPriceId: '78dfe43804a47d8a1nc~',
+      vipTitle: null,
+      jumpUrl: null,
+      buttonText: null,
+      vipDesc: null,
+      buttonUrl: null,
+      bzbTime: null,
+      appStoreUrl: null,
+      showVipType: 0,
+      tag: null,
+      privilegeCount: 8,
+      renewVipType: 0,
+      encryptBagId: null,
+      popWindowInfo: null,
+      newPurchaseGray: 1
+    }
+  }
+}
+[2024-08-12T22:56:38.348] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpmsg/history/pull?type=0&lastId=112706436142080&secretId=zqjiDPVBMSbDuX_sCq6kYSVaJc-oyQ4svuZW0lEUd82ziVZHcbIuj9NRVF55kn0mEFZbk9ynJZiBVsouQbSErLVHRHyW8BkkiRdeanpmuVsb
+[2024-08-12T22:56:38.349] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    hasMore: true,
+    lastId: 115163290805250,
+    secretId: '8JDdY5Icd3CE6F6CF92BaH4qNcj-mV0q--FWmBsKIs7qp0JEfuQrndtCNAwrhlJRB1Zbk9ynJZiBVsouQbWEjqdKUznGrh0m1xMIbS5kvVE~',
+    type: 0,
+    stringList: [
+      'CAEazAcKYQiDBxIM57O757uf6YCa55+lGkZodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9iZWlqaW4vbWNzL3VzZXJhdmF0YXIvMjAxNzAxMDEvODk5XzEwMDAuanBnIgAoADAAOAASSgiCsNy/AhIEbnVsbBo0aHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYm9zcy9hdmF0YXIvYXZhdGFyXzE2LnBuZyIAKBAwADgAGAMggajcmJjQGSjg3I6ykTIyxwMIARABGrsD5bCK5pWs55qE55So5oi377yM5aaC5oKo5Zyo5rGC6IGM5Lit6YGH5Yiw6K+m57uG5omT5ZCs5a625bqt5oOF5Ya144CB5LuF55S16K+d6Z2i6K+V44CB5byC5Zyw5Z+56K6t44CB56eB5Lq66YKu566x5Y+Rb2ZmZXLvvIzor7fmj5Dpq5jorabmg5XvvIzosKjpmLLlj5fpqpfvvJvku7vkvZXopoHmsYLnvLTnurPotLnnlKjjgIHovazotKbmsYfmrL7nrYnmtonlj4rotKLliqHnmoTmg4XlhrXvvIzor7fliqHlv4Xmi5Lnu53vvJvlr7nkuo7pmYznlJ/mnaXnlLXnuqbpnaLor5XvvIzljbPkvr/lr7nmlrnnn6XpgZPmgqjnmoTlp5PlkI3vvIzkuZ/liIforrDopoHmoLjlrp7lr7nmlrnlhazlj7jlj4rkuKrkurrouqvku73vvIzliIfli7/ooqvlpZfor53lubbovbvkv6Hlr7nmlrnvvIzosKjpmLLnlLXkv6Hor4jpqpfjgILnpZ3mgqjpobrliKnmib7liLDmu6HmhI/nmoTlt6XkvZzvvIFaAOIBADgAQAFKxgHns7vnu5/pgJrnn6U65bCK5pWs55qE55So5oi377yM5aaC5oKo5Zyo5rGC6IGM5Lit6YGH5Yiw6K+m57uG5omT5ZCs5a625bqt5oOF5Ya144CB5LuF55S16K+d6Z2i6K+V44CB5byC5Zyw5Z+56K6t44CB56eB5Lq66YKu566x5Y+Rb2ZmZXLvvIzor7fmj5Dpq5jorabmg5XvvIzosKjpmLLlj5fpqpfvvJvku7vkvZXopoHmsYLnvLTnurPotLnnlKguLi5QAFgAYAFoAHAAeACQAaOY8QWaAWBrRXdqbUpHOXIwcDBLLTcxZTdudWpuM1JGanI5ZDVsczFCS1RfNGx6Q0hIVHBpbk1pZF9MNUN6TnhiMVhBMXFGQ2lNRWtMSnRHR1BsUUV4dERxRmMtMjlGd0lTaFhnfn4algwKYQiDBxIM57O757uf6YCa55+lGkZodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9iZWlqaW4vbWNzL3VzZXJhdmF0YXIvMjAxNzAxMDEvODk5XzEwMDAuanBnIgAoADAAOAASSgiCsNy/AhIEbnVsbBo0aHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYm9zcy9hdmF0YXIvYXZhdGFyXzE2LnBuZyIAKBAwADgAGAMggOijmZjQGSjg3I6ykTIyggkIDxABOq8ICiXov5nlpZfmtYvor5Xpopjmj63np5g15aSn5oub6IGY6Zm36ZixEjflkKzor7TlhajnrZTlr7nnmoTkurrmib7lt6XkvZzpg73lvojpobrvvIHpgoDkvaDlh7rmiJh+GkpodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS8vMTY4NjEwNzYwOThhYmM2MTI3YjU5MTQ0MmM5Mzg2NDc3YjRjNzVkNTRhLnBuZyLoBmJvc3N6cDovL2Jvc3N6aGlwaW4uYXBwL29wZW53aXRoP3R5cGU9d2VidmlldyZ1cmw9aHR0cHMlM0ElMkYlMkZtLnpoaXBpbi5jb20lMkZhY3Rpdml0eSUyRmh0bWwlMkZkZXZlbG9wZXIlM0ZhY3Rpdml0eUlkJTNEZDljY2Y0YmE5YTI1NzgzZXFBVjQzZHE1JTI2c291cmNlJTNEJmJhPSU3QiUyMmFjdGlvbiUyMiUzQSUyMnB1c2gtY2FyZC1jbGljayUyMiUyQyUyMnAlMjIlM0ElMjI2MDE2OTY5MiUyMiUyQyUyMnAyJTIyJTNBJTIyMTcyMjY1NTQyMDAzOSUyMiUyQyUyMnAzJTIyJTNBJTIyMTI2OTI1NDM1NTgxNTUwMTgyNCUyMiUyQyUyMnA0JTIyJTNBJTIyMTY1OSUyMiUyQyUyMnA1JTIyJTNBNTAyJTJDJTIycDYlMjIlM0ElMjJib3NzenAlM0ElMkYlMkZib3NzemhpcGluLmFwcCUyRm9wZW53aXRoJTNGdHlwZSUzRHdlYnZpZXclMjZ1cmwlM0RodHRwcyUyNTNBJTI1MkYlMjUyRm0uemhpcGluLmNvbSUyNTJGYWN0aXZpdHklMjUyRmh0bWwlMjUyRmRldmVsb3BlciUyNTNGYWN0aXZpdHlJZCUyNTNEZDljY2Y0YmE5YTI1NzgzZXFBVjQzZHE1JTI1MjZzb3VyY2UlMjUzRCUyMiUyQyUyMnA3JTIyJTNBJTIyJUU4JUJGJTk5JUU1JUE1JTk3JUU2JUI1JThCJUU4JUFGJTk1JUU5JUEyJTk4JUU2JThGJUFEJUU3JUE3JTk4NSVFNSVBNCVBNyVFNiU4QiU5QiVFOCU4MSU5OCVFOSU5OSVCNyVFOSU5OCVCMSUyMiUyQyUyMnA4JTIyJTNBJTIyJUU1JTkwJUFDJUU4JUFGJUI0JUU1JTg1JUE4JUU3JUFEJTk0JUU1JUFGJUI5JUU3JTlBJTg0JUU0JUJBJUJBJUU2JTg5JUJFJUU1JUI3JUE1JUU0JUJEJTlDJUU5JTgzJUJEJUU1JUJFJTg4JUU5JUExJUJBJUVGJUJDJTgxJUU5JTgyJTgwJUU0JUJEJUEwJUU1JTg3JUJBJUU2JTg4JTk4JTdFJTIyJTdEKAAyDOeCueWHu+afpeecizgAQgBaAGIAOkgKFeivt+WcqEFQUOaJk+W8gOafpeecixIAGgAiH2Jvc3N6cDovL2Jvc3N6aGlwaW4ucGMvb3BlblBhZ2UoADIAOABCAFoAYgBaADgAQAFKN+WQrOivtOWFqOetlOWvueeahOS6uuaJvuW3peS9nOmDveW+iOmhuu+8gemCgOS9oOWHuuaImH5QpMSn4///////AVgAYAFoAHAAeACKARMxMjY5MjU0MzU1ODE1NTAxODI0kAHcu9gcmgFgM2NUMnhMUHZpb1ROMC1YMTRxdlVKbzUta09OSnNaZ0huM3dleWtwckVNOTRhVHdKTEVOVUMyRWZEaTBvcHlRM1pOblYxRkRuX2VLZ0ZDSmNXOWJ0WVktY2hNMEdmQX5+GuYGCnIInQYSDOmBk+WFt+mAmuefpRpXaHR0cHM6Ly9pbWcyLmJvc3N6aGlwaW4uY29tL2FwcC9hbmRyb2lkL2l0ZW1FZmZlY3QtYmRjNjQ1ZWNiY2ViN2RjNGY3NDBlY2Y0MGNiNGM1ZDUucG5nIgAoADAAOAASSgiCsNy/AhIEbnVsbBo0aHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYm9zcy9hdmF0YXIvYXZhdGFyXzE2LnBuZyIAKBAwADgAGAMggejxsbHzGSiAvfO+kjIy3QMIDxABOogCCgzlpKnpmY3npo/liKkSOuaBreWWnOaCqOiOt+W+l+S4gOasoeeJm+S6ulZJUO+8iDflpKnvvInor5XnlKjnmoTmnLrkvJrvvIEaACIzaHR0cHM6Ly9tLnpoaXBpbi5jb20vd2FwaS96cGl0ZW0vZ2Vlay92aXA/c291cmNlPTE3KAAyDOeri+WNs+afpeecizgAQgBaAGJveyJpdGVtSWNvbiI6Imh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9hcHAvYW5kcm9pZC9yZXN1bWVSZWZyZXNoLTBkMTUzYWZjY2RiOTZhODcwMzYxY2FmNWRmZWU3OTliLnBuZyJ9OskBCgznq4vljbPmn6XnnIsSOuaBreWWnOaCqOiOt+W+l+S4gOasoeeJm+S6ulZJUO+8iDflpKnvvInor5XnlKjnmoTmnLrkvJrvvIEaACIAKAAyADgAQgBaAGJveyJpdGVtSWNvbiI6Imh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9hcHAvYW5kcm9pZC9yZXN1bWVSZWZyZXNoLTBkMTUzYWZjY2RiOTZhODcwMzYxY2FmNWRmZWU3OTliLnBuZyJ9WgA4AEABSjrmga3llpzmgqjojrflvpfkuIDmrKHniZvkurpWSVDvvIg35aSp77yJ6K+V55So55qE5py65Lya77yBUABYAGABaABwAHgAkAHOmPEFmgFgLXk2czF3R3JZei1kNy16MTVtYTRudUIzcW5paTl3ZER1Q2UzUktBVm92cVRLYVFwRThITy1vdDl5d09seVJNdEQzSmZWWHJodVB2NWphNTFoTEljbnJXaHlUdFRqQX5+GosHCmEIgwcSDOezu+e7n+mAmuefpRpGaHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYmVpamluL21jcy91c2VyYXZhdGFyLzIwMTcwMTAxLzg5OV8xMDAwLmpwZyIAKAAwADgAEkoIgrDcvwISBG51bGwaNGh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2Jvc3MvYXZhdGFyL2F2YXRhcl8xNi5wbmciACgQMAA4ABgDIIHI9LGx8xkogL3zvpIyMuoDCA8QATrhAwodMTblnovkurrmoLzogYzkuJrmgKfmoLzmtYvor5USY+mAmui/h+iBjOS4muaAp+agvOa1i+ivlee7k+aenO+8jOS6huino+aCqOeahOiBjOS4muS8mOWKv+WSjOa9nOWKm++8jOS4uuaCqOaOqOiNkOmAguWQiOeahOiBjOS9jeOAghqJAWh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9pdGVtLzIwMjQwMzA0L2U4NGJlNTEyMjA4ZGNjMDkzYzUxNjRmMDU5YzQ2ZDBmYjg2NmVkNzA0YWYzNTc2N2Y3NmQyMWE1MjBkMGFhODI3MGRmZmEzOGY0ODhlMzQwLnBuZy53ZWJwIrYBYm9zc3pwOi8vYm9zc3poaXBpbi5hcHAvb3BlbndpdGg/dHlwZT13ZWJ2aWV3JnVybD1odHRwcyUzQSUyRiUyRnd3dy56aGlwaW4uY29tJTJGbXBhJTJGaHRtbCUyRm1peCUyRmFzc2Vzc1JvdXRlJTNGYXNzZXNzSWQlM0Q3ODlkYmMzZDRhNzkyOWE4MFhSLSUyNnNvdXJjZSUzRDIyJTI2ZnJvbSUzRDMlMjZzY2VuZSUzRDMoADIM56uL5Y2z5Y+C5YqgOABCAFoAYgBaADgAQAFKY+mAmui/h+iBjOS4muaAp+agvOa1i+ivlee7k+aenO+8jOS6huino+aCqOeahOiBjOS4muS8mOWKv+WSjOa9nOWKm++8jOS4uuaCqOaOqOiNkOmAguWQiOeahOiBjOS9jeOAglAAWABgAWgAcAB4AJAB8JbxBZoBYGRsVDcwMy1EZnhFdFctYjFsbU1RdVhLZ3ZQWHc0cGd0WmhlS09GQW1GQ1NwTUdEbEdhcUFTRzdiVjk5V1FHX0dMNTlRR1gtb0Z3ZXhfUFk3d3E1bmNHeXBETTAtakF+fhquCAphCIMHEgzns7vnu5/pgJrnn6UaRmh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9tY3MvdXNlcmF2YXRhci8yMDE3MDEwMS84OTlfMTAwMC5qcGciACgAMAA4ABJKCIKw3L8CEgRudWxsGjRodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9ib3NzL2F2YXRhci9hdmF0YXJfMTYucG5nIgAoEDAAOAAYAyCDiMCBs/MZKPiA+r6SMjLbBAgPEAE60gQKLeW8gOWQr+iZmuaLn+eUteivne+8jOiuqeiAgeadv+ebtOaOpeiBlOezu+S9oBKUAeaxguiBjOW/q+S6uuS4gOatpe+8jOS4jemUmei/h+WlveacuuS8mu+8ge+8iOa4qemmqOaPkOekuu+8mkJvc3Pmi6jmiZPkvaDnmoTnlLXor53ml7bvvIzmiYvmnLrlj7fkvJrku6XliqDlr4blvaLlvI/lsZXnpLrvvIzkuI3mmrTpnLLnnJ/lrp7lj7fnoIHvvIkahAFodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9iZWlqaW4vaXRlbS8yMDIzMDUxMC9lODRiZTUxMjIwOGRjYzA5YzhhYWU5YzhlZDVhZjlkM2FmOGI0NTBkNGNmMTFjNzhmZGM2NzYxMmM3NTJmNzc3NmJlNmI5M2MyZTY2YmE1ZS5wbmci7QFib3NzenA6Ly9ib3NzemhpcGluLmFwcC9vcGVud2l0aD90eXBlPW9wZW5EaXJlY3RDYWxsU2V0dGluZyZzb3VyY2U9MiZiYT17ImFjdGlvbiI6ImRldGFpbC1ub3RpZnktbXNnIiwicCI6IiR7bWVzc2FnZUlkfSIsInAyIjoxLCJwMyI6IiR7ZnJvbUlkfSIsInA0IjowLCJwNSI6IuW8gOWQr+iZmuaLn+eUteivne+8jOiuqeiAgeadv+ebtOaOpeiBlOezu+S9oCIsInA4IjoiZGlyZWN0Y2FsbC1hdXRob3JpemF0aW9uIn0oADIJ5Y675byA5ZCvOABCAFoAYgBaADgAQAFKlAHmsYLogYzlv6vkurrkuIDmraXvvIzkuI3plJnov4flpb3mnLrkvJrvvIHvvIjmuKnppqjmj5DnpLrvvJpCb3Nz5ouo5omT5L2g55qE55S16K+d5pe277yM5omL5py65Y+35Lya5Lul5Yqg5a+G5b2i5byP5bGV56S677yM5LiN5pq06Zyy55yf5a6e5Y+356CB77yJUABYAGABaABwAHgAkAGSmPEFmgFgOXh1OHh5N2N0YlluTi1qMXpmQXRpek45Yk0xUlFxUUFfVGZNQU1MM3NPM0t3NWh5cUNWcDZ5bzc2NURERWxrRm9kT0VsZmVKNTdqYVJkLXI3R2lJbkdPZlFCSnJrQX5+GuoGCmEIgwcSDOezu+e7n+mAmuefpRpGaHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYmVpamluL21jcy91c2VyYXZhdGFyLzIwMTcwMTAxLzg5OV8xMDAwLmpwZyIAKAAwADgAEkoIgrDcvwISBG51bGwaNGh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2Jvc3MvYXZhdGFyL2F2YXRhcl8xNi5wbmciACgQMAA4ABgDIIDok4Kz8xko+ID6vpIyMs8DCA8QATr8Agov5paw5Lic5pa5MjAyNeeni+Wto+agoeWbreaLm+iBmOato+WcqOi/m+ihjOS4rX4SPuaWsOS4nOaWuTIwMjXnp4vlraPmoKHlm63mi5vogZjngavng63mi5vogZjkuK1+5py65LiN5Y+v5aSx77yBGooBaHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYmVpamluL3h6YXRzLzIwMjQwMjI3LzQ0N2EwYjM4NDdmM2E3YjcyMzFiNWIyZTlkM2Y3NGM4Mzc0YjgyNWJkNGM3MTg3ODZiYjYxZTNiN2JjZTA5MzFkYTU3NGQxOWQxZDgyYzg4LmpwZy53ZWJwImRodHRwczovL3d3dy56aGlwaW4uY29tL21wYS92My9odG1sL2F0cy9qb2ItbGlzdC9ob21lP2VuY3J5cHRQcm9qZWN0SWQ9MzdkNTI3ODQzZGUzNmFmMDFIUi0mc291cmNlPTIxKAAyDOeri+WNs+aKlemAkjgAQgBaAGIAOkgKFeivt+WcqEFQUOaJk+W8gOafpeecixIAGgAiH2Jvc3N6cDovL2Jvc3N6aGlwaW4ucGMvb3BlblBhZ2UoADIAOABCAFoAYgBaADgAQAFKPuaWsOS4nOaWuTIwMjXnp4vlraPmoKHlm63mi5vogZjngavng63mi5vogZjkuK1+5py65LiN5Y+v5aSx77yBUOiWo+P//////wFYAGABaABwAHgAigETMTI3MDQ5MzE4MDg5MDA0NjQ2NJABmOncHJoBYHdPT2dtejZobTJxUHItLTFET3AxZVNPYlphdWtLSDFKc3plUUprMjgwdTZiTjEzSk5PaWxLTnhKeG12Mm1Wcl9ncVdPWWlJdXlRV3VhTjl2UE1Fd1NHTjZ1VnFoM1F+fhrMBwphCIMHEgzns7vnu5/pgJrnn6UaRmh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9tY3MvdXNlcmF2YXRhci8yMDE3MDEwMS84OTlfMTAwMC5qcGciACgAMAA4ABJKCIKw3L8CEgRudWxsGjRodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9ib3NzL2F2YXRhci9hdmF0YXJfMTYucG5nIgAoEDAAOAAYAyCCyKjY2JcaKKDZkNCTMjLHAwgBEAEauwPlsIrmlaznmoTnlKjmiLfvvIzlpoLmgqjlnKjmsYLogYzkuK3pgYfliLDor6bnu4bmiZPlkKzlrrbluq3mg4XlhrXjgIHku4XnlLXor53pnaLor5XjgIHlvILlnLDln7norq3jgIHnp4Hkurrpgq7nrrHlj5FvZmZlcu+8jOivt+aPkOmrmOitpuaDle+8jOiwqOmYsuWPl+mql++8m+S7u+S9leimgeaxgue8tOe6s+i0ueeUqOOAgei9rOi0puaxh+asvuetiea2ieWPiui0ouWKoeeahOaDheWGte+8jOivt+WKoeW/heaLkue7ne+8m+WvueS6jumZjOeUn+adpeeUtee6pumdouivle+8jOWNs+S+v+WvueaWueefpemBk+aCqOeahOWnk+WQje+8jOS5n+WIh+iusOimgeaguOWunuWvueaWueWFrOWPuOWPiuS4quS6uui6q+S7ve+8jOWIh+WLv+iiq+Wll+ivneW5tui9u+S/oeWvueaWue+8jOiwqOmYsueUteS/oeiviOmql+OAguelneaCqOmhuuWIqeaJvuWIsOa7oeaEj+eahOW3peS9nO+8gVoA4gEAOABAAUrGAeezu+e7n+mAmuefpTrlsIrmlaznmoTnlKjmiLfvvIzlpoLmgqjlnKjmsYLogYzkuK3pgYfliLDor6bnu4bmiZPlkKzlrrbluq3mg4XlhrXjgIHku4XnlLXor53pnaLor5XjgIHlvILlnLDln7norq3jgIHnp4Hkurrpgq7nrrHlj5FvZmZlcu+8jOivt+aPkOmrmOitpuaDle+8jOiwqOmYsuWPl+mql++8m+S7u+S9leimgeaxgue8tOe6s+i0ueeUqC4uLlAAWABgAWgAcAB4AJABo5jxBZoBYF94emdERHRHbkk0ZEotaDEyeGxzSGtxNmpKazlNQ1hoTzhpNUxlXy1BREQ2amVvdmVYZXBNeHUtTjlSMVJ6OFdRUzZSOWJJUzhta2UyX24ycXNRMlRDMTNJaER0aXd+fg=='
+    ]
+  }
+}
+[2024-08-12T22:56:38.371] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/job/subscribe/qr.json
+[2024-08-12T22:56:38.371] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: 'http://weixin.qq.com/q/02YLLukUUhapP1w0BW1C1w'
+}
+[2024-08-12T22:56:38.386] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpmsg/history/pull?type=0&lastId=115163290805250&secretId=8JDdY5Icd3CE6F6CF92BaH4qNcj-mV0q--FWmBsKIs7qp0JEfuQrndtCNAwrhlJRB1Zbk9ynJZiBVsouQbWEjqdKUznGrh0m1xMIbS5kvVE~
+[2024-08-12T22:56:38.386] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { hasMore: false, lastId: 115163290805250, type: 0 }
+}
+[2024-08-12T22:56:38.836] [INFO] response - Response url:  https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-12T22:56:38.836] [INFO] response - Response:  { code: 0, message: 'Success', zpData: true }
+[2024-08-12T23:02:05.235] [INFO] response - Response url:  https://logapi.zhipin.com/dap/api/json
+[2024-08-12T23:02:05.235] [INFO] response - Response:  { c: 0, d: 1196 }
+[2024-08-12T23:02:05.669] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/joblist.json?scene=1&query=webgl%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88&city=101020100&experience=&payType=&partTime=&degree=&industry=&scale=&stage=&position=&jobType=&salary=&multiBusinessDistrict=&multiSubway=&page=2&pageSize=30
+[2024-08-12T23:02:05.669] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    resCount: 450,
+    filterString: '',
+    lid: '3imrfIeLbzN',
+    hasMore: true,
+    jobList: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object]
+    ],
+    totalCount: 300,
+    brandCard: null
+  }
+}
+[2024-08-12T23:02:05.670] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/job/subinfo.json?query=webgl%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88&city=101020100&experience=&payType=&partTime=&degree=&industry=&scale=&stage=&position=&jobType=&salary=&multiBusinessDistrict=&multiSubway=&page=2
+[2024-08-12T23:02:05.670] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    jobSubscribeMsg: '',
+    jobSubscribeFilter: '',
+    query: '',
+    showFilter: '',
+    showJobSubscribe: false,
+    sceneString: null
+  }
+}
+[2024-08-12T23:02:05.671] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/job/tdk.json?city=101020100&experience=&payType=&partTime=&degree=&industry=&scale=&stage=&position=&jobType=&salary=&multiBusinessDistrict=&multiSubway=
+[2024-08-12T23:02:05.671] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    description: 'BOSS直聘为求职者提供2024年上海招聘信息，百万Boss在线直聘，直接开聊，在线面试，找工作就上BOSS直聘网站或APP，直接与Boss开聊吧！',
+    title: '「上海招聘」-2024年上海人才招聘信息 - BOSS直聘',
+    keywords: '上海招聘,上海人才网,上海招聘网'
+  }
+}
+[2024-08-12T23:02:05.671] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/job/related/word.json?query=webgl%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88
+[2024-08-12T23:02:05.671] [INFO] response - Response:  { code: 0, message: 'Success', zpData: { relatedSearchWordList: [] } }
+[2024-08-12T23:02:05.799] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/search/job/seo/data.json?city=101020100&position=&industry=&multiBusinessDistrict=&jobCity=101020100
+[2024-08-12T23:02:05.799] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    breadSites: [ [Object], [Object] ],
+    seoData: {
+      hotJobs: [Array],
+      hotCities: [Array],
+      nearbyCities: [Array],
+      hotBrands: [Array]
+    }
+  }
+}
+[2024-08-12T23:08:31.105] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/job/card.json?securityId=fJLAbPNQpsZ4--n1jVdlwxUYsI9AxPsgaORUFm0iq20SLpz14J9PHzLNW1_qI4dTHOHmVRj5eLVnRzJrr2CbvOTuY-8zOXsvdz9L6ufhcPZpmbgNxNoJ1hzus0lfGuzNCmPQ2PoaYA5ilw~~&lid=3imrfIeLbzN.search.53&sessionId=
+[2024-08-12T23:08:31.105] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    jobCard: {
+      jobName: '高级Flutter开发工程师',
+      postDescription: '岗位职责：\n' +
+        '1.负责使用Flutter等编程语言，开发和维护APP。\n' +
+        '2.能够使用Objective-C/Swift和Java/Kotlin进行Flutter插件的开发。\n' +
+        '3.优化应用程序的性能，确保在各种设备上都能流畅运行。\n' +
+        '4.进行代码调试、问题排查和修复，确保APP的稳定性。\n' +
+        '5.能够理解产品的需求，提出适合客户端的需求方案。\n' +
+        '\n' +
+        '任职要求：\n' +
+        '1.熟练使用Dart语言，熟练使用各种UI组件，熟练Flutter相关的API及第三方框架。\n' +
+        '2.有责任心，思路清晰，具备很好的学习钻研能力，团队合作意识。\n' +
+        '3.有使用Flutter技术开发APP项目，有3年以上（IOS或Android）APP开发经验。\n' +
+        '4.熟练使用Git常用操作命令，能独立完成分支创建.合并等工作。\n' +
+        '5.熟悉对接第三方平台的流程与开发，例如：微信登录.分享.支付等。\n' +
+        '6.具有良好的学习能力.分析能力和解决问题的能力。\n' +
+        '7.具有良好的沟通表达能力以及团队协作精神。\n' +
+        '8.具有高度的责任心，对工作/技术有热情。',
+      encryptJobId: '1741ee0422b89ab61HB42t24EldZ',
+      atsDirectPost: false,
+      atsProxyJob: false,
+      salaryDesc: '25-40K·14薪',
+      cityName: '上海',
+      experienceName: '3-5年',
+      degreeName: '本科',
+      jobLabels: [Array],
+      address: '上海松江区智能家居馆(沪松公路店)A栋101',
+      lid: '3imrfIeLbzN.search.53',
+      sessionId: '',
+      securityId: '5I2KxvSG0qMTE--1GKQEkvknzbpxOv5oYJNKl5GCUzjKreTkDK4neXtEY1RrzWCLJ60wFXY~',
+      encryptUserId: '9a702b1f4f72287a03N70ti6EFc~',
+      bossName: '金先生',
+      bossTitle: 'HRBP',
+      bossAvatar: 'https://img.bosszhipin.com/beijin/upload/avatar/20240201/607f1f3d68754fd083d7e7f81bc8d2f63f9223a10b83502b6117d0dae265efa332660cf1cb3f84ba_s.jpg.webp',
+      online: false,
+      certificated: true,
+      activeTimeDesc: '3月内活跃',
+      brandName: '墅泽智家',
+      canAddFriend: true,
+      friendStatus: 0,
+      isInterested: 0,
+      login: true
+    }
+  }
+}
+[2024-08-12T23:08:38.747] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/job/card.json?securityId=uUu0O0J6JD_WE-s1z--1oeaBPRY13aXJoP9lDS3WFUtKPSDQtlMDzZlBjvSEGrDl4eBI22LbFwFE1Q_Lp6plqnUEXZOTBzriHB_1ykewCGliyAQm8O7UjwmNoqLYqaoqiyAfVfonFCVb&lid=3imrfIeLbzN.search.32&sessionId=
+[2024-08-12T23:08:38.747] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    jobCard: {
+      jobName: '中级web前端开发工程师（ React ）',
+      postDescription: '工作内容\n' +
+        '1. 协助产品团队完成业务的需求调研和分析，独立完成功能模块的设计与代码编写；\n' +
+        '2. 能够提供合理的前端解决方案，结合相关的产品业务需求，不断改进和优化开发流程、开发框架和开发工具；\n' +
+        '3. 与团队其他成员保持良好沟通，能快速理解、消化各方需求，并落实为具体的开发工作；\n' +
+        '任职要求\n' +
+        '1. 3年以上Web前端开发经验，有大型互联网公司Web前端经验者优先；\n' +
+        '2. 前端基础知识扎实，熟悉浏览器底层原理和机制，熟练掌握原生 JavaScript （ ES6 ）、HTML 、CSS ；\n' +
+        '3. 具备完整 React 项目的开发经验，熟悉 React 开发基本思想及相关生态 (react hook,react-router,react-redux,antd)；\n' +
+        '5. 熟练掌握 git 操作, 了解 GitHub Flow 等实践；\n' +
+        '6. 具备阅读英文文档的能力，例如 MDN 的文档阅读无障碍；\n' +
+        '7. 有良好的编程风格, 具有较强的问题解决能力、理解能力和团队协作意识；\n' +
+        '8. 对于负责过的业务有深入了解，能清晰介绍业务逻辑，有通过技术手段解决业务难题经验；\n' +
+        '\n' +
+        '加分项\n' +
+        '1. 有小程序/React Native/Flutter 等跨平台开发经验者加分；\n' +
+        '2. 有 Node.js 及主流开发框架 (Koa.js 、Egg.js)或具备其他后端语言经验，如Java，Python，Golang者加分；\n' +
+        '3. GitHub 上有组织良好，功能完整的开源代码者加分；',
+      encryptJobId: '5bf586f53a223ce01HN92d-5EFBS',
+      atsDirectPost: false,
+      atsProxyJob: false,
+      salaryDesc: '15-18K',
+      cityName: '上海',
+      experienceName: '3-5年',
+      degreeName: '大专',
+      jobLabels: [Array],
+      address: '上海浦东新区晶耀前滩T5办公楼前滩晶耀T5-10F',
+      lid: '3imrfIeLbzN.search.32',
+      sessionId: '',
+      securityId: 'oaHloPOOvimv9-N1P3gJj-h92iC-JNEnojj-fdfa6Vp_dxIXbR5SrWdCKoA5BwJRha4JBHA~',
+      encryptUserId: '49cfebc5a6ba1ba203x72dy9F1Y~',
+      bossName: '管先生',
+      bossTitle: '招聘',
+      bossAvatar: 'https://img.bosszhipin.com/beijin/upload/avatar/20211122/607f1f3d68754fd0626a8f43961a60aaf70258c86dc33cc7f09dfcde8bfd452d6a0462358ee623d7_s.jpg',
+      online: false,
+      certificated: true,
+      activeTimeDesc: '刚刚活跃',
+      brandName: '有光科技',
+      canAddFriend: true,
+      friendStatus: 0,
+      isInterested: 0,
+      login: true
+    }
+  }
+}
+[2024-08-12T23:08:46.999] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpgeek/job/card.json?securityId=givVE5kYyQNJ9-v1ruV7zeIbik4BNpC7U4Z39j1MUNwwaNBUWG9sv2LGXfOEjcTMlCl1f4RHWkvRxWgMd2NrTA2vvccF3Bybsi-GgmIWE82VuVEZEMa4BfK7Jldn7Q4QMhdhB9yYsXMaJg~~&lid=3imrfIeLbzN.search.31&sessionId=
+[2024-08-12T23:08:46.999] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    jobCard: {
+      jobName: '渲染引擎开发工程师',
+      postDescription: '一、岗位职责：\n' +
+        '1、负责基于WebGL技术的交互式软件开发和技术管理；\n' +
+        '2、负责Web 3D技术探索和研究，渲染性能调优和内存使用优化；\n' +
+        '3、负责 Shader 设计和优化；\n' +
+        '二、任职资格：\n' +
+        '1、理工科相关专业（计算机、软件、数学、电气、机械等优先），本科及以上学历;\n' +
+        '2、熟悉OpenGL，OSG，Three.js 和 Babylon.js等技术其中的一种，有过渲染引擎相关开发经验。\n' +
+        '3、熟练掌握一门面向对象编程语言，熟悉算法与数据结构知识；\n' +
+        '4、熟悉计算几何、数值算法、线代等图形学、数学知识者优先。',
+      encryptJobId: '36860b825b5688fd1HV92N2-E1NS',
+      atsDirectPost: false,
+      atsProxyJob: false,
+      salaryDesc: '18-29K·17薪',
+      cityName: '上海',
+      experienceName: '3-5年',
+      degreeName: '本科',
+      jobLabels: [Array],
+      address: '上海闵行区柏楚新建研发中心项目兰香湖南路1000号',
+      lid: '3imrfIeLbzN.search.31',
+      sessionId: '',
+      securityId: 'k6-3zOfUxX6VG-J1CaDrzaWx7ieiRrCmeUY8A-eREXkdVTTrF8AM0pC1WUJtQ96M42EOofA~',
+      encryptUserId: 'e15037a970f76f921HF53NW7EFE~',
+      bossName: '乐芳',
+      bossTitle: '猎头顾问',
+      bossAvatar: 'https://img.bosszhipin.com/beijin/upload/avatar/20220927/607f1f3d68754fd09f014d60b1ad9c4d4986a492b5bc9c95580ff3e940f3739b52e1f1bd132538ff_s.jpg',
+      online: false,
+      certificated: true,
+      activeTimeDesc: '刚刚活跃',
+      brandName: '生命智树',
+      canAddFriend: true,
+      friendStatus: 0,
+      isInterested: 0,
+      login: true
+    }
+  }
+}
+[2024-08-12T23:09:24.272] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpmsg/history/pull?type=0&lastId=112706436142080&secretId=__z6OPBbJnbCvj73MLvVNGkpP5iozEh_--ZW0EUWNs3l8UdWdvd8y5opRUt_iQVcRURalNCmLYiDGdh8F-LBo_BHRHyW8Bkj2EBc
+[2024-08-12T23:09:24.272] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    hasMore: true,
+    lastId: 115163290805250,
+    secretId: '96_IcYVMdnfF_1K2Nq7OVn4qMsyimVIq--FWuhY8Vsz-80ITceUhjtlCVl4u2kBHQENVlNylLJyBVcsrUrLAltVJASzI9Bt6jUFZPihgvw~~',
+    type: 0,
+    stringList: [
+      'CAEazAcKYQiDBxIM57O757uf6YCa55+lGkZodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9iZWlqaW4vbWNzL3VzZXJhdmF0YXIvMjAxNzAxMDEvODk5XzEwMDAuanBnIgAoADAAOAASSgiCsNy/AhIEbnVsbBo0aHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYm9zcy9hdmF0YXIvYXZhdGFyXzE2LnBuZyIAKBAwADgAGAMggajcmJjQGSjg3I6ykTIyxwMIARABGrsD5bCK5pWs55qE55So5oi377yM5aaC5oKo5Zyo5rGC6IGM5Lit6YGH5Yiw6K+m57uG5omT5ZCs5a625bqt5oOF5Ya144CB5LuF55S16K+d6Z2i6K+V44CB5byC5Zyw5Z+56K6t44CB56eB5Lq66YKu566x5Y+Rb2ZmZXLvvIzor7fmj5Dpq5jorabmg5XvvIzosKjpmLLlj5fpqpfvvJvku7vkvZXopoHmsYLnvLTnurPotLnnlKjjgIHovazotKbmsYfmrL7nrYnmtonlj4rotKLliqHnmoTmg4XlhrXvvIzor7fliqHlv4Xmi5Lnu53vvJvlr7nkuo7pmYznlJ/mnaXnlLXnuqbpnaLor5XvvIzljbPkvr/lr7nmlrnnn6XpgZPmgqjnmoTlp5PlkI3vvIzkuZ/liIforrDopoHmoLjlrp7lr7nmlrnlhazlj7jlj4rkuKrkurrouqvku73vvIzliIfli7/ooqvlpZfor53lubbovbvkv6Hlr7nmlrnvvIzosKjpmLLnlLXkv6Hor4jpqpfjgILnpZ3mgqjpobrliKnmib7liLDmu6HmhI/nmoTlt6XkvZzvvIFaAOIBADgAQAFKxgHns7vnu5/pgJrnn6U65bCK5pWs55qE55So5oi377yM5aaC5oKo5Zyo5rGC6IGM5Lit6YGH5Yiw6K+m57uG5omT5ZCs5a625bqt5oOF5Ya144CB5LuF55S16K+d6Z2i6K+V44CB5byC5Zyw5Z+56K6t44CB56eB5Lq66YKu566x5Y+Rb2ZmZXLvvIzor7fmj5Dpq5jorabmg5XvvIzosKjpmLLlj5fpqpfvvJvku7vkvZXopoHmsYLnvLTnurPotLnnlKguLi5QAFgAYAFoAHAAeACQAaOY8QWaAWAyaWs3eFUyTTNzZmJTLWkxWm5jY0JhSGVmN00xNHA4dVNDR2dVYWdmT09icjdsWV84bjFoa0Q5eEZDaXdUb1pBU1l3b1hzQ1N4UkFoVWUyZHB4Y2x5Mk81ZXVxQzlRfn4algwKYQiDBxIM57O757uf6YCa55+lGkZodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9iZWlqaW4vbWNzL3VzZXJhdmF0YXIvMjAxNzAxMDEvODk5XzEwMDAuanBnIgAoADAAOAASSgiCsNy/AhIEbnVsbBo0aHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYm9zcy9hdmF0YXIvYXZhdGFyXzE2LnBuZyIAKBAwADgAGAMggOijmZjQGSjg3I6ykTIyggkIDxABOq8ICiXov5nlpZfmtYvor5Xpopjmj63np5g15aSn5oub6IGY6Zm36ZixEjflkKzor7TlhajnrZTlr7nnmoTkurrmib7lt6XkvZzpg73lvojpobrvvIHpgoDkvaDlh7rmiJh+GkpodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS8vMTY4NjEwNzYwOThhYmM2MTI3YjU5MTQ0MmM5Mzg2NDc3YjRjNzVkNTRhLnBuZyLoBmJvc3N6cDovL2Jvc3N6aGlwaW4uYXBwL29wZW53aXRoP3R5cGU9d2VidmlldyZ1cmw9aHR0cHMlM0ElMkYlMkZtLnpoaXBpbi5jb20lMkZhY3Rpdml0eSUyRmh0bWwlMkZkZXZlbG9wZXIlM0ZhY3Rpdml0eUlkJTNEZDljY2Y0YmE5YTI1NzgzZXFBVjQzZHE1JTI2c291cmNlJTNEJmJhPSU3QiUyMmFjdGlvbiUyMiUzQSUyMnB1c2gtY2FyZC1jbGljayUyMiUyQyUyMnAlMjIlM0ElMjI2MDE2OTY5MiUyMiUyQyUyMnAyJTIyJTNBJTIyMTcyMjY1NTQyMDAzOSUyMiUyQyUyMnAzJTIyJTNBJTIyMTI2OTI1NDM1NTgxNTUwMTgyNCUyMiUyQyUyMnA0JTIyJTNBJTIyMTY1OSUyMiUyQyUyMnA1JTIyJTNBNTAyJTJDJTIycDYlMjIlM0ElMjJib3NzenAlM0ElMkYlMkZib3NzemhpcGluLmFwcCUyRm9wZW53aXRoJTNGdHlwZSUzRHdlYnZpZXclMjZ1cmwlM0RodHRwcyUyNTNBJTI1MkYlMjUyRm0uemhpcGluLmNvbSUyNTJGYWN0aXZpdHklMjUyRmh0bWwlMjUyRmRldmVsb3BlciUyNTNGYWN0aXZpdHlJZCUyNTNEZDljY2Y0YmE5YTI1NzgzZXFBVjQzZHE1JTI1MjZzb3VyY2UlMjUzRCUyMiUyQyUyMnA3JTIyJTNBJTIyJUU4JUJGJTk5JUU1JUE1JTk3JUU2JUI1JThCJUU4JUFGJTk1JUU5JUEyJTk4JUU2JThGJUFEJUU3JUE3JTk4NSVFNSVBNCVBNyVFNiU4QiU5QiVFOCU4MSU5OCVFOSU5OSVCNyVFOSU5OCVCMSUyMiUyQyUyMnA4JTIyJTNBJTIyJUU1JTkwJUFDJUU4JUFGJUI0JUU1JTg1JUE4JUU3JUFEJTk0JUU1JUFGJUI5JUU3JTlBJTg0JUU0JUJBJUJBJUU2JTg5JUJFJUU1JUI3JUE1JUU0JUJEJTlDJUU5JTgzJUJEJUU1JUJFJTg4JUU5JUExJUJBJUVGJUJDJTgxJUU5JTgyJTgwJUU0JUJEJUEwJUU1JTg3JUJBJUU2JTg4JTk4JTdFJTIyJTdEKAAyDOeCueWHu+afpeecizgAQgBaAGIAOkgKFeivt+WcqEFQUOaJk+W8gOafpeecixIAGgAiH2Jvc3N6cDovL2Jvc3N6aGlwaW4ucGMvb3BlblBhZ2UoADIAOABCAFoAYgBaADgAQAFKN+WQrOivtOWFqOetlOWvueeahOS6uuaJvuW3peS9nOmDveW+iOmhuu+8gemCgOS9oOWHuuaImH5QpMSn4///////AVgAYAFoAHAAeACKARMxMjY5MjU0MzU1ODE1NTAxODI0kAHcu9gcmgFgUGNkeEFpYTl6NTJkUC0tMUwzeTNnUTNrcld4OWhEUEJsVnA2R2ZrWmpINEFCd3J3ZXlJMnFScExvVllRRXdPaTNEekhSSHhPMnVaeS03SmdoRmVkaTlUQXZZUWZad35+GuYGCnIInQYSDOmBk+WFt+mAmuefpRpXaHR0cHM6Ly9pbWcyLmJvc3N6aGlwaW4uY29tL2FwcC9hbmRyb2lkL2l0ZW1FZmZlY3QtYmRjNjQ1ZWNiY2ViN2RjNGY3NDBlY2Y0MGNiNGM1ZDUucG5nIgAoADAAOAASSgiCsNy/AhIEbnVsbBo0aHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYm9zcy9hdmF0YXIvYXZhdGFyXzE2LnBuZyIAKBAwADgAGAMggejxsbHzGSiAvfO+kjIy3QMIDxABOogCCgzlpKnpmY3npo/liKkSOuaBreWWnOaCqOiOt+W+l+S4gOasoeeJm+S6ulZJUO+8iDflpKnvvInor5XnlKjnmoTmnLrkvJrvvIEaACIzaHR0cHM6Ly9tLnpoaXBpbi5jb20vd2FwaS96cGl0ZW0vZ2Vlay92aXA/c291cmNlPTE3KAAyDOeri+WNs+afpeecizgAQgBaAGJveyJpdGVtSWNvbiI6Imh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9hcHAvYW5kcm9pZC9yZXN1bWVSZWZyZXNoLTBkMTUzYWZjY2RiOTZhODcwMzYxY2FmNWRmZWU3OTliLnBuZyJ9OskBCgznq4vljbPmn6XnnIsSOuaBreWWnOaCqOiOt+W+l+S4gOasoeeJm+S6ulZJUO+8iDflpKnvvInor5XnlKjnmoTmnLrkvJrvvIEaACIAKAAyADgAQgBaAGJveyJpdGVtSWNvbiI6Imh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9hcHAvYW5kcm9pZC9yZXN1bWVSZWZyZXNoLTBkMTUzYWZjY2RiOTZhODcwMzYxY2FmNWRmZWU3OTliLnBuZyJ9WgA4AEABSjrmga3llpzmgqjojrflvpfkuIDmrKHniZvkurpWSVDvvIg35aSp77yJ6K+V55So55qE5py65Lya77yBUABYAGABaABwAHgAkAHOmPEFmgFgUWg4dllzWTN3OVRwUy02MUkwX191TE5IZlppYm5PQWhxUDBqNW05TklWR1lrMEl6WWQxNW1RLVNyU01nci1rNlBtMEM2Wi1LZWhHaVZZRFRLYzBmdThhQUZUbVJaUX5+GosHCmEIgwcSDOezu+e7n+mAmuefpRpGaHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYmVpamluL21jcy91c2VyYXZhdGFyLzIwMTcwMTAxLzg5OV8xMDAwLmpwZyIAKAAwADgAEkoIgrDcvwISBG51bGwaNGh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2Jvc3MvYXZhdGFyL2F2YXRhcl8xNi5wbmciACgQMAA4ABgDIIHI9LGx8xkogL3zvpIyMuoDCA8QATrhAwodMTblnovkurrmoLzogYzkuJrmgKfmoLzmtYvor5USY+mAmui/h+iBjOS4muaAp+agvOa1i+ivlee7k+aenO+8jOS6huino+aCqOeahOiBjOS4muS8mOWKv+WSjOa9nOWKm++8jOS4uuaCqOaOqOiNkOmAguWQiOeahOiBjOS9jeOAghqJAWh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9pdGVtLzIwMjQwMzA0L2U4NGJlNTEyMjA4ZGNjMDkzYzUxNjRmMDU5YzQ2ZDBmYjg2NmVkNzA0YWYzNTc2N2Y3NmQyMWE1MjBkMGFhODI3MGRmZmEzOGY0ODhlMzQwLnBuZy53ZWJwIrYBYm9zc3pwOi8vYm9zc3poaXBpbi5hcHAvb3BlbndpdGg/dHlwZT13ZWJ2aWV3JnVybD1odHRwcyUzQSUyRiUyRnd3dy56aGlwaW4uY29tJTJGbXBhJTJGaHRtbCUyRm1peCUyRmFzc2Vzc1JvdXRlJTNGYXNzZXNzSWQlM0Q3ODlkYmMzZDRhNzkyOWE4MFhSLSUyNnNvdXJjZSUzRDIyJTI2ZnJvbSUzRDMlMjZzY2VuZSUzRDMoADIM56uL5Y2z5Y+C5YqgOABCAFoAYgBaADgAQAFKY+mAmui/h+iBjOS4muaAp+agvOa1i+ivlee7k+aenO+8jOS6huino+aCqOeahOiBjOS4muS8mOWKv+WSjOa9nOWKm++8jOS4uuaCqOaOqOiNkOmAguWQiOeahOiBjOS9jeOAglAAWABgAWgAcAB4AJAB8JbxBZoBYFVkcUZ0aHQxX1FSVlUtazFza19ESk9QTDJkZDR0eTFRU1UtWERnMXBsUlBIX3VybDlRajR6TnJLLUhZZnYxeGROMGkwRmQyamw5T0VEVUc3cHIzZWNKeTN0X0RYcUF+fhquCAphCIMHEgzns7vnu5/pgJrnn6UaRmh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9tY3MvdXNlcmF2YXRhci8yMDE3MDEwMS84OTlfMTAwMC5qcGciACgAMAA4ABJKCIKw3L8CEgRudWxsGjRodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9ib3NzL2F2YXRhci9hdmF0YXJfMTYucG5nIgAoEDAAOAAYAyCDiMCBs/MZKPiA+r6SMjLbBAgPEAE60gQKLeW8gOWQr+iZmuaLn+eUteivne+8jOiuqeiAgeadv+ebtOaOpeiBlOezu+S9oBKUAeaxguiBjOW/q+S6uuS4gOatpe+8jOS4jemUmei/h+WlveacuuS8mu+8ge+8iOa4qemmqOaPkOekuu+8mkJvc3Pmi6jmiZPkvaDnmoTnlLXor53ml7bvvIzmiYvmnLrlj7fkvJrku6XliqDlr4blvaLlvI/lsZXnpLrvvIzkuI3mmrTpnLLnnJ/lrp7lj7fnoIHvvIkahAFodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9iZWlqaW4vaXRlbS8yMDIzMDUxMC9lODRiZTUxMjIwOGRjYzA5YzhhYWU5YzhlZDVhZjlkM2FmOGI0NTBkNGNmMTFjNzhmZGM2NzYxMmM3NTJmNzc3NmJlNmI5M2MyZTY2YmE1ZS5wbmci7QFib3NzenA6Ly9ib3NzemhpcGluLmFwcC9vcGVud2l0aD90eXBlPW9wZW5EaXJlY3RDYWxsU2V0dGluZyZzb3VyY2U9MiZiYT17ImFjdGlvbiI6ImRldGFpbC1ub3RpZnktbXNnIiwicCI6IiR7bWVzc2FnZUlkfSIsInAyIjoxLCJwMyI6IiR7ZnJvbUlkfSIsInA0IjowLCJwNSI6IuW8gOWQr+iZmuaLn+eUteivne+8jOiuqeiAgeadv+ebtOaOpeiBlOezu+S9oCIsInA4IjoiZGlyZWN0Y2FsbC1hdXRob3JpemF0aW9uIn0oADIJ5Y675byA5ZCvOABCAFoAYgBaADgAQAFKlAHmsYLogYzlv6vkurrkuIDmraXvvIzkuI3plJnov4flpb3mnLrkvJrvvIHvvIjmuKnppqjmj5DnpLrvvJpCb3Nz5ouo5omT5L2g55qE55S16K+d5pe277yM5omL5py65Y+35Lya5Lul5Yqg5a+G5b2i5byP5bGV56S677yM5LiN5pq06Zyy55yf5a6e5Y+356CB77yJUABYAGABaABwAHgAkAGSmPEFmgFgVTVXcTUxWUVtMDVGTi1VMWtiSmlpS09YYWx5TmNZbnhicGZ3emZUOUJELTFfNmszWGRtbnR0VWU5WmVCVDByQjFhQzU0dExZcHpOWV9Nd3p2ZUc4UDY2bkNQQmdCUX5+GuoGCmEIgwcSDOezu+e7n+mAmuefpRpGaHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYmVpamluL21jcy91c2VyYXZhdGFyLzIwMTcwMTAxLzg5OV8xMDAwLmpwZyIAKAAwADgAEkoIgrDcvwISBG51bGwaNGh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2Jvc3MvYXZhdGFyL2F2YXRhcl8xNi5wbmciACgQMAA4ABgDIIDok4Kz8xko+ID6vpIyMs8DCA8QATr8Agov5paw5Lic5pa5MjAyNeeni+Wto+agoeWbreaLm+iBmOato+WcqOi/m+ihjOS4rX4SPuaWsOS4nOaWuTIwMjXnp4vlraPmoKHlm63mi5vogZjngavng63mi5vogZjkuK1+5py65LiN5Y+v5aSx77yBGooBaHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYmVpamluL3h6YXRzLzIwMjQwMjI3LzQ0N2EwYjM4NDdmM2E3YjcyMzFiNWIyZTlkM2Y3NGM4Mzc0YjgyNWJkNGM3MTg3ODZiYjYxZTNiN2JjZTA5MzFkYTU3NGQxOWQxZDgyYzg4LmpwZy53ZWJwImRodHRwczovL3d3dy56aGlwaW4uY29tL21wYS92My9odG1sL2F0cy9qb2ItbGlzdC9ob21lP2VuY3J5cHRQcm9qZWN0SWQ9MzdkNTI3ODQzZGUzNmFmMDFIUi0mc291cmNlPTIxKAAyDOeri+WNs+aKlemAkjgAQgBaAGIAOkgKFeivt+WcqEFQUOaJk+W8gOafpeecixIAGgAiH2Jvc3N6cDovL2Jvc3N6aGlwaW4ucGMvb3BlblBhZ2UoADIAOABCAFoAYgBaADgAQAFKPuaWsOS4nOaWuTIwMjXnp4vlraPmoKHlm63mi5vogZjngavng63mi5vogZjkuK1+5py65LiN5Y+v5aSx77yBUOiWo+P//////wFYAGABaABwAHgAigETMTI3MDQ5MzE4MDg5MDA0NjQ2NJABmOncHJoBYHZRMXo1aGVsMHBEbmQtcDFBZmg4SEpFOEc1a2psU3FOZVF3eHJHU2ZvN3VqR3hpY1RzTDBnejY3NTltVFg3aVFtQWRHNmhIQ1dUNzJCR1RCUWdIVzRZSDF0Umkwd3d+fhrMBwphCIMHEgzns7vnu5/pgJrnn6UaRmh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9tY3MvdXNlcmF2YXRhci8yMDE3MDEwMS84OTlfMTAwMC5qcGciACgAMAA4ABJKCIKw3L8CEgRudWxsGjRodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9ib3NzL2F2YXRhci9hdmF0YXJfMTYucG5nIgAoEDAAOAAYAyCCyKjY2JcaKKDZkNCTMjLHAwgBEAEauwPlsIrmlaznmoTnlKjmiLfvvIzlpoLmgqjlnKjmsYLogYzkuK3pgYfliLDor6bnu4bmiZPlkKzlrrbluq3mg4XlhrXjgIHku4XnlLXor53pnaLor5XjgIHlvILlnLDln7norq3jgIHnp4Hkurrpgq7nrrHlj5FvZmZlcu+8jOivt+aPkOmrmOitpuaDle+8jOiwqOmYsuWPl+mql++8m+S7u+S9leimgeaxgue8tOe6s+i0ueeUqOOAgei9rOi0puaxh+asvuetiea2ieWPiui0ouWKoeeahOaDheWGte+8jOivt+WKoeW/heaLkue7ne+8m+WvueS6jumZjOeUn+adpeeUtee6pumdouivle+8jOWNs+S+v+WvueaWueefpemBk+aCqOeahOWnk+WQje+8jOS5n+WIh+iusOimgeaguOWunuWvueaWueWFrOWPuOWPiuS4quS6uui6q+S7ve+8jOWIh+WLv+iiq+Wll+ivneW5tui9u+S/oeWvueaWue+8jOiwqOmYsueUteS/oeiviOmql+OAguelneaCqOmhuuWIqeaJvuWIsOa7oeaEj+eahOW3peS9nO+8gVoA4gEAOABAAUrGAeezu+e7n+mAmuefpTrlsIrmlaznmoTnlKjmiLfvvIzlpoLmgqjlnKjmsYLogYzkuK3pgYfliLDor6bnu4bmiZPlkKzlrrbluq3mg4XlhrXjgIHku4XnlLXor53pnaLor5XjgIHlvILlnLDln7norq3jgIHnp4Hkurrpgq7nrrHlj5FvZmZlcu+8jOivt+aPkOmrmOitpuaDle+8jOiwqOmYsuWPl+mql++8m+S7u+S9leimgeaxgue8tOe6s+i0ueeUqC4uLlAAWABgAWgAcAB4AJABo5jxBZoBYHRvbjQ5aHRPQU9ydnMteTFCMlpySlhrWktKcUJuY3RPX1h2YjF2QTZUN19EZUVwWGhDUmVnZHhwOTRLb1RLRUd4bXUtX05OWVBUZHJNN2l6NjZGWjNFUjE1NFdDMHd+fg=='
+    ]
+  }
+}
+[2024-08-12T23:09:24.365] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpmsg/history/pull?type=0&lastId=115163290805250&secretId=96_IcYVMdnfF_1K2Nq7OVn4qMsyimVIq--FWuhY8Vsz-80ITceUhjtlCVl4u2kBHQENVlNylLJyBVcsrUrLAltVJASzI9Bt6jUFZPihgvw~~
+[2024-08-12T23:09:24.365] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { hasMore: false, lastId: 115163290805250, type: 0 }
+}
+[2024-08-12T23:10:29.767] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpmsg/history/pull?type=0&lastId=112706436142080&secretId=y6f8Y5Icd3CEhj78VNnPZGp9Jcy4zkh977ZC00pAM9_t4jJWcOIhj9NSV0p4hQRUVRMg4cfwe83WB518F-LBo_AZFiyV
+[2024-08-12T23:10:29.767] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: {
+    hasMore: true,
+    lastId: 115163290805250,
+    secretId: '3pz4B54UMSbDuX_sJ5zVNGkoP5ivy0h---cmpApTM8u79kRNduY6jsgsKl5_hwxVTkZcktWiLZqTBag5R7zFoa5DEnvCok9w',
+    type: 0,
+    stringList: [
+      'CAEazAcKYQiDBxIM57O757uf6YCa55+lGkZodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9iZWlqaW4vbWNzL3VzZXJhdmF0YXIvMjAxNzAxMDEvODk5XzEwMDAuanBnIgAoADAAOAASSgiCsNy/AhIEbnVsbBo0aHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYm9zcy9hdmF0YXIvYXZhdGFyXzE2LnBuZyIAKBAwADgAGAMggajcmJjQGSjg3I6ykTIyxwMIARABGrsD5bCK5pWs55qE55So5oi377yM5aaC5oKo5Zyo5rGC6IGM5Lit6YGH5Yiw6K+m57uG5omT5ZCs5a625bqt5oOF5Ya144CB5LuF55S16K+d6Z2i6K+V44CB5byC5Zyw5Z+56K6t44CB56eB5Lq66YKu566x5Y+Rb2ZmZXLvvIzor7fmj5Dpq5jorabmg5XvvIzosKjpmLLlj5fpqpfvvJvku7vkvZXopoHmsYLnvLTnurPotLnnlKjjgIHovazotKbmsYfmrL7nrYnmtonlj4rotKLliqHnmoTmg4XlhrXvvIzor7fliqHlv4Xmi5Lnu53vvJvlr7nkuo7pmYznlJ/mnaXnlLXnuqbpnaLor5XvvIzljbPkvr/lr7nmlrnnn6XpgZPmgqjnmoTlp5PlkI3vvIzkuZ/liIforrDopoHmoLjlrp7lr7nmlrnlhazlj7jlj4rkuKrkurrouqvku73vvIzliIfli7/ooqvlpZfor53lubbovbvkv6Hlr7nmlrnvvIzosKjpmLLnlLXkv6Hor4jpqpfjgILnpZ3mgqjpobrliKnmib7liLDmu6HmhI/nmoTlt6XkvZzvvIFaAOIBADgAQAFKxgHns7vnu5/pgJrnn6U65bCK5pWs55qE55So5oi377yM5aaC5oKo5Zyo5rGC6IGM5Lit6YGH5Yiw6K+m57uG5omT5ZCs5a625bqt5oOF5Ya144CB5LuF55S16K+d6Z2i6K+V44CB5byC5Zyw5Z+56K6t44CB56eB5Lq66YKu566x5Y+Rb2ZmZXLvvIzor7fmj5Dpq5jorabmg5XvvIzosKjpmLLlj5fpqpfvvJvku7vkvZXopoHmsYLnvLTnurPotLnnlKguLi5QAFgAYAFoAHAAeACQAaOY8QWaAWBob1FOODZCZmdGZWk0LVQxcDFYSDdLV1lLVDhPRGp0RjZoTWRfSXMzUVlGc3JhdVd5eV9CUFBQaDZaaHYxMnpLMW8zMXZMMmMySFZJTE81OHFaNnROUDR5QlpJNEZ3fn4algwKYQiDBxIM57O757uf6YCa55+lGkZodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9iZWlqaW4vbWNzL3VzZXJhdmF0YXIvMjAxNzAxMDEvODk5XzEwMDAuanBnIgAoADAAOAASSgiCsNy/AhIEbnVsbBo0aHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYm9zcy9hdmF0YXIvYXZhdGFyXzE2LnBuZyIAKBAwADgAGAMggOijmZjQGSjg3I6ykTIyggkIDxABOq8ICiXov5nlpZfmtYvor5Xpopjmj63np5g15aSn5oub6IGY6Zm36ZixEjflkKzor7TlhajnrZTlr7nnmoTkurrmib7lt6XkvZzpg73lvojpobrvvIHpgoDkvaDlh7rmiJh+GkpodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS8vMTY4NjEwNzYwOThhYmM2MTI3YjU5MTQ0MmM5Mzg2NDc3YjRjNzVkNTRhLnBuZyLoBmJvc3N6cDovL2Jvc3N6aGlwaW4uYXBwL29wZW53aXRoP3R5cGU9d2VidmlldyZ1cmw9aHR0cHMlM0ElMkYlMkZtLnpoaXBpbi5jb20lMkZhY3Rpdml0eSUyRmh0bWwlMkZkZXZlbG9wZXIlM0ZhY3Rpdml0eUlkJTNEZDljY2Y0YmE5YTI1NzgzZXFBVjQzZHE1JTI2c291cmNlJTNEJmJhPSU3QiUyMmFjdGlvbiUyMiUzQSUyMnB1c2gtY2FyZC1jbGljayUyMiUyQyUyMnAlMjIlM0ElMjI2MDE2OTY5MiUyMiUyQyUyMnAyJTIyJTNBJTIyMTcyMjY1NTQyMDAzOSUyMiUyQyUyMnAzJTIyJTNBJTIyMTI2OTI1NDM1NTgxNTUwMTgyNCUyMiUyQyUyMnA0JTIyJTNBJTIyMTY1OSUyMiUyQyUyMnA1JTIyJTNBNTAyJTJDJTIycDYlMjIlM0ElMjJib3NzenAlM0ElMkYlMkZib3NzemhpcGluLmFwcCUyRm9wZW53aXRoJTNGdHlwZSUzRHdlYnZpZXclMjZ1cmwlM0RodHRwcyUyNTNBJTI1MkYlMjUyRm0uemhpcGluLmNvbSUyNTJGYWN0aXZpdHklMjUyRmh0bWwlMjUyRmRldmVsb3BlciUyNTNGYWN0aXZpdHlJZCUyNTNEZDljY2Y0YmE5YTI1NzgzZXFBVjQzZHE1JTI1MjZzb3VyY2UlMjUzRCUyMiUyQyUyMnA3JTIyJTNBJTIyJUU4JUJGJTk5JUU1JUE1JTk3JUU2JUI1JThCJUU4JUFGJTk1JUU5JUEyJTk4JUU2JThGJUFEJUU3JUE3JTk4NSVFNSVBNCVBNyVFNiU4QiU5QiVFOCU4MSU5OCVFOSU5OSVCNyVFOSU5OCVCMSUyMiUyQyUyMnA4JTIyJTNBJTIyJUU1JTkwJUFDJUU4JUFGJUI0JUU1JTg1JUE4JUU3JUFEJTk0JUU1JUFGJUI5JUU3JTlBJTg0JUU0JUJBJUJBJUU2JTg5JUJFJUU1JUI3JUE1JUU0JUJEJTlDJUU5JTgzJUJEJUU1JUJFJTg4JUU5JUExJUJBJUVGJUJDJTgxJUU5JTgyJTgwJUU0JUJEJUEwJUU1JTg3JUJBJUU2JTg4JTk4JTdFJTIyJTdEKAAyDOeCueWHu+afpeecizgAQgBaAGIAOkgKFeivt+WcqEFQUOaJk+W8gOafpeecixIAGgAiH2Jvc3N6cDovL2Jvc3N6aGlwaW4ucGMvb3BlblBhZ2UoADIAOABCAFoAYgBaADgAQAFKN+WQrOivtOWFqOetlOWvueeahOS6uuaJvuW3peS9nOmDveW+iOmhuu+8gemCgOS9oOWHuuaImH5QpMSn4///////AVgAYAFoAHAAeACKARMxMjY5MjU0MzU1ODE1NTAxODI0kAHcu9gcmgFgQzlMYjRFNk5uRU82cy1RMWY0bHhLWGNRb3Bpb2dqdTJCZE41ajVUbEdHdG9zdlU1d0s1dnBYekRqRnV4a1Nub0l1QXA2VFBiZHg0Q0E4MTJXVTFhOUdIRjNtcERsd35+GuYGCnIInQYSDOmBk+WFt+mAmuefpRpXaHR0cHM6Ly9pbWcyLmJvc3N6aGlwaW4uY29tL2FwcC9hbmRyb2lkL2l0ZW1FZmZlY3QtYmRjNjQ1ZWNiY2ViN2RjNGY3NDBlY2Y0MGNiNGM1ZDUucG5nIgAoADAAOAASSgiCsNy/AhIEbnVsbBo0aHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYm9zcy9hdmF0YXIvYXZhdGFyXzE2LnBuZyIAKBAwADgAGAMggejxsbHzGSiAvfO+kjIy3QMIDxABOogCCgzlpKnpmY3npo/liKkSOuaBreWWnOaCqOiOt+W+l+S4gOasoeeJm+S6ulZJUO+8iDflpKnvvInor5XnlKjnmoTmnLrkvJrvvIEaACIzaHR0cHM6Ly9tLnpoaXBpbi5jb20vd2FwaS96cGl0ZW0vZ2Vlay92aXA/c291cmNlPTE3KAAyDOeri+WNs+afpeecizgAQgBaAGJveyJpdGVtSWNvbiI6Imh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9hcHAvYW5kcm9pZC9yZXN1bWVSZWZyZXNoLTBkMTUzYWZjY2RiOTZhODcwMzYxY2FmNWRmZWU3OTliLnBuZyJ9OskBCgznq4vljbPmn6XnnIsSOuaBreWWnOaCqOiOt+W+l+S4gOasoeeJm+S6ulZJUO+8iDflpKnvvInor5XnlKjnmoTmnLrkvJrvvIEaACIAKAAyADgAQgBaAGJveyJpdGVtSWNvbiI6Imh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9hcHAvYW5kcm9pZC9yZXN1bWVSZWZyZXNoLTBkMTUzYWZjY2RiOTZhODcwMzYxY2FmNWRmZWU3OTliLnBuZyJ9WgA4AEABSjrmga3llpzmgqjojrflvpfkuIDmrKHniZvkurpWSVDvvIg35aSp77yJ6K+V55So55qE5py65Lya77yBUABYAGABaABwAHgAkAHOmPEFmgFgYXZhUEpqYmlBRmxaby1IMUhIU1JySDI3cUt6Y1VNdEJDdEo4azl5N0ZFcjRHOHBUdkg0UG12MmJJRkx6TzNTdlhTY1R6THc3SlhaYjY3anRBbncwMS1oTGctMW0zZ35+GosHCmEIgwcSDOezu+e7n+mAmuefpRpGaHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYmVpamluL21jcy91c2VyYXZhdGFyLzIwMTcwMTAxLzg5OV8xMDAwLmpwZyIAKAAwADgAEkoIgrDcvwISBG51bGwaNGh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2Jvc3MvYXZhdGFyL2F2YXRhcl8xNi5wbmciACgQMAA4ABgDIIHI9LGx8xkogL3zvpIyMuoDCA8QATrhAwodMTblnovkurrmoLzogYzkuJrmgKfmoLzmtYvor5USY+mAmui/h+iBjOS4muaAp+agvOa1i+ivlee7k+aenO+8jOS6huino+aCqOeahOiBjOS4muS8mOWKv+WSjOa9nOWKm++8jOS4uuaCqOaOqOiNkOmAguWQiOeahOiBjOS9jeOAghqJAWh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9pdGVtLzIwMjQwMzA0L2U4NGJlNTEyMjA4ZGNjMDkzYzUxNjRmMDU5YzQ2ZDBmYjg2NmVkNzA0YWYzNTc2N2Y3NmQyMWE1MjBkMGFhODI3MGRmZmEzOGY0ODhlMzQwLnBuZy53ZWJwIrYBYm9zc3pwOi8vYm9zc3poaXBpbi5hcHAvb3BlbndpdGg/dHlwZT13ZWJ2aWV3JnVybD1odHRwcyUzQSUyRiUyRnd3dy56aGlwaW4uY29tJTJGbXBhJTJGaHRtbCUyRm1peCUyRmFzc2Vzc1JvdXRlJTNGYXNzZXNzSWQlM0Q3ODlkYmMzZDRhNzkyOWE4MFhSLSUyNnNvdXJjZSUzRDIyJTI2ZnJvbSUzRDMlMjZzY2VuZSUzRDMoADIM56uL5Y2z5Y+C5YqgOABCAFoAYgBaADgAQAFKY+mAmui/h+iBjOS4muaAp+agvOa1i+ivlee7k+aenO+8jOS6huino+aCqOeahOiBjOS4muS8mOWKv+WSjOa9nOWKm++8jOS4uuaCqOaOqOiNkOmAguWQiOeahOiBjOS9jeOAglAAWABgAWgAcAB4AJAB8JbxBZoBYG81TkViZlpsUVM0NHktdjFjTWxTNVVGa1YwSmxZWTEwaUxzRWJzdU4xYW15Q3U5bXk4dFdhckswOHBLYUVsX0xCRWVzSUlZX3hIdUNEX2h6eExRTkJ1M3ExM2RTeGd+fhquCAphCIMHEgzns7vnu5/pgJrnn6UaRmh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9tY3MvdXNlcmF2YXRhci8yMDE3MDEwMS84OTlfMTAwMC5qcGciACgAMAA4ABJKCIKw3L8CEgRudWxsGjRodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9ib3NzL2F2YXRhci9hdmF0YXJfMTYucG5nIgAoEDAAOAAYAyCDiMCBs/MZKPiA+r6SMjLbBAgPEAE60gQKLeW8gOWQr+iZmuaLn+eUteivne+8jOiuqeiAgeadv+ebtOaOpeiBlOezu+S9oBKUAeaxguiBjOW/q+S6uuS4gOatpe+8jOS4jemUmei/h+WlveacuuS8mu+8ge+8iOa4qemmqOaPkOekuu+8mkJvc3Pmi6jmiZPkvaDnmoTnlLXor53ml7bvvIzmiYvmnLrlj7fkvJrku6XliqDlr4blvaLlvI/lsZXnpLrvvIzkuI3mmrTpnLLnnJ/lrp7lj7fnoIHvvIkahAFodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9iZWlqaW4vaXRlbS8yMDIzMDUxMC9lODRiZTUxMjIwOGRjYzA5YzhhYWU5YzhlZDVhZjlkM2FmOGI0NTBkNGNmMTFjNzhmZGM2NzYxMmM3NTJmNzc3NmJlNmI5M2MyZTY2YmE1ZS5wbmci7QFib3NzenA6Ly9ib3NzemhpcGluLmFwcC9vcGVud2l0aD90eXBlPW9wZW5EaXJlY3RDYWxsU2V0dGluZyZzb3VyY2U9MiZiYT17ImFjdGlvbiI6ImRldGFpbC1ub3RpZnktbXNnIiwicCI6IiR7bWVzc2FnZUlkfSIsInAyIjoxLCJwMyI6IiR7ZnJvbUlkfSIsInA0IjowLCJwNSI6IuW8gOWQr+iZmuaLn+eUteivne+8jOiuqeiAgeadv+ebtOaOpeiBlOezu+S9oCIsInA4IjoiZGlyZWN0Y2FsbC1hdXRob3JpemF0aW9uIn0oADIJ5Y675byA5ZCvOABCAFoAYgBaADgAQAFKlAHmsYLogYzlv6vkurrkuIDmraXvvIzkuI3plJnov4flpb3mnLrkvJrvvIHvvIjmuKnppqjmj5DnpLrvvJpCb3Nz5ouo5omT5L2g55qE55S16K+d5pe277yM5omL5py65Y+35Lya5Lul5Yqg5a+G5b2i5byP5bGV56S677yM5LiN5pq06Zyy55yf5a6e5Y+356CB77yJUABYAGABaABwAHgAkAGSmPEFmgFgNEVFdXlhSGhsRTFJQy04MXYtdk5CX3VoMkRQcHI2NDM3c21lekhod0F6ZDdQRXlJYlNpSExiRENiMTAwdnFtaHlUQkpQbU94My0yTnQ3RkhKUE02Y21URC1waGRCQX5+GuoGCmEIgwcSDOezu+e7n+mAmuefpRpGaHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYmVpamluL21jcy91c2VyYXZhdGFyLzIwMTcwMTAxLzg5OV8xMDAwLmpwZyIAKAAwADgAEkoIgrDcvwISBG51bGwaNGh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2Jvc3MvYXZhdGFyL2F2YXRhcl8xNi5wbmciACgQMAA4ABgDIIDok4Kz8xko+ID6vpIyMs8DCA8QATr8Agov5paw5Lic5pa5MjAyNeeni+Wto+agoeWbreaLm+iBmOato+WcqOi/m+ihjOS4rX4SPuaWsOS4nOaWuTIwMjXnp4vlraPmoKHlm63mi5vogZjngavng63mi5vogZjkuK1+5py65LiN5Y+v5aSx77yBGooBaHR0cHM6Ly9pbWcuYm9zc3poaXBpbi5jb20vYmVpamluL3h6YXRzLzIwMjQwMjI3LzQ0N2EwYjM4NDdmM2E3YjcyMzFiNWIyZTlkM2Y3NGM4Mzc0YjgyNWJkNGM3MTg3ODZiYjYxZTNiN2JjZTA5MzFkYTU3NGQxOWQxZDgyYzg4LmpwZy53ZWJwImRodHRwczovL3d3dy56aGlwaW4uY29tL21wYS92My9odG1sL2F0cy9qb2ItbGlzdC9ob21lP2VuY3J5cHRQcm9qZWN0SWQ9MzdkNTI3ODQzZGUzNmFmMDFIUi0mc291cmNlPTIxKAAyDOeri+WNs+aKlemAkjgAQgBaAGIAOkgKFeivt+WcqEFQUOaJk+W8gOafpeecixIAGgAiH2Jvc3N6cDovL2Jvc3N6aGlwaW4ucGMvb3BlblBhZ2UoADIAOABCAFoAYgBaADgAQAFKPuaWsOS4nOaWuTIwMjXnp4vlraPmoKHlm63mi5vogZjngavng63mi5vogZjkuK1+5py65LiN5Y+v5aSx77yBUOiWo+P//////wFYAGABaABwAHgAigETMTI3MDQ5MzE4MDg5MDA0NjQ2NJABmOncHJoBYGZLVlhkUEhNdFJBTnctXzFCSTFxTFE0bmRsZkVkdHNGU1VKRXJWWDRibWdDYXI5S0EtV1hkby1IYVdySHA4aHR3WkVMX3UtOURjS0RxR1VwQlN0OE9oYlIzUm5rMlF+fhrMBwphCIMHEgzns7vnu5/pgJrnn6UaRmh0dHBzOi8vaW1nLmJvc3N6aGlwaW4uY29tL2JlaWppbi9tY3MvdXNlcmF2YXRhci8yMDE3MDEwMS84OTlfMTAwMC5qcGciACgAMAA4ABJKCIKw3L8CEgRudWxsGjRodHRwczovL2ltZy5ib3NzemhpcGluLmNvbS9ib3NzL2F2YXRhci9hdmF0YXJfMTYucG5nIgAoEDAAOAAYAyCCyKjY2JcaKKDZkNCTMjLHAwgBEAEauwPlsIrmlaznmoTnlKjmiLfvvIzlpoLmgqjlnKjmsYLogYzkuK3pgYfliLDor6bnu4bmiZPlkKzlrrbluq3mg4XlhrXjgIHku4XnlLXor53pnaLor5XjgIHlvILlnLDln7norq3jgIHnp4Hkurrpgq7nrrHlj5FvZmZlcu+8jOivt+aPkOmrmOitpuaDle+8jOiwqOmYsuWPl+mql++8m+S7u+S9leimgeaxgue8tOe6s+i0ueeUqOOAgei9rOi0puaxh+asvuetiea2ieWPiui0ouWKoeeahOaDheWGte+8jOivt+WKoeW/heaLkue7ne+8m+WvueS6jumZjOeUn+adpeeUtee6pumdouivle+8jOWNs+S+v+WvueaWueefpemBk+aCqOeahOWnk+WQje+8jOS5n+WIh+iusOimgeaguOWunuWvueaWueWFrOWPuOWPiuS4quS6uui6q+S7ve+8jOWIh+WLv+iiq+Wll+ivneW5tui9u+S/oeWvueaWue+8jOiwqOmYsueUteS/oeiviOmql+OAguelneaCqOmhuuWIqeaJvuWIsOa7oeaEj+eahOW3peS9nO+8gVoA4gEAOABAAUrGAeezu+e7n+mAmuefpTrlsIrmlaznmoTnlKjmiLfvvIzlpoLmgqjlnKjmsYLogYzkuK3pgYfliLDor6bnu4bmiZPlkKzlrrbluq3mg4XlhrXjgIHku4XnlLXor53pnaLor5XjgIHlvILlnLDln7norq3jgIHnp4Hkurrpgq7nrrHlj5FvZmZlcu+8jOivt+aPkOmrmOitpuaDle+8jOiwqOmYsuWPl+mql++8m+S7u+S9leimgeaxgue8tOe6s+i0ueeUqC4uLlAAWABgAWgAcAB4AJABo5jxBZoBYEVmODNZcEFyZ0o0UUMtTjE3NDBlSzV4TkVFbC0xOVR2cm54ZnBvVVpvb0t0dmtOYUpMS2lFN1R6a0ZPM3lFNXBHVnlMb2hHRTFIOGpTelRFcW9FZGx1OXRVeDh5Vnd+fg=='
+    ]
+  }
+}
+[2024-08-12T23:10:29.863] [INFO] response - Response url:  https://www.zhipin.com/wapi/zpmsg/history/pull?type=0&lastId=115163290805250&secretId=3pz4B54UMSbDuX_sJ5zVNGkoP5ivy0h---cmpApTM8u79kRNduY6jsgsKl5_hwxVTkZcktWiLZqTBag5R7zFoa5DEnvCok9w
+[2024-08-12T23:10:29.863] [INFO] response - Response:  {
+  code: 0,
+  message: 'Success',
+  zpData: { hasMore: false, lastId: 115163290805250, type: 0 }
+}
