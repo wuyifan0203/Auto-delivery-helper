@@ -1,17 +1,17 @@
 /*
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-08-06 00:23:30
- * @LastEditors: wuyifan wuyifan@max-optics.com
- * @LastEditTime: 2024-08-13 17:51:45
+ * @LastEditors: wuyifan 1208097313@qq.com
+ * @LastEditTime: 2024-08-14 00:51:54
  * @FilePath: /Auto-delivery-helper/src/action.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
 
 import type { Page } from "puppeteer";
-import { logger } from "./log4js";
+import { errorLogger, logger } from "./log4js";
 
 const state = {
-    isLogin: false,
+    isLogin: true,
     totalTime: 1000,
     queryTimes: 0,
 };
@@ -27,16 +27,25 @@ const action = {
         console.log(request, 66666);
 
         const { code } = request;
-        state.isLogin = code === 0;
-        logger.info(`login: ${state.isLogin ? 'Success' : 'Fail'}`);
-        const mask = await page.$('#full-screen-mask');
-        if (mask) {
-            await page.evaluate((element) => {
-                const ele = element as HTMLElement;
-                ele.style.display = 'fixed';
-            }, mask);
-        }
+        // state.isLogin = code === 0;
 
+        logger.info(`login: ${state.isLogin ? 'Success' : 'Fail'}`);
+        if(state.isLogin){
+            const mask = await page.$('#full-screen-mask');
+            if (mask) {
+                await page.evaluate((element) => {
+                    const ele = element as HTMLElement;
+                    console.log('ele', ele);
+    
+                    
+                    ele.style.display = 'fixed';
+                }, mask);
+            }
+            await page.goto('https://www.zhipin.com/');
+
+        }else{
+            errorLogger.info('login: Fail');
+        }
     },
     async guide({ zpData }: RequestBody, page: Page) {
         if (!state.isLogin) return
