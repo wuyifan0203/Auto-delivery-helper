@@ -2,7 +2,7 @@
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-08-06 00:23:30
  * @LastEditors: wuyifan wuyifan@max-optics.com
- * @LastEditTime: 2024-08-12 18:02:19
+ * @LastEditTime: 2024-08-13 17:51:45
  * @FilePath: /Auto-delivery-helper/src/action.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
@@ -12,6 +12,8 @@ import { logger } from "./log4js";
 
 const state = {
     isLogin: false,
+    totalTime: 1000,
+    queryTimes: 0,
 };
 
 interface RequestBody {
@@ -54,7 +56,7 @@ const action = {
 
         const { location, postDescription, showSkills } = jobInfo;
         const { activeTimeDesc } = bossInfo;
-        
+
 
     }
 }
