@@ -1,0 +1,681 @@
+[2024-08-15T00:58:02.544] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T00:58:02.640] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T00:58:02.663] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T00:58:02.801] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T00:58:02.880] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T00:58:03.297] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T00:58:03.428] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T00:58:03.433] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T00:58:03.433] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T00:58:03.434] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T00:58:03.521] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T00:58:03.595] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T00:58:03.680] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T00:58:03.695] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T00:58:03.696] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T00:58:03.697] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T00:58:03.877] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T00:58:03.878] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-15T00:58:03.879] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-15T00:58:03.880] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-15T00:58:03.891] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T00:58:03.892] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T00:58:03.901] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T00:58:03.908] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T00:58:07.082] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T00:58:07.083] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T00:58:30.070] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T00:58:30.265] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T00:58:30.343] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T00:58:30.363] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T00:58:30.470] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T00:58:30.605] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T00:58:30.637] [INFO] request - Request document: [GET] url: https://www.zhipin.com/
+[2024-08-15T00:58:30.906] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T00:58:31.159] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T00:58:31.169] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T00:58:31.170] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T00:58:31.171] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T00:58:31.175] [INFO] request - Request document: [GET] url: https://www.zhipin.com/shanghai/?seoRefer=index
+[2024-08-15T00:58:31.303] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T00:58:31.476] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T00:58:31.564] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T00:58:31.579] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T00:58:31.580] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T00:58:31.581] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T00:58:31.653] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T00:58:31.655] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-15T00:58:31.656] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-15T00:58:31.657] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-15T00:58:31.673] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T00:58:31.685] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T00:58:31.685] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T00:58:31.700] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T00:58:34.882] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T00:58:34.883] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T00:59:12.128] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T00:59:12.541] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T00:59:12.629] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T00:59:12.659] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T00:59:12.893] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T00:59:12.971] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T00:59:12.985] [INFO] request - Request document: [GET] url: https://www.zhipin.com/
+[2024-08-15T00:59:13.150] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T00:59:13.601] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T00:59:13.612] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T00:59:13.613] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T00:59:13.613] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T00:59:13.622] [INFO] request - Request document: [GET] url: https://www.zhipin.com/shanghai/?seoRefer=index
+[2024-08-15T00:59:13.911] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T00:59:14.108] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T00:59:14.122] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T00:59:14.123] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T00:59:14.124] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T00:59:14.189] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T00:59:14.189] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-15T00:59:14.191] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-15T00:59:14.192] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-15T00:59:14.207] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T00:59:14.210] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T00:59:14.211] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T00:59:14.415] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T00:59:17.581] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T00:59:17.581] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:01:27.967] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T01:01:28.674] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:01:28.804] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:01:28.824] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:01:29.032] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:01:29.186] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:01:29.199] [INFO] request - Request document: [GET] url: https://www.zhipin.com/
+[2024-08-15T01:01:29.596] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:01:29.798] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:01:29.800] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:01:29.800] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:01:29.801] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:01:29.804] [INFO] request - Request document: [GET] url: https://www.zhipin.com/shanghai/?seoRefer=index
+[2024-08-15T01:01:29.848] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:01:29.973] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:01:30.170] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:01:30.187] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:01:30.187] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:01:30.187] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:01:30.266] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T01:01:30.269] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-15T01:01:30.273] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-15T01:01:30.274] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-15T01:01:30.286] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:01:30.293] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T01:01:30.295] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T01:01:30.316] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:01:33.493] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:01:33.493] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:05:21.433] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T01:05:21.660] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:05:21.799] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:05:21.801] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:05:22.073] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:05:22.154] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:05:22.170] [INFO] request - Request document: [GET] url: https://www.zhipin.com/
+[2024-08-15T01:05:22.655] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:05:23.060] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:05:23.076] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:05:23.077] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:05:23.077] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:05:23.083] [INFO] request - Request document: [GET] url: https://www.zhipin.com/shanghai/?seoRefer=index
+[2024-08-15T01:05:23.150] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:05:23.326] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:05:23.597] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:05:23.620] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:05:23.621] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:05:23.622] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:05:23.713] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T01:05:23.714] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-15T01:05:23.716] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-15T01:05:23.717] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-15T01:05:23.753] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:05:23.772] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T01:05:23.773] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T01:05:23.784] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:05:27.104] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:05:27.104] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:08:05.575] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T01:08:05.809] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:08:06.142] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:08:06.228] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:08:06.319] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:08:06.477] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:08:06.492] [INFO] request - Request document: [GET] url: https://www.zhipin.com/
+[2024-08-15T01:08:06.790] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:08:07.179] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:08:07.187] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:08:07.188] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:08:07.188] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:08:07.203] [INFO] request - Request document: [GET] url: https://www.zhipin.com/shanghai/?seoRefer=index
+[2024-08-15T01:08:07.251] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:08:07.418] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:08:07.680] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:08:07.700] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:08:07.701] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:08:07.701] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:08:07.740] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:08:07.815] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T01:08:07.815] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-15T01:08:07.817] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-15T01:08:07.819] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-15T01:08:07.832] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T01:08:07.836] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T01:08:07.855] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:08:11.349] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:08:11.350] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:15:17.186] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T01:15:18.287] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:15:18.441] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:15:18.464] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:15:18.690] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:15:18.779] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:15:21.738] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:15:21.739] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:15:51.640] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T01:15:51.853] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:15:51.987] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:15:52.015] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:15:52.275] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:15:52.370] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:15:55.298] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:15:55.299] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:16:04.877] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T01:16:04.897] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:16:04.961] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:16:05.024] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:16:05.327] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:16:05.399] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:16:08.268] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:16:08.269] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:17:10.311] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T01:17:10.527] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:17:10.696] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:17:10.719] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:17:10.968] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:17:11.048] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:17:13.997] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:17:13.997] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:17:46.772] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T01:17:47.157] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:17:47.259] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:17:47.397] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:17:47.735] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:17:48.218] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:17:51.187] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:17:51.188] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:18:17.642] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T01:18:18.026] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:18:18.128] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:18:18.171] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:18:18.468] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:18:18.559] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:18:21.924] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:18:21.925] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:19:39.396] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T01:19:39.745] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:19:39.855] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:19:39.890] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:19:40.054] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:19:40.264] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:19:40.283] [INFO] request - Request document: [GET] url: https://www.zhipin.com/
+[2024-08-15T01:19:40.554] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:19:41.015] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:19:41.018] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:19:41.021] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:19:41.023] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:19:41.037] [INFO] request - Request document: [GET] url: https://www.zhipin.com/shanghai/?seoRefer=index
+[2024-08-15T01:19:41.471] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:19:41.814] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:19:41.918] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:19:41.939] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:19:41.941] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:19:41.942] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:19:41.970] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:19:42.054] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T01:19:42.055] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-15T01:19:42.055] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-15T01:19:42.056] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-15T01:19:42.070] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T01:19:42.072] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T01:19:42.089] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:19:45.446] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:19:45.447] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:25:22.547] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T01:25:22.759] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:25:22.859] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:25:22.925] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:25:23.253] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:25:23.348] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:25:23.381] [INFO] request - Request document: [GET] url: https://www.zhipin.com/
+[2024-08-15T01:25:23.805] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:25:24.191] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:25:24.194] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:25:24.195] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:25:24.199] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:25:24.205] [INFO] request - Request document: [GET] url: https://www.zhipin.com/shanghai/?seoRefer=index
+[2024-08-15T01:25:24.267] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:25:24.465] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:25:24.706] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:25:24.727] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:25:24.728] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:25:24.731] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:25:24.754] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:25:24.831] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T01:25:24.832] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-15T01:25:24.834] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-15T01:25:24.835] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-15T01:25:24.861] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T01:25:24.864] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T01:25:24.887] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:25:28.171] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:25:28.171] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:26:24.208] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T01:26:24.573] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:26:24.670] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:26:24.697] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:26:25.004] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:26:25.096] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:26:25.113] [INFO] request - Request document: [GET] url: https://www.zhipin.com/
+[2024-08-15T01:26:25.421] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:26:25.855] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:26:25.867] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:26:25.868] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:26:25.869] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:26:25.876] [INFO] request - Request document: [GET] url: https://www.zhipin.com/shanghai/?seoRefer=index
+[2024-08-15T01:26:26.030] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:26:26.200] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:26:26.456] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:26:26.476] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:26:26.476] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:26:26.480] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:26:26.565] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T01:26:26.565] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-15T01:26:26.567] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-15T01:26:26.568] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-15T01:26:26.599] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:26:26.607] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T01:26:26.609] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T01:26:26.621] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:26:29.795] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:26:29.796] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:27:47.736] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T01:27:48.057] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:27:48.564] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:27:48.584] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:27:49.106] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:27:49.252] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:27:49.271] [INFO] request - Request document: [GET] url: https://www.zhipin.com/
+[2024-08-15T01:27:49.568] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:27:49.963] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:27:49.975] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:27:49.975] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:27:49.976] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:27:49.983] [INFO] request - Request document: [GET] url: https://www.zhipin.com/shanghai/?seoRefer=index
+[2024-08-15T01:27:50.035] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:27:50.175] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:27:50.448] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:27:50.469] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:27:50.470] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:27:50.472] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:27:50.558] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T01:27:50.559] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-15T01:27:50.561] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-15T01:27:50.562] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-15T01:27:50.586] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:27:50.593] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T01:27:50.594] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T01:27:50.606] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:27:53.981] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:27:53.981] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:28:16.640] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T01:28:16.867] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:28:17.002] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:28:17.153] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:28:17.308] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:28:17.394] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:28:17.416] [INFO] request - Request document: [GET] url: https://www.zhipin.com/
+[2024-08-15T01:28:17.886] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:28:18.151] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:28:18.164] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:28:18.165] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:28:18.166] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:28:18.172] [INFO] request - Request document: [GET] url: https://www.zhipin.com/shanghai/?seoRefer=index
+[2024-08-15T01:28:18.295] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:28:18.387] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:28:18.653] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:28:18.677] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:28:18.679] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:28:18.680] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:28:18.764] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T01:28:18.765] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-15T01:28:18.767] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-15T01:28:18.768] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-15T01:28:18.795] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:28:18.806] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T01:28:18.808] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T01:28:18.825] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:28:22.236] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:28:22.238] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:28:45.293] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T01:28:45.661] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:28:45.771] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:28:45.999] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:28:46.081] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:28:46.165] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:28:46.186] [INFO] request - Request document: [GET] url: https://www.zhipin.com/
+[2024-08-15T01:28:46.564] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:28:47.144] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:28:47.157] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:28:47.158] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:28:47.162] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:28:47.167] [INFO] request - Request document: [GET] url: https://www.zhipin.com/shanghai/?seoRefer=index
+[2024-08-15T01:28:47.230] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:28:47.550] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:28:47.664] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:28:47.685] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:28:47.686] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:28:47.687] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:28:47.716] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:28:47.794] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T01:28:47.794] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-15T01:28:47.795] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-15T01:28:47.797] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-15T01:28:47.819] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T01:28:47.823] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T01:28:47.851] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:28:51.165] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:28:51.166] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:29:14.241] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T01:29:14.518] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:29:14.612] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:29:14.889] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:29:14.975] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:29:15.066] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:29:15.087] [INFO] request - Request document: [GET] url: https://www.zhipin.com/
+[2024-08-15T01:29:15.391] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:29:15.841] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:29:15.856] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:29:15.856] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:29:15.857] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:29:15.865] [INFO] request - Request document: [GET] url: https://www.zhipin.com/shanghai/?seoRefer=index
+[2024-08-15T01:29:15.925] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:29:16.221] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:29:16.311] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:29:16.334] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:29:16.335] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:29:16.336] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:29:16.374] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:29:16.450] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T01:29:16.450] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-15T01:29:16.451] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-15T01:29:16.452] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-15T01:29:16.663] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T01:29:16.664] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T01:29:16.677] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:29:20.085] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:29:20.086] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:29:58.465] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T01:29:58.899] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:29:59.015] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:29:59.130] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:29:59.180] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:29:59.316] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:29:59.337] [INFO] request - Request document: [GET] url: https://www.zhipin.com/
+[2024-08-15T01:29:59.652] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:30:00.053] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:30:00.058] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:30:00.060] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:30:00.061] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:30:00.063] [INFO] request - Request document: [GET] url: https://www.zhipin.com/shanghai/?seoRefer=index
+[2024-08-15T01:30:00.126] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:30:00.438] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:30:00.554] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:30:00.574] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:30:00.575] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:30:00.576] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:30:00.603] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:30:00.683] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T01:30:00.684] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-15T01:30:00.686] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-15T01:30:00.687] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-15T01:30:00.708] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T01:30:00.713] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T01:30:00.731] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:30:01.114] [INFO] request - Request document: [GET] url: https://www.zhipin.com/job_detail/?query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE&city=101020100&industry=&position=
+[2024-08-15T01:30:01.153] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/common/security-check.html?seed=t5jmdpi%2BwMcjMaL3M8VwxeU%2FMbUu7fIjNO6YF2sD%2FLM%3D&name=260960ca&ts=1723656601446&callbackUrl=%2Fjob_detail%2F%3Fquery%3DSAP%25E4%25B8%259A%25E5%258A%25A1%25E9%25A1%25BE%25E9%2597%25AE%26city%3D101020100%26industry%3D%26position%3D&srcReferer=https%3A%2F%2Fwww.zhipin.com%2Fshanghai%2F%3FseoRefer%3Dindex
+[2024-08-15T01:30:01.344] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:30:01.937] [INFO] request - Request document: [GET] url: https://www.zhipin.com/job_detail/?query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE&city=101020100&industry=&position=
+[2024-08-15T01:30:02.033] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/geek/job?query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE&city=101020100
+[2024-08-15T01:30:02.198] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:30:02.205] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:30:02.907] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:30:02.907] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/group/gravityGroupInfoList?page=1&scene=0
+[2024-08-15T01:30:02.908] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zprelation/friend/geekFilterByLabel?labelId=0
+[2024-08-15T01:30:02.909] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/config/get
+[2024-08-15T01:30:02.909] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpitem/web/item/config/get
+[2024-08-15T01:30:03.077] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/group/groupInfoList
+[2024-08-15T01:30:03.078] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/group/gravityGroupInfoList?page=1&scene=0
+[2024-08-15T01:30:03.081] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zprelation/friend/geekFilterByLabel?labelId=-1
+[2024-08-15T01:30:03.098] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:30:03.099] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/notify/setting/get
+[2024-08-15T01:30:03.100] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/footer.json
+[2024-08-15T01:30:04.410] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/header.json
+[2024-08-15T01:30:04.436] [INFO] request - Request document: [GET] url: https://www.zhipin.com/
+[2024-08-15T01:30:04.531] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/restrict/list.json
+[2024-08-15T01:30:04.596] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T01:30:04.596] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T01:30:04.598] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T01:30:04.600] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:30:04.601] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:30:04.740] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:30:04.966] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:30:04.980] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:30:04.981] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:30:04.981] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:30:04.985] [INFO] request - Request document: [GET] url: https://www.zhipin.com/shanghai/?seoRefer=index
+[2024-08-15T01:30:05.373] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:30:05.861] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:30:05.927] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:30:05.942] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:30:05.943] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:30:05.944] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:30:05.967] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:30:06.043] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T01:30:06.049] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-15T01:30:06.050] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-15T01:30:06.050] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-15T01:30:06.206] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T01:30:06.207] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T01:30:06.215] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:30:06.381] [INFO] request - Request document: [GET] url: https://www.zhipin.com/job_detail/?query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE&city=101020100&industry=&position=
+[2024-08-15T01:30:06.431] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/geek/job?query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE&city=101020100
+[2024-08-15T01:30:06.504] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:30:06.610] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:30:07.202] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:30:07.203] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/group/gravityGroupInfoList?page=1&scene=0
+[2024-08-15T01:30:07.203] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zprelation/friend/geekFilterByLabel?labelId=0
+[2024-08-15T01:30:07.204] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/config/get
+[2024-08-15T01:30:07.205] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpitem/web/item/config/get
+[2024-08-15T01:30:07.286] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:30:07.287] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/notify/setting/get
+[2024-08-15T01:30:07.289] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/footer.json
+[2024-08-15T01:30:07.295] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/group/groupInfoList
+[2024-08-15T01:30:07.297] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/group/gravityGroupInfoList?page=1&scene=0
+[2024-08-15T01:30:07.300] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zprelation/friend/geekFilterByLabel?labelId=-1
+[2024-08-15T01:30:08.380] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/header.json
+[2024-08-15T01:30:08.422] [INFO] request - Request document: [GET] url: https://www.zhipin.com/
+[2024-08-15T01:30:08.812] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:30:08.878] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:30:08.892] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:30:08.893] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:30:08.893] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:30:08.897] [INFO] request - Request document: [GET] url: https://www.zhipin.com/shanghai/?seoRefer=index
+[2024-08-15T01:30:09.349] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:30:09.420] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:30:09.435] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:30:09.435] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:30:09.436] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:30:09.464] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:30:09.539] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T01:30:09.540] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-15T01:30:09.540] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-15T01:30:09.541] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-15T01:30:09.552] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T01:30:09.553] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T01:30:09.568] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:30:09.820] [INFO] request - Request document: [GET] url: https://www.zhipin.com/job_detail/?query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE&city=101020100&industry=&position=
+[2024-08-15T01:30:09.891] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/geek/job?query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE&city=101020100
+[2024-08-15T01:30:09.972] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:30:09.998] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:30:10.248] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:30:10.249] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/group/gravityGroupInfoList?page=1&scene=0
+[2024-08-15T01:30:10.249] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zprelation/friend/geekFilterByLabel?labelId=0
+[2024-08-15T01:30:10.250] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/config/get
+[2024-08-15T01:30:10.250] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpitem/web/item/config/get
+[2024-08-15T01:30:10.437] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:30:10.438] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/notify/setting/get
+[2024-08-15T01:30:10.439] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/footer.json
+[2024-08-15T01:30:10.446] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/group/groupInfoList
+[2024-08-15T01:30:10.447] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/group/gravityGroupInfoList?page=1&scene=0
+[2024-08-15T01:30:10.449] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zprelation/friend/geekFilterByLabel?labelId=-1
+[2024-08-15T01:30:11.803] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/header.json
+[2024-08-15T01:30:11.859] [INFO] request - Request document: [GET] url: https://www.zhipin.com/
+[2024-08-15T01:30:11.867] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/restrict/list.json
+[2024-08-15T01:30:12.000] [INFO] request - Request: [GET] url: https://img.bosszhipin.com/static/file/2022/slv5z2t59n1655432972265.json
+[2024-08-15T01:30:12.004] [INFO] request - Request: [GET] url: https://img.bosszhipin.com/static/file/2022/yq4s2zwazm1655433298817.json
+[2024-08-15T01:30:12.005] [INFO] request - Request: [GET] url: https://img.bosszhipin.com/static/file/2022/coyoauheri1655433298743.json
+[2024-08-15T01:30:12.006] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:30:12.016] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/friendlylinks.json?uri=%2Fweb%2Fgeek%2Fjob
+[2024-08-15T01:30:12.017] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/search/job/sidebar.json
+[2024-08-15T01:30:12.018] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/search/job/condition.json
+[2024-08-15T01:30:12.019] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/cityGroup.json
+[2024-08-15T01:30:12.020] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/search/joblist.json?scene=1&query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE&city=101020100&experience=&payType=&partTime=&degree=&industry=&scale=&stage=&position=&jobType=&salary=&multiBusinessDistrict=&multiSubway=&page=1&pageSize=30
+[2024-08-15T01:30:12.021] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/search/job/subinfo.json?query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE&city=101020100&experience=&payType=&partTime=&degree=&industry=&scale=&stage=&position=&jobType=&salary=&multiBusinessDistrict=&multiSubway=&page=1
+[2024-08-15T01:30:12.022] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/search/job/related/word.json?query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE
+[2024-08-15T01:30:12.023] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/search/job/tdk.json?city=101020100&experience=&payType=&partTime=&degree=&industry=&scale=&stage=&position=&jobType=&salary=&multiBusinessDistrict=&multiSubway=
+[2024-08-15T01:30:12.024] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/businessDistrict.json?cityCode=101020100
+[2024-08-15T01:30:12.026] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getSubwayByCity?cityCode=101020100
+[2024-08-15T01:30:12.027] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industryFilterExemption
+[2024-08-15T01:30:12.029] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition
+[2024-08-15T01:30:12.068] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T01:30:12.069] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T01:30:12.069] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T01:30:12.071] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:30:12.071] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:30:12.072] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:30:12.214] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:30:12.458] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:30:12.471] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:30:12.472] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:30:12.473] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:30:12.477] [INFO] request - Request document: [GET] url: https://www.zhipin.com/shanghai/?seoRefer=index
+[2024-08-15T01:30:12.538] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:30:12.816] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:30:12.896] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:30:12.918] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:30:12.919] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:30:12.919] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:30:13.003] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T01:30:13.008] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-15T01:30:13.009] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-15T01:30:13.012] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-15T01:30:13.020] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:30:13.026] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T01:30:13.027] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T01:30:13.339] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:30:13.615] [INFO] request - Request document: [GET] url: https://www.zhipin.com/job_detail/?query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE&city=101020100&industry=&position=
+[2024-08-15T01:30:13.661] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/geek/job?query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE&city=101020100
+[2024-08-15T01:30:13.723] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:30:13.754] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:30:14.012] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:30:14.013] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/group/gravityGroupInfoList?page=1&scene=0
+[2024-08-15T01:30:14.014] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zprelation/friend/geekFilterByLabel?labelId=0
+[2024-08-15T01:30:14.015] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/config/get
+[2024-08-15T01:30:14.017] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpitem/web/item/config/get
+[2024-08-15T01:30:14.293] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:30:14.294] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/notify/setting/get
+[2024-08-15T01:30:14.294] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/footer.json
+[2024-08-15T01:30:14.301] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/group/groupInfoList
+[2024-08-15T01:30:14.302] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/group/gravityGroupInfoList?page=1&scene=0
+[2024-08-15T01:30:14.303] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zprelation/friend/geekFilterByLabel?labelId=-1
+[2024-08-15T01:34:41.968] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/user/
+[2024-08-15T01:34:42.332] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:34:42.455] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:34:42.502] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:34:42.634] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:34:42.937] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:34:43.499] [INFO] request - Request document: [GET] url: https://www.zhipin.com/
+[2024-08-15T01:34:43.734] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:34:44.125] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:34:44.137] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:34:44.138] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:34:44.138] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:34:44.144] [INFO] request - Request document: [GET] url: https://www.zhipin.com/shanghai/?seoRefer=index
+[2024-08-15T01:34:44.200] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:34:44.578] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:34:44.695] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:34:44.716] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:34:44.718] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:34:44.719] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:34:44.742] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:34:44.817] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T01:34:44.818] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industry.json
+[2024-08-15T01:34:44.823] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/city.json
+[2024-08-15T01:34:44.823] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition?cityCode=101020100
+[2024-08-15T01:34:44.949] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T01:34:44.951] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T01:34:45.020] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:34:45.201] [INFO] request - Request document: [GET] url: https://www.zhipin.com/job_detail/?query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE&city=101020100&industry=&position=
+[2024-08-15T01:34:45.245] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/common/security-check.html?seed=t5jmdpi%2BwMcjMaL3M8VwxXnz%2BfUQCmuC4Ya43XZp%2BSQ%3D&name=260960ca&ts=1723656885545&callbackUrl=%2Fjob_detail%2F%3Fquery%3DSAP%25E4%25B8%259A%25E5%258A%25A1%25E9%25A1%25BE%25E9%2597%25AE%26city%3D101020100%26industry%3D%26position%3D&srcReferer=https%3A%2F%2Fwww.zhipin.com%2Fshanghai%2F%3FseoRefer%3Dindex
+[2024-08-15T01:34:45.518] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:34:46.276] [INFO] request - Request document: [GET] url: https://www.zhipin.com/job_detail/?query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE&city=101020100&industry=&position=
+[2024-08-15T01:34:46.387] [INFO] request - Request document: [GET] url: https://www.zhipin.com/web/geek/job?query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE&city=101020100
+[2024-08-15T01:34:46.598] [INFO] request - Request: [GET] url: https://apm-fe.zhipin.com/wapi/zpApm/httpMetrics/getConfig?appKey=ObsSRskiryhn60pf
+[2024-08-15T01:34:46.992] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:34:47.294] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zppassport/set/zpToken
+[2024-08-15T01:34:47.295] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/group/gravityGroupInfoList?page=1&scene=0
+[2024-08-15T01:34:47.296] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zprelation/friend/geekFilterByLabel?labelId=0
+[2024-08-15T01:34:47.296] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/config/get
+[2024-08-15T01:34:47.297] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpitem/web/item/config/get
+[2024-08-15T01:34:47.359] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getUserInfo.json
+[2024-08-15T01:34:47.360] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/notify/setting/get
+[2024-08-15T01:34:47.361] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/footer.json
+[2024-08-15T01:34:47.369] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/group/groupInfoList
+[2024-08-15T01:34:47.369] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpchat/group/gravityGroupInfoList?page=1&scene=0
+[2024-08-15T01:34:47.370] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zprelation/friend/geekFilterByLabel?labelId=-1
+[2024-08-15T01:34:48.805] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/header.json
+[2024-08-15T01:34:48.964] [INFO] request - Request: [GET] url: https://img.bosszhipin.com/static/file/2022/slv5z2t59n1655432972265.json
+[2024-08-15T01:34:48.965] [INFO] request - Request: [GET] url: https://img.bosszhipin.com/static/file/2022/yq4s2zwazm1655433298817.json
+[2024-08-15T01:34:48.966] [INFO] request - Request: [GET] url: https://img.bosszhipin.com/static/file/2022/coyoauheri1655433298743.json
+[2024-08-15T01:34:48.967] [INFO] request - Request: [POST] url: https://logapi.zhipin.com/dap/api/json
+[2024-08-15T01:34:48.973] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/friendlylinks.json?uri=%2Fweb%2Fgeek%2Fjob
+[2024-08-15T01:34:48.974] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/search/job/sidebar.json
+[2024-08-15T01:34:48.975] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/search/job/condition.json
+[2024-08-15T01:34:48.975] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/cityGroup.json
+[2024-08-15T01:34:48.976] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/search/joblist.json?scene=1&query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE&city=101020100&experience=&payType=&partTime=&degree=&industry=&scale=&stage=&position=&jobType=&salary=&multiBusinessDistrict=&multiSubway=&page=1&pageSize=30
+[2024-08-15T01:34:48.977] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/search/job/subinfo.json?query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE&city=101020100&experience=&payType=&partTime=&degree=&industry=&scale=&stage=&position=&jobType=&salary=&multiBusinessDistrict=&multiSubway=&page=1
+[2024-08-15T01:34:48.977] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/search/job/related/word.json?query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE
+[2024-08-15T01:34:48.978] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/search/job/tdk.json?city=101020100&experience=&payType=&partTime=&degree=&industry=&scale=&stage=&position=&jobType=&salary=&multiBusinessDistrict=&multiSubway=
+[2024-08-15T01:34:48.979] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/businessDistrict.json?cityCode=101020100
+[2024-08-15T01:34:48.980] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getSubwayByCity?cityCode=101020100
+[2024-08-15T01:34:48.981] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/industryFilterExemption
+[2024-08-15T01:34:48.982] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpCommon/data/getCityShowPosition
+[2024-08-15T01:34:49.005] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/restrict/list.json
+[2024-08-15T01:34:49.070] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/agreement/update/tip.json
+[2024-08-15T01:34:49.070] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/resume/parser/querybar.json
+[2024-08-15T01:34:49.071] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/common/data/city/site.json
+[2024-08-15T01:34:49.074] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/webtopbanner/query.json
+[2024-08-15T01:34:49.074] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpuser/wap/getSecurityGuideV1
+[2024-08-15T01:34:49.075] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/collection/popup/window
+[2024-08-15T01:34:49.247] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zpApm/actionLog/fe/ie/common.json
+[2024-08-15T01:34:49.348] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpke/geek/course/pc/entry?
+[2024-08-15T01:34:49.672] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/search/job/seo/data.json?city=101020100&position=&industry=&multiBusinessDistrict=&jobCity=101020100
+[2024-08-15T01:34:49.672] [INFO] request - Request: [POST] url: https://www.zhipin.com/wapi/zpgeek/job/subscribe/qr.json
+[2024-08-15T01:34:50.377] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:34:50.378] [INFO] request - Request: [POST] url: https://apm-fe.zhipin.com/wapi/zpApm/actionLog/fe/common.json
+[2024-08-15T01:34:51.902] [INFO] request - Request: [GET] url: https://www.zhipin.com/wapi/zpgeek/strategy/login.json?source=2

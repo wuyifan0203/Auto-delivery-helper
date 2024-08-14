@@ -1,8 +1,8 @@
 /*
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-08-06 00:23:30
- * @LastEditors: wuyifan wuyifan@max-optics.com
- * @LastEditTime: 2024-08-14 18:05:45
+ * @LastEditors: wuyifan 1208097313@qq.com
+ * @LastEditTime: 2024-08-15 01:29:53
  * @FilePath: /Auto-delivery-helper/src/action.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
@@ -15,6 +15,7 @@ const state = {
     isLogin: true,
     totalTime: 1000,
     queryTimes: 0,
+    jobName: 'SAP业务顾问'
 };
 
 interface RequestBody {
@@ -31,11 +32,13 @@ const action = {
         // state.isLogin = code === 0;
 
         logger.info(`login: ${state.isLogin ? 'Success' : 'Fail'}`);
-        if(state.isLogin){
-            await showMask(page)
-            await page.goto('https://www.zhipin.com/');
+        if (state.isLogin) {
+            console.log('searchJob ----->');
 
-        }else{
+            // await this.searchJob(null, page);
+      
+
+        } else {
             errorLogger.info('login: Fail');
         }
     },
@@ -59,6 +62,34 @@ const action = {
         const { activeTimeDesc } = bossInfo;
 
 
+    },
+    async searchJobFromIndex(_: any, page: Page) {
+        console.log('搜索职位');
+
+        await page.goto('https://www.zhipin.com/');
+        // await showMask(page);
+        const input = await page.$('.ipt-wrap .ipt-search');
+        if (input) {
+            console.log('input');
+
+            await page.evaluate((input, jobName) => {
+                const ele = input as HTMLInputElement;
+                ele.value = jobName;
+            }, input, state.jobName);
+        }
+
+        const searchBtn = await page.$('.btn-search');
+        console.log(searchBtn, 88888888);
+
+        if (searchBtn) {
+            // await searchBtn.click();、
+            console.log('btn click');
+
+            await page.evaluate((btn) => {
+                const ele = btn as HTMLButtonElement;
+                ele.click()
+            }, searchBtn);
+        }
     }
 }
 
