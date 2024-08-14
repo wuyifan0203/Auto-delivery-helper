@@ -1,14 +1,15 @@
 /*
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-08-06 00:23:30
- * @LastEditors: wuyifan 1208097313@qq.com
- * @LastEditTime: 2024-08-14 00:51:54
+ * @LastEditors: wuyifan wuyifan@max-optics.com
+ * @LastEditTime: 2024-08-14 18:05:45
  * @FilePath: /Auto-delivery-helper/src/action.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
 
 import type { Page } from "puppeteer";
 import { errorLogger, logger } from "./log4js";
+import { showMask } from "./ui";
 
 const state = {
     isLogin: true,
@@ -31,16 +32,7 @@ const action = {
 
         logger.info(`login: ${state.isLogin ? 'Success' : 'Fail'}`);
         if(state.isLogin){
-            const mask = await page.$('#full-screen-mask');
-            if (mask) {
-                await page.evaluate((element) => {
-                    const ele = element as HTMLElement;
-                    console.log('ele', ele);
-    
-                    
-                    ele.style.display = 'fixed';
-                }, mask);
-            }
+            await showMask(page)
             await page.goto('https://www.zhipin.com/');
 
         }else{

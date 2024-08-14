@@ -2,7 +2,7 @@
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-07-31 00:09:32
  * @LastEditors: wuyifan wuyifan@max-optics.com
- * @LastEditTime: 2024-08-12 17:48:16
+ * @LastEditTime: 2024-08-14 17:32:54
  * @FilePath: /Auto-delivery-helper/src/index.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -42,21 +42,7 @@ async function main() {
 
     preparePage(page)
     await page.goto(url, { waitUntil: 'networkidle2' });
-    await page.evaluate(() => {
-        const mask = document.createElement('div');
-        mask.style.position = 'none';
-        mask.style.top = '0';
-        mask.style.left = '0';
-        mask.style.width = '100%';
-        mask.style.height = '100%';
-        mask.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
-        mask.style.zIndex = '9999';
-        mask.id = 'full-screen-mask';
-        mask.innerText = '脚本执行时,请勿关闭浏览器窗口！';
-        mask.style.color = 'white';
-        mask.style.fontSize = '20px';
-        document.body.appendChild(mask);
-    })
+
 
 
 }
@@ -81,8 +67,10 @@ process.on('SIGTERM', () => {
 async function preparePage(page: Page) {
     await page.setRequestInterception(true);
     page.on('response', async (response) => {
+
+
         try {
-            if (response.status() === 200 || response.status() === 304) {
+            if (response.ok()) {
                 const body = await response.json();
                 const url = response.url();
                 responseLogger.info('Response url: ', url);
@@ -94,9 +82,11 @@ async function preparePage(page: Page) {
                     await func(body, page);
                 }
 
+            } else { 
+                errorLogger.error('Response response error: ', response.url());
             }
         } catch {
-            errorLogger.error('Response error: ', response.url());
+            errorLogger.error('Response others error: ', response.url());
         }
     })
 
@@ -104,7 +94,9 @@ async function preparePage(page: Page) {
         // 只处理GET请求
         if (request.resourceType() === 'xhr' || request.resourceType() === 'fetch') {
             requestLogger.info(`Request: [${request.method()}]`, 'url:', request.url());
-
+        }
+        if (request.resourceType() === 'document') {
+            requestLogger.info(`Request document: [${request.method()}]`, 'url:', request.url());
         }
         // 继续所有请求
         request.continue();
