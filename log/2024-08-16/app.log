@@ -1,0 +1,59 @@
+[2024-08-16T00:54:43.637] [INFO] default - login: Success
+[2024-08-16T00:54:45.269] [INFO] default - don`t need close guide
+[2024-08-16T01:39:15.467] [INFO] default - login: Success
+[2024-08-16T01:39:17.057] [INFO] default - don`t need close guide
+[2024-08-16T01:40:27.931] [INFO] default - login: Success
+[2024-08-16T01:40:29.529] [INFO] default - don`t need close guide
+[2024-08-16T01:40:29.660] [INFO] default - [GET_ELEMENT] get job search input element
+[2024-08-16T01:40:29.661] [INFO] default - [TRIGGER_EVENT] set search input value
+[2024-08-16T01:40:29.664] [INFO] default - [GET_ELEMENT] get job search button element
+[2024-08-16T01:40:29.681] [INFO] default - [TRIGGER_EVENT] click search button
+[2024-08-16T01:40:32.054] [INFO] default - login: Success
+[2024-08-16T01:40:32.437] [INFO] default - don`t need close guide
+[2024-08-16T01:40:34.028] [INFO] default - [MESSAGE] sleep 4643.484537832243 ms
+[2024-08-16T01:40:38.719] [INFO] default - [GET_ELEMENT] get next page anchor element
+[2024-08-16T01:40:38.732] [INFO] default - [TRIGGER_EVENT] click next page anchor
+[2024-08-16T01:40:38.816] [INFO] default - login: Success
+[2024-08-16T01:41:18.354] [INFO] default - login: Success
+[2024-08-16T01:41:20.057] [INFO] default - don`t need close guide
+[2024-08-16T01:41:20.195] [INFO] default - [GET_ELEMENT] get job search input element
+[2024-08-16T01:41:20.197] [INFO] default - [TRIGGER_EVENT] set search input value
+[2024-08-16T01:41:20.200] [INFO] default - [GET_ELEMENT] get job search button element
+[2024-08-16T01:41:20.210] [INFO] default - [TRIGGER_EVENT] click search button
+[2024-08-16T01:42:45.817] [INFO] default - login: Success
+[2024-08-16T01:42:47.355] [INFO] default - don`t need close guide
+[2024-08-16T01:42:47.526] [INFO] default - [GET_ELEMENT] get job search input element
+[2024-08-16T01:42:47.527] [INFO] default - [TRIGGER_EVENT] set search input value
+[2024-08-16T01:42:47.529] [INFO] default - [GET_ELEMENT] get job search button element
+[2024-08-16T01:42:47.541] [INFO] default - [TRIGGER_EVENT] click search button
+[2024-08-16T01:42:49.900] [INFO] default - login: Success
+[2024-08-16T01:42:50.523] [INFO] default - don`t need close guide
+[2024-08-16T01:42:51.369] [INFO] default - [MESSAGE] sleep 4829.445812498697 ms
+[2024-08-16T01:42:56.217] [INFO] default - [GET_ELEMENT] get next page anchor element
+[2024-08-16T01:42:56.226] [INFO] default - [TRIGGER_EVENT] click next page anchor
+[2024-08-16T01:42:56.299] [INFO] default - login: Success
+[2024-08-16T01:44:19.596] [INFO] default - login: Success
+[2024-08-16T01:44:21.157] [INFO] default - don`t need close guide
+[2024-08-16T01:44:21.323] [INFO] default - [GET_ELEMENT] get job search input element
+[2024-08-16T01:44:21.324] [INFO] default - [TRIGGER_EVENT] set search input value
+[2024-08-16T01:44:21.326] [INFO] default - [GET_ELEMENT] get job search button element
+[2024-08-16T01:44:21.336] [INFO] default - [TRIGGER_EVENT] click search button
+[2024-08-16T01:44:23.657] [INFO] default - login: Success
+[2024-08-16T01:44:24.004] [INFO] default - don`t need close guide
+[2024-08-16T01:44:25.626] [INFO] default - [MESSAGE] sleep 3468.732444662549 ms
+[2024-08-16T01:44:29.113] [INFO] default - [GET_ELEMENT] get next page anchor element
+[2024-08-16T01:44:29.123] [INFO] default - [TRIGGER_EVENT] click next page anchor
+[2024-08-16T01:44:29.197] [INFO] default - login: Success
+[2024-08-16T01:45:05.496] [INFO] default - login: Success
+[2024-08-16T01:45:07.044] [INFO] default - don`t need close guide
+[2024-08-16T01:45:07.193] [INFO] default - [GET_ELEMENT] get job search input element
+[2024-08-16T01:45:07.194] [INFO] default - [TRIGGER_EVENT] set search input value
+[2024-08-16T01:45:07.197] [INFO] default - [GET_ELEMENT] get job search button element
+[2024-08-16T01:45:07.207] [INFO] default - [TRIGGER_EVENT] click search button
+[2024-08-16T01:45:09.505] [INFO] default - login: Success
+[2024-08-16T01:45:10.182] [INFO] default - don`t need close guide
+[2024-08-16T01:45:11.025] [INFO] default - [MESSAGE] sleep 3664.2765317970307 ms
+[2024-08-16T01:45:14.703] [INFO] default - [GET_ELEMENT] get next page anchor element
+[2024-08-16T01:45:14.713] [INFO] default - [TRIGGER_EVENT] click next page anchor
+[2024-08-16T01:45:14.713] [INFO] default - [MESSAGE] sleep 3451.191692749088 ms
+[2024-08-16T01:45:14.774] [INFO] default - login: Success

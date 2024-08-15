@@ -1,24 +1,17 @@
 /*
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-08-06 00:23:30
- * @LastEditors: wuyifan0203 1208097313@qq.com
- * @LastEditTime: 2024-08-15 11:14:55
+ * @LastEditors: wuyifan 1208097313@qq.com
+ * @LastEditTime: 2024-08-16 00:17:14
  * @FilePath: /Auto-delivery-helper/src/action.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
 
 import type { Page } from "puppeteer";
 import { errorLogger, LOG_TYPE, logger } from "./log4js";
+import { URL } from "./url";
+import { state } from "./state";
 
-const state = {
-    isLogin: true,
-    totalTime: 1000,
-    queryTimes: 0,
-    searchJobName: 'SAP业务顾问',
-    jobNameExclusionKeys: ['英语', '英文', '日语', '日本', 'SAP FICO', 'ERP', '金蝶'],
-    jobNameAliveKeys: ['FICO', 'WMS', 'WM'],
-    jobNameInclusionKeys: ['MM', 'SP'],
-};
 
 interface RequestBody {
     code: number;
@@ -88,14 +81,38 @@ const action = {
             errorLogger.error(LOG_TYPE.GET_ELEMENT, 'get job search button element');
             return
         }
+        await page.waitForNavigation({ waitUntil: 'networkidle0' });
     },
     async getJobList({ zpData }: RequestBody, page: Page) {
-        const { jobList } = zpData;
+        const { jobList } = zpData as { jobList: any[] };
 
-        jobList.forEach((item:any) => {
-            const { jobName, goldHunter } = item;
+        console.log('get job list --->')
+        
+
+        jobList.filter(({ goldHunter, jobName }) => {
+            return state.excludeHunter === !goldHunter && state.jobNameExclusionKeys.some((key) => jobName.includes(key))
+        }).forEach((job) => {
+            state.jobList.push(job);
         });
+    },
 
+    async turnBackPage(_: any, page: Page) {
+        if (!state.isLogin) return;
+        console.log('back page');
+
+        if (await page.url().includes(URL.QUERY_JOB)) {
+            const nextPageAnchor = await page.$('a:has(i.ui-icon-arrow-right)');
+            if (nextPageAnchor) {
+                logger.info(LOG_TYPE.GET_ELEMENT, 'get next page anchor element');
+                await page.evaluate((anchor) => {
+                    anchor.click();
+                }, nextPageAnchor)
+                logger.info(LOG_TYPE.TRIGGER_EVENT, 'click next page anchor')
+            } else {
+                errorLogger.error(LOG_TYPE.GET_ELEMENT, 'get next page anchor element');
+            }
+
+        }
 
     }
 }

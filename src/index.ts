@@ -2,7 +2,7 @@
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-07-31 00:09:32
  * @LastEditors: wuyifan 1208097313@qq.com
- * @LastEditTime: 2024-08-15 01:34:25
+ * @LastEditTime: 2024-08-16 01:45:01
  * @FilePath: /Auto-delivery-helper/src/index.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -13,7 +13,8 @@ import util from 'util';
 import { logger, errorLogger, requestLogger, responseLogger } from './log4js'
 import { actionMap, matchAction } from './actionMap';
 import { URL } from './url';
-import { action } from './action';
+import { action, state } from './action';
+import { fetchData, random, sleep } from './util';
 
 let browser: undefined | Browser;
 
@@ -41,10 +42,24 @@ async function main() {
     const baiduUrl = 'https://www.baidu.com/';
 
 
+    // await fetchData('https://www.zhipin.com/wapi/zpgeek/job/detail.json?securityId=we2vnXdAKEwxc-x18cZ-JvD6gLmkMtZRTxPoQBBw7YM87ncgXIIoxzQLFqx4dH-8tH9Uk2_IGhxJlz_cR2vG2dnwXSkiHJrocaLQx-Q1dTSHBS04WY1tseEC&lid=3io2J7wx7VQ.search.1').then((res) => {
+    //     console.log('fetch data success');
+        
+    //     console.log(res);
+        
+    // }).catch((err) => {
+    //     console.error(err);
+    // })
     preparePage(page)
     await page.goto(url, { waitUntil: 'networkidle2' });
 
-    await action.searchJobFromIndex(null,page);
+    await action.searchJobFromIndex(null, page);
+    await sleep(random(3000, 5000));
+    await action.turnBackPage(null, page);
+    await sleep(random(3000, 5000));
+    console.log('done',state.jobList);
+
+
 
 
 }
@@ -82,7 +97,7 @@ async function preparePage(page: Page) {
                     await func(body, page);
                 }
 
-            } else { 
+            } else {
                 errorLogger.error('Response response error: ', response.url());
             }
         } catch {

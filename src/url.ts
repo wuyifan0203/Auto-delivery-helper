@@ -13,7 +13,8 @@ enum URL {
     GUIDE = `/wapi/zpuser/wap/getSecurityGuideV1`,
     JOB_DETAIL = `/wapi/zpgeek/job/detail.json?`,
     INDEX = `https://www.zhipin.com/`,
-    JOB_LIST = `/wapi/zpgeek/search/joblist.json?`
+    JOB_LIST = `/wapi/zpgeek/search/joblist.json?`,
+    QUERY_JOB = `/web/geek/job?`
 }
 
 export { URL }
