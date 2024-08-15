@@ -1,8 +1,8 @@
 /*
  * @Author: wuyifan wuyifan@max-optics.com
  * @Date: 2024-08-06 09:46:32
- * @LastEditors: wuyifan 1208097313@qq.com
- * @LastEditTime: 2024-08-15 00:57:42
+ * @LastEditors: wuyifan0203 1208097313@qq.com
+ * @LastEditTime: 2024-08-15 10:08:50
  * @FilePath: /Auto-delivery-helper/src/log4js.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
@@ -62,5 +62,12 @@ const errorLogger = log4js.getLogger('error');
 const requestLogger = log4js.getLogger('request');
 const responseLogger = log4js.getLogger('response');
 
+enum LOG_TYPE {
+    NETWORK = '[NETWORK]',
+    GET_ELEMENT = '[GET_ELEMENT]',
+    TRIGGER_EVENT = '[TRIGGER_EVENT]',
+    MESSAGE = '[MESSAGE]',
+}
 
-export { logger, errorLogger, requestLogger, responseLogger };
+
+export { logger, errorLogger, requestLogger, responseLogger,LOG_TYPE };

@@ -1,13 +1,13 @@
 /*
- * @Author: wuyifan wuyifan@max-optics.com
+ * @Author: wuyifan0203 1208097313@qq.com
  * @Date: 2024-08-14 17:23:21
- * @LastEditors: wuyifan 1208097313@qq.com
- * @LastEditTime: 2024-08-15 01:00:18
+ * @LastEditors: wuyifan0203 1208097313@qq.com
+ * @LastEditTime: 2024-08-15 09:39:55
  * @FilePath: /Auto-delivery-helper/src/ui.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
 import { Page } from "puppeteer";
-import { load } from 'cheerio'
+import { load } from 'cheerio';
 
 
 function addMesh() {

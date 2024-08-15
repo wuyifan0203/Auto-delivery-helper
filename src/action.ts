@@ -1,21 +1,23 @@
 /*
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-08-06 00:23:30
- * @LastEditors: wuyifan 1208097313@qq.com
- * @LastEditTime: 2024-08-15 01:29:53
+ * @LastEditors: wuyifan0203 1208097313@qq.com
+ * @LastEditTime: 2024-08-15 11:14:55
  * @FilePath: /Auto-delivery-helper/src/action.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
 
 import type { Page } from "puppeteer";
-import { errorLogger, logger } from "./log4js";
-import { showMask } from "./ui";
+import { errorLogger, LOG_TYPE, logger } from "./log4js";
 
 const state = {
     isLogin: true,
     totalTime: 1000,
     queryTimes: 0,
-    jobName: 'SAP业务顾问'
+    searchJobName: 'SAP业务顾问',
+    jobNameExclusionKeys: ['英语', '英文', '日语', '日本', 'SAP FICO', 'ERP', '金蝶'],
+    jobNameAliveKeys: ['FICO', 'WMS', 'WM'],
+    jobNameInclusionKeys: ['MM', 'SP'],
 };
 
 interface RequestBody {
@@ -33,13 +35,9 @@ const action = {
 
         logger.info(`login: ${state.isLogin ? 'Success' : 'Fail'}`);
         if (state.isLogin) {
-            console.log('searchJob ----->');
-
-            // await this.searchJob(null, page);
-      
-
+            console.log('login ----->');
         } else {
-            errorLogger.info('login: Fail');
+            errorLogger.error('login: Fail');
         }
     },
     async guide({ zpData }: RequestBody, page: Page) {
@@ -64,32 +62,41 @@ const action = {
 
     },
     async searchJobFromIndex(_: any, page: Page) {
-        console.log('搜索职位');
-
         await page.goto('https://www.zhipin.com/');
-        // await showMask(page);
         const input = await page.$('.ipt-wrap .ipt-search');
         if (input) {
-            console.log('input');
-
+            logger.info(LOG_TYPE.GET_ELEMENT, 'get job search input element');
             await page.evaluate((input, jobName) => {
                 const ele = input as HTMLInputElement;
                 ele.value = jobName;
-            }, input, state.jobName);
+            }, input, state.searchJobName);
+            logger.info(LOG_TYPE.TRIGGER_EVENT, 'set search input value')
+        } else {
+            errorLogger.error(LOG_TYPE.GET_ELEMENT, 'get job search input element');
+            return
         }
 
         const searchBtn = await page.$('.btn-search');
-        console.log(searchBtn, 88888888);
-
         if (searchBtn) {
-            // await searchBtn.click();、
-            console.log('btn click');
-
+            logger.info(LOG_TYPE.GET_ELEMENT, 'get job search button element');
             await page.evaluate((btn) => {
                 const ele = btn as HTMLButtonElement;
                 ele.click()
             }, searchBtn);
+            logger.info(LOG_TYPE.TRIGGER_EVENT, 'click search button')
+        } else {
+            errorLogger.error(LOG_TYPE.GET_ELEMENT, 'get job search button element');
+            return
         }
+    },
+    async getJobList({ zpData }: RequestBody, page: Page) {
+        const { jobList } = zpData;
+
+        jobList.forEach((item:any) => {
+            const { jobName, goldHunter } = item;
+        });
+
+
     }
 }
 

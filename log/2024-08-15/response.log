@@ -10180,7 +10180,7 @@
     filterString: '',
     lid: '2mwBKO6aW0U',
     hasMore: true,
- [
+ jobList:[
     {
         "securityId": "vH7Kf8jMJH6oN-d1zlipyUfOg9pw8d_wyPn-WGhZbW83J_wctzjBbIhsgMxS8UByoX2ZlVIgnN6iRxZduXEajJMmPfKNtWXEYAz-mA8tmKhMqnaXIYL0h1OLNgYHTammT9Ha8iPTsGNp",
         "bossAvatar": "https://img.bosszhipin.com/boss/avatar/avatar_9.png",
