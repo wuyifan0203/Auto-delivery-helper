@@ -1,20 +1,18 @@
 /*
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-07-31 00:09:32
- * @LastEditors: wuyifan 1208097313@qq.com
- * @LastEditTime: 2024-08-16 01:45:01
+ * @LastEditors: wuyifan0203 1208097313@qq.com
+ * @LastEditTime: 2024-08-16 14:38:19
  * @FilePath: /Auto-delivery-helper/src/index.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 
 import { launch } from 'puppeteer';
 import type { Page, Browser } from 'puppeteer';
-import util from 'util';
 import { logger, errorLogger, requestLogger, responseLogger } from './log4js'
-import { actionMap, matchAction } from './actionMap';
-import { URL } from './url';
+import { matchAction } from './actionMap';
 import { action, state } from './action';
-import { fetchData, random, sleep } from './util';
+import { random, sleep } from './util';
 
 let browser: undefined | Browser;
 
@@ -44,9 +42,9 @@ async function main() {
 
     // await fetchData('https://www.zhipin.com/wapi/zpgeek/job/detail.json?securityId=we2vnXdAKEwxc-x18cZ-JvD6gLmkMtZRTxPoQBBw7YM87ncgXIIoxzQLFqx4dH-8tH9Uk2_IGhxJlz_cR2vG2dnwXSkiHJrocaLQx-Q1dTSHBS04WY1tseEC&lid=3io2J7wx7VQ.search.1').then((res) => {
     //     console.log('fetch data success');
-        
+
     //     console.log(res);
-        
+
     // }).catch((err) => {
     //     console.error(err);
     // })
@@ -57,7 +55,7 @@ async function main() {
     await sleep(random(3000, 5000));
     await action.turnBackPage(null, page);
     await sleep(random(3000, 5000));
-    console.log('done',state.jobList);
+    console.log('done', state.jobList);
 
 
 

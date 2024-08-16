@@ -5615,8 +5615,8 @@ const site = [
 ]
 
 const example = `https://www.zhipin.com/web/geek/job?
-query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE%20MM&
-city=101050100& //
+query=SAP%E4%B8%9A%E5%8A%A1%E9%A1%BE%E9%97%AE%20MM
+&city=101050100& //
 experience=104,105& // 经验
 degree=203,204&// 学历
 industry=100020,100015& //
@@ -9442,3 +9442,5 @@ const jobList = [
         "showTopPosition": false
     }
 ]
+
+export { condition, industry, site, example, jobList } 

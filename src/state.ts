@@ -1,3 +1,11 @@
+/*
+ * @Author: wuyifan0203 1208097313@qq.com
+ * @Date: 2024-08-16 11:22:20
+ * @LastEditors: wuyifan0203 1208097313@qq.com
+ * @LastEditTime: 2024-08-16 14:39:26
+ * @FilePath: /Auto-delivery-helper/src/state.ts
+ * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
+ */
 const state = {
     isLogin: true,
     totalTime: 1000,
@@ -8,10 +16,44 @@ const state = {
     jobNameInclusionKeys: ['MM', 'SP'],
     excludeHunter: true,
 
-    jobList: [] as any[]
+    jobList: [] as JobItem[],
+    geekOption: {
+        query: '',
+        city: [],
+        degree: [],
+        experience: [],
+        industry: [],
+        scale: [],
+        stage: [],
+        position: [],
+        jobType: -1,
+        salary: []
+    } as GeekOption
 
 
 };
 
+interface GeekOption {
+    query: string;
+    city: number[];
+    degree: number[];
+    experience: number[];
+    industry: number[];
+    scale: number[];
+    stage: number[];
+    position: number[];
+    jobType: number,
+    salary: number[]
+}
 
-export { state };
+interface JobItem {
+    securityId: string;
+    jobName: string;
+    goldHunter: number;
+    lid: string;
+    itemId: string;
+    [key: string]: any
+}
+
+
+export { state, GeekOption, JobItem };
