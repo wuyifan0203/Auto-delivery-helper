@@ -1,8 +1,8 @@
 /*
  * @Author: wuyifan wuyifan@max-optics.com
  * @Date: 2024-08-06 17:04:58
- * @LastEditors: wuyifan0203 1208097313@qq.com
- * @LastEditTime: 2024-08-16 14:47:07
+ * @LastEditors: wuyifan 1208097313@qq.com
+ * @LastEditTime: 2024-08-18 19:28:42
  * @FilePath: /Auto-delivery-helper/src/url.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
@@ -46,7 +46,7 @@ function generateGetJobDetail(jobItem: JobItem) {
 
     const url = `${URL.INDEX}${URL.JOB_DETAIL}${securityIdOption}${lidOption}`
 
-    return encodeURIComponent(url.trim());
+    return url.trim();
 }
 
 export { URL, generateGeekUrl, generateGetJobDetail }

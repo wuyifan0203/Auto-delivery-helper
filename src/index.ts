@@ -1,8 +1,8 @@
 /*
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-07-31 00:09:32
- * @LastEditors: wuyifan0203 1208097313@qq.com
- * @LastEditTime: 2024-08-16 14:38:19
+ * @LastEditors: wuyifan 1208097313@qq.com
+ * @LastEditTime: 2024-08-19 01:10:50
  * @FilePath: /Auto-delivery-helper/src/index.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -13,6 +13,8 @@ import { logger, errorLogger, requestLogger, responseLogger } from './log4js'
 import { matchAction } from './actionMap';
 import { action, state } from './action';
 import { random, sleep } from './util';
+import { jobList } from './resonceData';
+import { JobItem } from './state';
 
 let browser: undefined | Browser;
 
@@ -26,6 +28,15 @@ async function main() {
         devtools: true,
         args: ['--disable-web-security', '--allow-file-access-from-files', '--hide-scrollbars', '--enable-gpu'],
         defaultViewport: { width: 1000, height: 800 }
+    })
+
+    browser.on('targetcreated', async (target) => {
+        const page = await target.page();
+        if (page) {
+            preparePage(page);
+            console.log('new page created', page.url());
+            
+        }
     })
 
     const page = await (async () => {
@@ -49,13 +60,15 @@ async function main() {
     //     console.error(err);
     // })
     preparePage(page)
-    await page.goto(url, { waitUntil: 'networkidle2' });
+    // await page.goto(url, { waitUntil: 'networkidle2' });
 
-    await action.searchJobFromIndex(null, page);
-    await sleep(random(3000, 5000));
-    await action.turnBackPage(null, page);
-    await sleep(random(3000, 5000));
-    console.log('done', state.jobList);
+    // await action.searchJobFromIndex(null, page);
+    // await sleep(random(3000, 5000));
+    // await action.turnBackPage(null, page);
+    // await sleep(random(3000, 5000));
+    // console.log('done', state.jobList);
+
+    await action.analyzeJobDetail(jobList[5] as unknown as JobItem);
 
 
 
@@ -80,6 +93,8 @@ process.on('SIGTERM', () => {
 
 
 async function preparePage(page: Page) {
+    console.log('in preparePage',page.url());
+    
     await page.setRequestInterception(true);
     page.on('response', async (response) => {
         try {

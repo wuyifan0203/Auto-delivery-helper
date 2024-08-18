@@ -46,5 +46,7 @@ enum CITY {
 }
 
 enum SALARY {
-     
+
 }
+
+export { BOSS_ACTIVE_STATE }

@@ -1,16 +1,18 @@
 /*
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-08-06 00:23:30
- * @LastEditors: wuyifan0203 1208097313@qq.com
- * @LastEditTime: 2024-08-16 14:32:08
+ * @LastEditors: wuyifan 1208097313@qq.com
+ * @LastEditTime: 2024-08-19 01:42:31
  * @FilePath: /Auto-delivery-helper/src/action.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
 
 import type { Page } from "puppeteer";
 import { errorLogger, LOG_TYPE, logger } from "./log4js";
-import { URL } from "./url";
-import { state } from "./state";
+import { generateGetJobDetail, URL } from "./url";
+import { JobItem, state } from "./state";
+import { fetchData, sleep } from "./util";
+import { BOSS_ACTIVE_STATE } from './enum'
 
 
 interface RequestBody {
@@ -45,14 +47,31 @@ const action = {
         }
 
     },
-    async getJobDetail({ zpData }: RequestBody, page: Page) {
-        if (!state.isLogin) return
-        const { jobInfo, bossInfo, brandComInfo } = zpData;
+    async getJobDetail({ zpData, code }: RequestBody) {
+        // if (code !== 0) return
+        const { jobInfo, bossInfo, brandComInfo, securityId } = zpData;
 
-        const { location, postDescription, showSkills } = jobInfo;
+        const currentIndex = state.jobList.findIndex((item) => item.securityId === securityId);
+        // if (currentIndex !== -1) {
         const { activeTimeDesc } = bossInfo;
+        const postDescription = String(jobInfo.postDescription).toUpperCase();
+        const delFlag = state.descriptionExclusionKeys.every((key) => postDescription.includes(key)); // 判断是否包含排除关键词
+        const recordFlag = state.descriptionInclusionKeys.every(key => postDescription.includes(key)); // 判断是否包含包含关键词
 
-
+        logger.info(LOG_TYPE.MESSAGE,'is include exclusion keys:', delFlag);
+        logger.info(LOG_TYPE.MESSAGE,'is include inclusion keys:', recordFlag);
+        if (delFlag || !recordFlag) {
+            // state.jobList.splice(currentIndex, 1);
+            logger.info(LOG_TYPE.MESSAGE,'delete job', securityId);
+        } else {
+            //     state.jobList[currentIndex].postDescription = jobInfo.postDescription;
+            //     state.jobList[currentIndex].bossActiveState = BOSS_ACTIVE_STATE[activeTimeDesc as keyof typeof BOSS_ACTIVE_STATE];
+            logger.info('update job', securityId);
+        }
+        // } else {
+        //     console.error('job not found in the list');
+        //     errorLogger.error('job not found in the list', securityId);
+        // }
     },
     async searchJobFromIndex(_: any, page: Page) {
         await page.goto('https://www.zhipin.com/');
@@ -86,7 +105,6 @@ const action = {
     async getJobList({ zpData }: RequestBody) {
         const { jobList } = zpData as { jobList: any[] };
 
-        console.log('get job list --->')
 
         jobList.filter(({ goldHunter, jobName }) => {
             return state.excludeHunter === !goldHunter && !state.jobNameExclusionKeys.some((key) => jobName.includes(key))
@@ -112,6 +130,15 @@ const action = {
 
         }
 
+    },
+
+    async analyzeJobDetail(jobItem: JobItem) {
+        // await sleep(5000);
+        const url = generateGetJobDetail(jobItem);
+
+        const result = await fetchData(url);
+
+        await action.getJobDetail(result as RequestBody);
     }
 }
 

@@ -2,11 +2,12 @@
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-08-15 21:44:43
  * @LastEditors: wuyifan 1208097313@qq.com
- * @LastEditTime: 2024-08-16 00:46:05
+ * @LastEditTime: 2024-08-19 00:38:04
  * @FilePath: /Auto-delivery-helper/src/util.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
 
+import { Page } from "puppeteer";
 import { LOG_TYPE, logger } from "./log4js";
 import { get } from 'https';
 
@@ -50,4 +51,10 @@ function fetchData(url: string) {
     });
 }
 
-export { sleep, random, fetchData };
+function browserLog(page: Page, ...args: any) {
+    page.evaluate((...args) => {
+        console.log(...args);
+    }, ...args);
+}
+
+export { sleep, random, fetchData, browserLog };
