@@ -1,8 +1,8 @@
 /*
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-07-31 00:09:32
- * @LastEditors: wuyifan 1208097313@qq.com
- * @LastEditTime: 2024-08-19 01:10:50
+ * @LastEditors: wuyifan0203 1208097313@qq.com
+ * @LastEditTime: 2024-08-26 17:47:54
  * @FilePath: /Auto-delivery-helper/src/index.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -14,7 +14,8 @@ import { matchAction } from './actionMap';
 import { action, state } from './action';
 import { random, sleep } from './util';
 import { jobList } from './resonceData';
-import { JobItem } from './state';
+import { GeekOption, JobItem } from './state';
+import { generateGeekUrl } from './url';
 
 let browser: undefined | Browser;
 
@@ -35,7 +36,7 @@ async function main() {
         if (page) {
             preparePage(page);
             console.log('new page created', page.url());
-            
+
         }
     })
 
@@ -50,16 +51,24 @@ async function main() {
 
     const baiduUrl = 'https://www.baidu.com/';
 
+    const geekOptions: GeekOption = {
+        city: [101020100],
+        query: 'SAP MM',
+        degree: [],
+        industry: [],
+        experience: [104, 105],
+        scale: [],
+        stage: [],
+        salary: [405],
+        position: [],
+        jobType: 1901
+    }
 
-    // await fetchData('https://www.zhipin.com/wapi/zpgeek/job/detail.json?securityId=we2vnXdAKEwxc-x18cZ-JvD6gLmkMtZRTxPoQBBw7YM87ncgXIIoxzQLFqx4dH-8tH9Uk2_IGhxJlz_cR2vG2dnwXSkiHJrocaLQx-Q1dTSHBS04WY1tseEC&lid=3io2J7wx7VQ.search.1').then((res) => {
-    //     console.log('fetch data success');
+    const geekUrl = generateGeekUrl(geekOptions);
 
-    //     console.log(res);
+    console.log(geekUrl);
 
-    // }).catch((err) => {
-    //     console.error(err);
-    // })
-    preparePage(page)
+    // preparePage(page)
     // await page.goto(url, { waitUntil: 'networkidle2' });
 
     // await action.searchJobFromIndex(null, page);
@@ -68,7 +77,7 @@ async function main() {
     // await sleep(random(3000, 5000));
     // console.log('done', state.jobList);
 
-    await action.analyzeJobDetail(jobList[5] as unknown as JobItem);
+    // await action.analyzeJobDetail(jobList[5] as unknown as JobItem);
 
 
 
@@ -93,8 +102,8 @@ process.on('SIGTERM', () => {
 
 
 async function preparePage(page: Page) {
-    console.log('in preparePage',page.url());
-    
+    console.log('in preparePage', page.url());
+
     await page.setRequestInterception(true);
     page.on('response', async (response) => {
         try {

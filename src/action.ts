@@ -1,8 +1,8 @@
 /*
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-08-06 00:23:30
- * @LastEditors: wuyifan 1208097313@qq.com
- * @LastEditTime: 2024-08-19 01:42:31
+ * @LastEditors: wuyifan0203 1208097313@qq.com
+ * @LastEditTime: 2024-08-26 17:09:51
  * @FilePath: /Auto-delivery-helper/src/action.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
@@ -52,26 +52,26 @@ const action = {
         const { jobInfo, bossInfo, brandComInfo, securityId } = zpData;
 
         const currentIndex = state.jobList.findIndex((item) => item.securityId === securityId);
-        // if (currentIndex !== -1) {
-        const { activeTimeDesc } = bossInfo;
-        const postDescription = String(jobInfo.postDescription).toUpperCase();
-        const delFlag = state.descriptionExclusionKeys.every((key) => postDescription.includes(key)); // 判断是否包含排除关键词
-        const recordFlag = state.descriptionInclusionKeys.every(key => postDescription.includes(key)); // 判断是否包含包含关键词
+        if (currentIndex !== -1) {
+            const { activeTimeDesc } = bossInfo;
+            const postDescription = String(jobInfo.postDescription).toUpperCase();
+            const delFlag = state.descriptionExclusionKeys.every((key) => postDescription.includes(key)); // 判断是否包含排除关键词
+            const recordFlag = state.descriptionInclusionKeys.every(key => postDescription.includes(key)); // 判断是否包含包含关键词
 
-        logger.info(LOG_TYPE.MESSAGE,'is include exclusion keys:', delFlag);
-        logger.info(LOG_TYPE.MESSAGE,'is include inclusion keys:', recordFlag);
-        if (delFlag || !recordFlag) {
-            // state.jobList.splice(currentIndex, 1);
-            logger.info(LOG_TYPE.MESSAGE,'delete job', securityId);
+            logger.info(LOG_TYPE.MESSAGE, 'is include exclusion keys:', delFlag);
+            logger.info(LOG_TYPE.MESSAGE, 'is include inclusion keys:', recordFlag);
+            if (delFlag || !recordFlag) {
+                state.jobList.splice(currentIndex, 1);
+                logger.info(LOG_TYPE.MESSAGE, 'delete job', securityId);
+            } else {
+                state.jobList[currentIndex].postDescription = jobInfo.postDescription;
+                state.jobList[currentIndex].bossActiveState = BOSS_ACTIVE_STATE[activeTimeDesc as keyof typeof BOSS_ACTIVE_STATE];
+                logger.info('update job', securityId);
+            }
         } else {
-            //     state.jobList[currentIndex].postDescription = jobInfo.postDescription;
-            //     state.jobList[currentIndex].bossActiveState = BOSS_ACTIVE_STATE[activeTimeDesc as keyof typeof BOSS_ACTIVE_STATE];
-            logger.info('update job', securityId);
+            console.error('job not found in the list');
+            errorLogger.error('job not found in the list', securityId);
         }
-        // } else {
-        //     console.error('job not found in the list');
-        //     errorLogger.error('job not found in the list', securityId);
-        // }
     },
     async searchJobFromIndex(_: any, page: Page) {
         await page.goto('https://www.zhipin.com/');
@@ -105,7 +105,6 @@ const action = {
     async getJobList({ zpData }: RequestBody) {
         const { jobList } = zpData as { jobList: any[] };
 
-
         jobList.filter(({ goldHunter, jobName }) => {
             return state.excludeHunter === !goldHunter && !state.jobNameExclusionKeys.some((key) => jobName.includes(key))
         }).forEach((job) => {
@@ -138,7 +137,7 @@ const action = {
 
         const result = await fetchData(url);
 
-        await action.getJobDetail(result as RequestBody);
+        await this.getJobDetail(result as RequestBody);
     }
 }
 

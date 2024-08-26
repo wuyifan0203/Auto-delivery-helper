@@ -1,8 +1,8 @@
 /*
  * @Author: wuyifan wuyifan@max-optics.com
  * @Date: 2024-08-06 17:04:58
- * @LastEditors: wuyifan 1208097313@qq.com
- * @LastEditTime: 2024-08-18 19:28:42
+ * @LastEditors: wuyifan0203 1208097313@qq.com
+ * @LastEditTime: 2024-08-26 17:51:28
  * @FilePath: /Auto-delivery-helper/src/url.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
@@ -26,7 +26,7 @@ function generateGeekUrl(geekOption: GeekOption) {
     const scaleOption = scale.length === 0 ? `` : `&scale=${scale.join(',')}`;
     const stageOption = stage.length === 0 ? `` : `&stage=${stage.join(',')}`;
     const positionOption = position.length === 0 ? `` : `&position=${position.join(',')}`;
-    const queryOption = `query=${query}`;
+    const queryOption = `query=${encodeURIComponent(query.trim())}`;
     const jobTypeOption = jobType === -1 ? '' : `&jobType=${jobType}`;
     const cityOption = city.length === 0 ? `` : `&city=${city.join(',')}`;
     const industryOption = industry.length === 0 ? `` : `&industry=${industry.join(',')}`;
@@ -35,7 +35,7 @@ function generateGeekUrl(geekOption: GeekOption) {
 
     const url = `${URL.INDEX}${URL.QUERY_JOB}${queryOption}${cityOption}${experienceOption}${degreeOption}${industryOption}${scaleOption}${stageOption}${positionOption}${jobTypeOption}${salaryOption}`;
 
-    return encodeURIComponent(url.trim())
+    return url
 }
 
 function generateGetJobDetail(jobItem: JobItem) {
