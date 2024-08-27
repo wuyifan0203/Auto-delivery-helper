@@ -2,33 +2,20 @@
  * @Author: wuyifan0203 1208097313@qq.com
  * @Date: 2024-08-27 10:47:17
  * @LastEditors: wuyifan0203 1208097313@qq.com
- * @LastEditTime: 2024-08-27 11:12:44
+ * @LastEditTime: 2024-08-27 16:20:08
  * @FilePath: /Auto-delivery-helper/src/App.vue
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
 -->
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue';
+import Query from './components/Query.vue';
 
 
 </script>
 
 <template>
-  <div>
-    <a href="https://www.electronjs.org/" target="_blank">
-      <img src="./assets/electron.svg" class="logo electron" alt="Electron logo" />
-    </a>
-    <a href="https://vitejs.dev/" target="_blank">
-      <img src="./assets/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Electron + Vite + Vue" />
-  <div class="flex-center">
-    Place static files into the <code>/public</code> folder
-    <!-- <img style="width: 2.4em; margin-left: .4em;" src="/logo.svg" alt="Logo"> -->
-  </div>
+  <HelloWorld/>
+  <Query />
 </template>
 
 <style>

@@ -2,8 +2,8 @@
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-07-31 00:09:32
  * @LastEditors: wuyifan0203 1208097313@qq.com
- * @LastEditTime: 2024-08-26 17:47:54
- * @FilePath: /Auto-delivery-helper/src/index.ts
+ * @LastEditTime: 2024-08-27 17:46:13
+ * @FilePath: /Auto-delivery-helper/script/index.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 
@@ -13,13 +13,11 @@ import { logger, errorLogger, requestLogger, responseLogger } from './log4js'
 import { matchAction } from './actionMap';
 import { action, state } from './action';
 import { random, sleep } from './util';
-import { jobList } from './resonceData';
+import { jobList } from './responseData';
 import { GeekOption, JobItem } from './state';
 import { generateGeekUrl } from './url';
 
 let browser: undefined | Browser;
-
-
 
 async function main() {
     console.log('hollow world , i love you bb');
