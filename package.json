@@ -27,6 +27,7 @@
     "cheerio": "^1.0.0",
     "electron": "^32.0.1",
     "element-plus": "^2.8.1",
+    "lodash-es": "^4.17.21",
     "log4js": "^6.9.1",
     "puppeteer": "^22.14.0",
     "ts-node": "^10.9.2",

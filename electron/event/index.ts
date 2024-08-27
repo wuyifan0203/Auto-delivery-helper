@@ -1,8 +1,8 @@
 /*
  * @Author: wuyifan0203 1208097313@qq.com
  * @Date: 2024-08-27 13:40:01
- * @LastEditors: wuyifan0203 1208097313@qq.com
- * @LastEditTime: 2024-08-27 16:08:33
+ * @LastEditors: wuyifan 1208097313@qq.com
+ * @LastEditTime: 2024-08-28 01:14:33
  * @FilePath: /Auto-delivery-helper/electron/event/index.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
@@ -31,6 +31,13 @@ const asyncActions = {
             console.log('testAsync', args);
             window.webContents.send('testAsync', 'Hello from main process!');
             resolve({ msg: 'Hello from main process!' });
+        })
+    },
+    'submit-query':(evt,win,msg)=>{
+        new Promise((resolve, reject) => {
+            console.log('submit-query', msg);
+            resolve(true);
+
         })
     }
 }

@@ -39,6 +39,9 @@ if (!app.requestSingleInstanceLock()) {
   process.exit(0)
 }
 
+app.disableHardwareAcceleration();
+app.commandLine.appendSwitch("disable-software-rasterizer");
+
 let win: BrowserWindow | null = null;
 const preload = path.join(__dirname, '../preload/index.js');
 const indexHtml = path.join(RENDERER_DIST, 'index.html');
@@ -48,7 +51,7 @@ async function createWindow() {
     width: 1200,
     height: 800,
     title: 'Main window',
-    icon: path.join(process.env.VITE_PUBLIC, 'favicon.ico'),
+    icon: path.join(process.env.VITE_PUBLIC ?? '', 'favicon.ico'),
     webPreferences: {
       preload,
       // Warning: Enable nodeIntegration and disable contextIsolation is not secure in production

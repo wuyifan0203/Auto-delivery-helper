@@ -1,8 +1,8 @@
 /*
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-07-31 00:09:32
- * @LastEditors: wuyifan0203 1208097313@qq.com
- * @LastEditTime: 2024-08-27 17:46:13
+ * @LastEditors: wuyifan 1208097313@qq.com
+ * @LastEditTime: 2024-08-28 01:26:23
  * @FilePath: /Auto-delivery-helper/script/index.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -47,11 +47,9 @@ async function main() {
     const url = 'https://www.zhipin.com/web/user/';
 
 
-    const baiduUrl = 'https://www.baidu.com/';
-
     const geekOptions: GeekOption = {
         city: [101020100],
-        query: 'SAP MM',
+        query: 'SAP实施顾问',
         degree: [],
         industry: [],
         experience: [104, 105],
@@ -66,14 +64,14 @@ async function main() {
 
     console.log(geekUrl);
 
-    // preparePage(page)
-    // await page.goto(url, { waitUntil: 'networkidle2' });
+    preparePage(page);
+    await page.goto(geekUrl, { waitUntil: 'networkidle2' });
 
     // await action.searchJobFromIndex(null, page);
-    // await sleep(random(3000, 5000));
+    await sleep(random(3000, 5000));
     // await action.turnBackPage(null, page);
     // await sleep(random(3000, 5000));
-    // console.log('done', state.jobList);
+    console.log('done', state.jobList);
 
     // await action.analyzeJobDetail(jobList[5] as unknown as JobItem);
 

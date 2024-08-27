@@ -1,0 +1,36 @@
+[2024-08-28T01:17:42.612] [INFO] default - login: Success
+[2024-08-28T01:17:45.112] [INFO] default - login: Success
+[2024-08-28T01:17:47.099] [INFO] default - don`t need close guide
+[2024-08-28T01:17:48.439] [INFO] default - [MESSAGE] sleep 3506.015857270895 ms
+[2024-08-28T01:17:51.970] [INFO] default - [GET_ELEMENT] get next page anchor element
+[2024-08-28T01:17:51.977] [INFO] default - [TRIGGER_EVENT] click next page anchor
+[2024-08-28T01:17:51.977] [INFO] default - [MESSAGE] sleep 3850.122752643193 ms
+[2024-08-28T01:18:06.333] [INFO] default - login: Success
+[2024-08-28T01:18:10.163] [INFO] default - don`t need close guide
+[2024-08-28T01:18:50.580] [INFO] default - login: Success
+[2024-08-28T01:18:52.637] [INFO] default - close guide
+[2024-08-28T01:19:39.622] [INFO] default - login: Success
+[2024-08-28T01:19:39.888] [INFO] default - don`t need close guide
+[2024-08-28T01:19:48.479] [INFO] default - don`t need close guide
+[2024-08-28T01:19:51.900] [INFO] default - login: Success
+[2024-08-28T01:19:52.403] [INFO] default - don`t need close guide
+[2024-08-28T01:20:03.529] [INFO] default - don`t need close guide
+[2024-08-28T01:20:05.839] [INFO] default - login: Success
+[2024-08-28T01:20:06.036] [INFO] default - don`t need close guide
+[2024-08-28T01:20:06.845] [INFO] default - don`t need close guide
+[2024-08-28T01:20:14.059] [INFO] default - login: Success
+[2024-08-28T01:20:14.591] [INFO] default - don`t need close guide
+[2024-08-28T01:24:30.792] [INFO] default - login: Success
+[2024-08-28T01:24:33.324] [INFO] default - login: Success
+[2024-08-28T01:24:33.747] [INFO] default - don`t need close guide
+[2024-08-28T01:24:35.003] [INFO] default - [MESSAGE] sleep 3004.9652239276716 ms
+[2024-08-28T01:24:38.031] [INFO] default - [GET_ELEMENT] get next page anchor element
+[2024-08-28T01:24:38.042] [INFO] default - [TRIGGER_EVENT] click next page anchor
+[2024-08-28T01:24:38.042] [INFO] default - [MESSAGE] sleep 3714.869821345587 ms
+[2024-08-28T01:24:38.121] [INFO] default - login: Success
+[2024-08-28T01:26:30.458] [INFO] default - login: Success
+[2024-08-28T01:26:33.240] [INFO] default - login: Success
+[2024-08-28T01:26:33.762] [INFO] default - don`t need close guide
+[2024-08-28T01:26:34.902] [INFO] default - [MESSAGE] sleep 3379.007024079628 ms
+[2024-08-28T01:29:42.642] [INFO] default - login: Success
+[2024-08-28T01:31:29.461] [INFO] default - don`t need close guide
