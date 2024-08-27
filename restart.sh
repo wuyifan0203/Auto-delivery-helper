@@ -2,8 +2,8 @@
 ###
  # @Author: wuyifan wuyifan@max-optics.com
  # @Date: 2024-08-01 15:58:56
- # @LastEditors: wuyifan wuyifan@max-optics.com
- # @LastEditTime: 2024-08-01 16:08:03
+ # @LastEditors: wuyifan0203 1208097313@qq.com
+ # @LastEditTime: 2024-08-27 16:10:32
  # @FilePath: /Auto-delivery-helper/restart.sh
  # Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
 ### 
@@ -19,7 +19,7 @@ fi
 
 # 启动新的进程
 echo "Starting new process --------------"
-ts-node src/index.ts &
+ts-node script/entry.ts &
 
 # 保存新的进程 ID
 new_pid=$!

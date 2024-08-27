@@ -141,4 +141,6 @@ async function preparePage(page: Page) {
 }
 
 
-main();
+// main();
+
+export { main }

@@ -3,3 +3,4 @@ dist
 .Ds_Store
 pidfile
 # log
+dist-electron
