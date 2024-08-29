@@ -1,9 +1,9 @@
 /*
  * @Author: wuyifan0203 1208097313@qq.com
  * @Date: 2024-08-16 11:22:20
- * @LastEditors: wuyifan 1208097313@qq.com
- * @LastEditTime: 2024-08-19 01:18:11
- * @FilePath: /Auto-delivery-helper/src/state.ts
+ * @LastEditors: wuyifan0203 1208097313@qq.com
+ * @LastEditTime: 2024-08-29 18:00:56
+ * @FilePath: /Auto-delivery-helper/script/state.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
 const state = {
@@ -13,10 +13,14 @@ const state = {
     searchJobName: 'SAP业务顾问',
     jobNameExclusionKeys: ['英语', '英文', '日语', '日本', 'SAP FICO', 'ERP', '金蝶', '用友', 'CRM', 'EHR', 'Sass', 'SRM', '财务'].map(item => item.toUpperCase()),
     descriptionInclusionKeys: ['MM', 'SP'],
-    descriptionExclusionKeys:['日语','英语','ERP','用友','SASS','财务'],
+    descriptionExclusionKeys: ['日语', '英语', 'ERP', '用友', 'SASS', '财务'],
     excludeHunter: true,
 
+    totalCount: 0,
+    handelCount: 0,
+
     jobList: [] as JobItem[],
+    untreatedJobList: [] as JobItem[],
     geekOption: {
         query: '',
         city: [],

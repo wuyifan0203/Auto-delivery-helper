@@ -2,8 +2,8 @@
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-08-06 00:23:30
  * @LastEditors: wuyifan0203 1208097313@qq.com
- * @LastEditTime: 2024-08-26 17:09:51
- * @FilePath: /Auto-delivery-helper/src/action.ts
+ * @LastEditTime: 2024-08-29 18:05:57
+ * @FilePath: /Auto-delivery-helper/script/action.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
 
@@ -103,12 +103,15 @@ const action = {
         await page.waitForNavigation({ waitUntil: 'networkidle0' });
     },
     async getJobList({ zpData }: RequestBody) {
-        const { jobList } = zpData as { jobList: any[] };
+        const { jobList,totalCount } = zpData as { jobList: any[],totalCount:number };
+        state.totalCount = totalCount;
+
+        state.handelCount = state.handelCount + jobList.length;
 
         jobList.filter(({ goldHunter, jobName }) => {
             return state.excludeHunter === !goldHunter && !state.jobNameExclusionKeys.some((key) => jobName.includes(key))
         }).forEach((job) => {
-            state.jobList.push(job);
+            state.untreatedJobList.push(job);
         });
     },
     async turnBackPage(_: any, page: Page) {
