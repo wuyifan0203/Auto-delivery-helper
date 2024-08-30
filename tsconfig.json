@@ -101,10 +101,10 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "script/**/*.ts",
+    "puppeteer/script/**/*.ts",
     "**/*.d.ts",
     "./src/types/vite-env.d.ts"
-  ],
+, "puppeteer/utils/index.ts", "puppeteer/utils/ui.ts", "puppeteer/utils/log4js.ts", "puppeteer/app/boss/url.ts", "puppeteer/core/Assistant.ts", "puppeteer/app/boss/action.ts", "puppeteer/app/boss/actionMap.ts", "puppeteer/entry.ts"  ],
   "exclude": [
     "node_modules"
   ]

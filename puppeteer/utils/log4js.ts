@@ -2,8 +2,8 @@
  * @Author: wuyifan wuyifan@max-optics.com
  * @Date: 2024-08-06 09:46:32
  * @LastEditors: wuyifan0203 1208097313@qq.com
- * @LastEditTime: 2024-08-15 10:08:50
- * @FilePath: /Auto-delivery-helper/src/log4js.ts
+ * @LastEditTime: 2024-08-30 16:06:41
+ * @FilePath: /Auto-delivery-helper/puppeteer/utils/log4js.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
 // import log4js from 'log4js';
@@ -21,7 +21,7 @@ const getFormattedDate = (): string => {
 };
 
 // 创建日志目录
-const logDir = path.join(__dirname, '../log', getFormattedDate());
+const logDir = path.join(__dirname, '../../log', getFormattedDate());
 if (!fs.existsSync(logDir)) {
     fs.mkdirSync(logDir, { recursive: true });
 }

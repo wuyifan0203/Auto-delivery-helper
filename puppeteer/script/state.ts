@@ -1,11 +1,13 @@
 /*
  * @Author: wuyifan0203 1208097313@qq.com
- * @Date: 2024-08-16 11:22:20
+ * @Date: 2024-08-26 17:03:54
  * @LastEditors: wuyifan0203 1208097313@qq.com
- * @LastEditTime: 2024-08-29 18:00:56
- * @FilePath: /Auto-delivery-helper/script/state.ts
+ * @LastEditTime: 2024-08-30 17:52:58
+ * @FilePath: /Auto-delivery-helper/puppeteer/script/state.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
+
+import { BossGeekOption } from '../app/boss/types'
 const state = {
     isLogin: true,
     totalTime: 1000,
@@ -19,8 +21,7 @@ const state = {
     totalCount: 0,
     handelCount: 0,
 
-    jobList: [] as JobItem[],
-    untreatedJobList: [] as JobItem[],
+
     geekOption: {
         query: '',
         city: [],
@@ -32,32 +33,21 @@ const state = {
         position: [],
         jobType: -1,
         salary: []
-    } as GeekOption
+    } as BossGeekOption
 
 
 };
 
-interface GeekOption {
-    query: string;
-    city: number[];
-    degree: number[];
-    experience: number[];
-    industry: number[];
-    scale: number[];
-    stage: number[];
-    position: number[];
-    jobType: number,
-    salary: number[]
-}
 
-interface JobItem {
-    securityId: string;
-    jobName: string;
-    goldHunter: number;
-    lid: string;
-    itemId: string;
+type OptionType = {
+    scriptName: 'boss' | '51job',
+    geekOption: BossGeekOption,
+    descriptionExclusionKeys: string[],
+    descriptionInclusionKeys: string[],
+    jobNameExclusionKeys: string[],
+    targetCount: number,
     [key: string]: any
 }
 
 
-export { state, GeekOption, JobItem };
+export { state, OptionType };

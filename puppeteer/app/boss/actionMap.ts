@@ -2,8 +2,8 @@
  * @Author: wuyifan wuyifan@max-optics.com
  * @Date: 2024-08-12 17:01:10
  * @LastEditors: wuyifan0203 1208097313@qq.com
- * @LastEditTime: 2024-08-15 09:40:35
- * @FilePath: /Auto-delivery-helper/src/actionMap.ts
+ * @LastEditTime: 2024-08-30 11:24:49
+ * @FilePath: /Auto-delivery-helper/puppeteer/app/boss/actionMap.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
 import { Page } from "puppeteer";
@@ -17,12 +17,5 @@ const actionMap: { [key: string]: (request: RequestBody, page: Page) => Promise<
     [URL.JOB_LIST]: action.getJobList,
 }
 
-function matchAction(url: string) {
-    for (const key in actionMap) {
-        if (url.includes(key)) {
-            return actionMap[key];
-        }
-    }
-    return undefined;
-}
-export { actionMap, matchAction } 
+
+export { actionMap } 

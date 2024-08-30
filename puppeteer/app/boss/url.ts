@@ -2,12 +2,12 @@
  * @Author: wuyifan wuyifan@max-optics.com
  * @Date: 2024-08-06 17:04:58
  * @LastEditors: wuyifan0203 1208097313@qq.com
- * @LastEditTime: 2024-08-26 17:51:28
- * @FilePath: /Auto-delivery-helper/src/url.ts
+ * @LastEditTime: 2024-08-30 13:41:09
+ * @FilePath: /Auto-delivery-helper/puppeteer/app/boss/url.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
 
-import { GeekOption, JobItem } from "./state";
+import { BossGeekOption, JobItem } from "./types";
 
 
 enum URL {
@@ -19,7 +19,7 @@ enum URL {
     QUERY_JOB = `/web/geek/job?`
 }
 
-function generateGeekUrl(geekOption: GeekOption) {
+function generateGeekUrl(geekOption: BossGeekOption) {
     const { salary, scale, stage, position, query, jobType, city, industry, experience, degree } = geekOption;
 
     const salaryOption = salary.length === 0 ? `` : `&salary=${salary.join(',')}`;
@@ -48,5 +48,6 @@ function generateGetJobDetail(jobItem: JobItem) {
 
     return url.trim();
 }
+
 
 export { URL, generateGeekUrl, generateGetJobDetail }

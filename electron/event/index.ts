@@ -7,7 +7,7 @@
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
 import { BrowserWindow, ipcMain } from 'electron';
-import { main } from '../../script';
+import { main } from '../../puppeteer/script';
 
 const syncActions = {
     'testSync': (...args: any[]) => {
