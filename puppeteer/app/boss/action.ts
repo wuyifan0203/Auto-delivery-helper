@@ -2,7 +2,7 @@
  * @Author: wuyifan 1208097313@qq.com
  * @Date: 2024-08-06 00:23:30
  * @LastEditors: wuyifan0203 1208097313@qq.com
- * @LastEditTime: 2024-08-30 16:00:17
+ * @LastEditTime: 2024-09-02 10:45:04
  * @FilePath: /Auto-delivery-helper/puppeteer/app/boss/action.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
@@ -49,7 +49,7 @@ const action = {
 
     },
     async getJobDetail({ zpData, code }: RequestBody) {
-        const { jobInfo, bossInfo, brandComInfo, securityId } = zpData;
+        const { jobInfo, bossInfo, securityId } = zpData;
 
         const currentIndex = state.untreatedJobList.findIndex((item) => item.securityId === securityId);
         if (currentIndex !== -1) {
@@ -77,7 +77,7 @@ const action = {
         const { jobList, totalCount } = zpData as { jobList: any[], totalCount: number };
         state.totalCount = totalCount;
 
-        state.handelCount = state.handelCount + jobList.length;
+        state.currentCount = state.currentCount + jobList.length;
 
         jobList.filter(({ goldHunter, jobName }) => {
             return state.excludeHunter === !goldHunter && !state.jobNameExclusionKeys.some((key:string) => jobName.includes(key))
@@ -100,17 +100,8 @@ const action = {
             } else {
                 errorLogger.error(LOG_TYPE.GET_ELEMENT, 'get next page anchor element');
             }
-
         }
-
     },
-
-    async analyzeJobDetail(jobItem: JobItem, page: Page) {
-        // await sleep(5000);
-        const url = generateGetJobDetail(jobItem);
-
-        await page.goto(url);
-    }
 }
 
 
