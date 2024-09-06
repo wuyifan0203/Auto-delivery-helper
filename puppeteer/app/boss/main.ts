@@ -1,14 +1,14 @@
 /*
  * @Author: wuyifan0203 1208097313@qq.com
  * @Date: 2024-08-30 13:05:12
- * @LastEditors: wuyifan 1208097313@qq.com
- * @LastEditTime: 2024-09-04 01:42:23
+ * @LastEditors: wuyifan0203 1208097313@qq.com
+ * @LastEditTime: 2024-09-06 17:50:06
  * @FilePath: /Auto-delivery-helper/puppeteer/app/boss/main.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
 
 import { Browser } from "puppeteer";
-import { preparePage } from "../../utils/preparePage";
+import { gotoWaitForRequests, preparePage } from "../../utils/preparePage";
 import { actionMap } from "./actionMap";
 import { generateGeekUrl, generateGetJobDetail } from "./url";
 import { BossState } from "./types";
@@ -33,9 +33,17 @@ async function main(browser: Browser, option: any) {
     await preparePage(mainPage, 'mainPage', actionMap);
     const queryPage = await browser.newPage();
     await preparePage(queryPage, 'queryPage', actionMap);
+    console.log('finish prepare page');
+
+    // await mainPage.goto('http://www.csdn.com/', { waitUntil: 'domcontentloaded',timeout: 30000 });
+    await gotoWaitForRequests(mainPage, { url: 'http://www.csdn.com/', waitUntil: 'domcontentloaded', timeout: 30000 }, () => { 
+        console.log('finish goto csdn');
+    });
+    // await sleep(5000);
 
     await mainPage.bringToFront();
-    await mainPage.goto(geekUrl, { waitUntil: 'networkidle2' });
+    console.log('finish bring to front');
+  
 
     // while (bossState.currentCount <= bossState.totalCount) {
 
