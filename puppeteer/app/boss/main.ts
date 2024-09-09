@@ -2,7 +2,7 @@
  * @Author: wuyifan0203 1208097313@qq.com
  * @Date: 2024-08-30 13:05:12
  * @LastEditors: wuyifan0203 1208097313@qq.com
- * @LastEditTime: 2024-09-06 17:50:06
+ * @LastEditTime: 2024-09-09 10:23:35
  * @FilePath: /Auto-delivery-helper/puppeteer/app/boss/main.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
@@ -45,21 +45,21 @@ async function main(browser: Browser, option: any) {
     console.log('finish bring to front');
   
 
-    // while (bossState.currentCount <= bossState.totalCount) {
+    while (bossState.currentCount <= bossState.totalCount) {
 
-    //     for (let j = 0,k = bossState.untreatedJobList.length; j < k; j++) {
-    //         const job = bossState.untreatedJobList[j];
-    //         const jobUrl = generateGetJobDetail(job);
-    //         await queryPage.bringToFront();
-    //         await queryPage.goto(jobUrl, { waitUntil: 'networkidle2' });
-    //         await sleep(random(2000, 4000));
-    //     }
+        for (let j = 0,k = bossState.untreatedJobList.length; j < k; j++) {
+            const job = bossState.untreatedJobList[j];
+            const url = generateGetJobDetail(job);
+            await gotoWaitForRequests(queryPage,{url})
+            await queryPage.bringToFront();
+            await sleep(random(2000, 4000));
+        }
 
-    //     if(state.jobList.length === state.targetCount){
-    //         break;
-    //     }
+        if(state.jobList.length === state.targetCount){
+            break;
+        }
 
-    // }
+    }
 
 
     console.log(`geekUrl: ${geekUrl}`);

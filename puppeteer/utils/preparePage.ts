@@ -2,11 +2,11 @@
  * @Author: wuyifan0203 1208097313@qq.com
  * @Date: 2024-08-30 11:19:27
  * @LastEditors: wuyifan0203 1208097313@qq.com
- * @LastEditTime: 2024-09-06 18:09:29
+ * @LastEditTime: 2024-09-09 10:18:51
  * @FilePath: /Auto-delivery-helper/puppeteer/utils/preparePage.ts
  * Copyright (c) 2024 by wuyifan email: 1208097313@qq.com, All Rights Reserved.
  */
-import { GoToOptions, Page } from "puppeteer";
+import { GoToOptions, HTTPRequest, Page } from "puppeteer";
 import { matchAction } from "./common";
 import { errorLogger, requestLogger, responseLogger } from "./log4js";
 
@@ -71,23 +71,30 @@ async function preparePage(page: Page, keyword: string, actionMap: any) {
 type OptionsType = { url: string } & GoToOptions
 
 const pendingRequests = new Set();
+const resourceType = ['xhr', 'fetch', 'document'];
 
-async function gotoWaitForRequests(page: Page, options: OptionsType, callback: Function) {
+function requestOn(request:HTTPRequest) {
+    if (resourceType.includes(request.resourceType())) {
+        pendingRequests.add(request);
+    }
+}
+
+function requestFinished(request:HTTPRequest){
+    if (resourceType.includes(request.resourceType())) {
+        pendingRequests.delete(request);
+    }
+}
+
+async function gotoWaitForRequests(page: Page, options: OptionsType, callback?: Function) {
     const timeout = options.timeout || 30000; // 默认超时时间为30秒
     // 监听请求发起
-    page.on('request', request => {
-        pendingRequests.add(request);
-    });
+    page.on('request', requestOn);
 
     // 监听请求完成
-    page.on('requestfinished', request => {
-        pendingRequests.delete(request);
-    });
+    page.on('requestfinished',requestFinished);
 
     // 监听请求失败
-    page.on('requestfailed', request => {
-        pendingRequests.delete(request);
-    });
+    page.on('requestfailed', requestFinished);
 
     console.log('begin goto ');
     await page.goto(options.url, options);
@@ -97,15 +104,18 @@ async function gotoWaitForRequests(page: Page, options: OptionsType, callback: F
         const startTime = Date.now();
 
         // 定时检查请求状态
-        const checkPending = setInterval(() => {
+        const checkPending = setInterval(async() => {
             const elapsed = Date.now() - startTime;
 
-            console.log(pendingRequests.size);
             // 如果所有请求完成
             if (pendingRequests.size === 0) {
                 clearInterval(checkPending);
-                callback();
-                resolve(true);
+                let res = undefined;
+                callback && (res = await callback());
+                page.off('request', requestOn);
+                page.off('requestfinished', requestFinished);
+                page.off('requestfailed', requestFinished);
+                resolve(res);
             }
 
             // 超时处理
