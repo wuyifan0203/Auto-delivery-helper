@@ -17,7 +17,7 @@ dependencies:
   element-plus:
     specifier: ^2.8.1
     version: 2.8.1(vue@3.4.38)
-  lodash-es:
+  lodash:
     specifier: ^4.17.21
     version: 4.17.21
   log4js:
